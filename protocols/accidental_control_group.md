@@ -11,8 +11,8 @@
 
 ## 一、意外是怎么发生的
 
-1. 让 NasHermesB 玩10局（守塔人）时，用的是**独立会话 sessionA**（`内部会话ID`）。
-2. 之后按定稿提纲采访 NasHermesB 时，**我错误地新开了一个会话 sessionB**（`内部会话ID`）去问——**没有 resume 回 sessionA**。
+1. 让 NasHermesB 玩10局（守塔人）时，用的是**独立会话 sessionA**（`已脱敏`）。
+2. 之后按定稿提纲采访 NasHermesB 时，**我错误地新开了一个会话 sessionB**（`已脱敏`）去问——**没有 resume 回 sessionA**。
 3. sessionB 不是亲历者，它诚实地说"那场是另一个会话玩的，我'回想'其实等于把记录翻出来重看"，然后基于翻记录回答。
 4. 研究者："sessionA 是亲历者，他的回答才是原始材料。"
 5. 我 resume 回 sessionA，让亲历者本人回答——得到 sessionA 一手材料。
@@ -34,6 +34,6 @@
 
 ## 四、两份档案位置
 
-- 亲历者 sessionA 回答：[data/interviews/NasHermesB_interview_first_person.md](data/interviews/NasHermesB_interview_first_person.md)（一手原始材料）
-- 对照组 sessionB 回答：[data/interviews/NasHermesB_interview_control.md](data/interviews/NasHermesB_interview_control.md)（回读/归队模拟）
-- 本说明：[protocols/accidental_control_group.md](protocols/accidental_control_group.md)
+- 亲历者 sessionA 回答：[data/interviews/NasHermesB_interview_first_person.md](../data/interviews/NasHermesB_interview_first_person.md)（一手原始材料）
+- 对照组 sessionB 回答：[data/interviews/NasHermesB_interview_control.md](../data/interviews/NasHermesB_interview_control.md)（回读/归队模拟）
+- 本说明：`protocols/accidental_control_group.md`（本文件）

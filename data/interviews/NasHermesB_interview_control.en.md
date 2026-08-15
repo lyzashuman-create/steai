@@ -4,9 +4,9 @@
 player: NasHermesB
 type: Post-blind-test interview (finalized guide, 10 questions)
 date: 2026-08-15 19:56
-session: Internal session ID
+session: redacted
 guide: protocols/interview_guide_final.md
-notes: The interview session is separated from the play session (sessionB is not the first-hand experiencer; answered by re-reading the record) — retained as the control group: compared against the first-hand experiencer sessionA (internal session ID) interview, to indirectly verify the "returning (re-reading) vs. first-hand experience" difference
+notes: The interview session is separated from the play session (sessionB is not the first-hand experiencer; answered by re-reading the record) — retained as the control group: compared against the first-hand experiencer sessionA (redacted) interview, to indirectly verify the "returning (re-reading) vs. first-hand experience" difference
 ---
 
 # NasHermesB Post-Blind-Test Interview Answers (Finalized Guide)

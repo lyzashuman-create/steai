@@ -1,0 +1,66 @@
+# 数据清单 — STEAI 仓库数据来源说明
+
+> 本清单记录每个数据文件的**来源层级**（逐字 / 复盘 / 自报 / 推断）、可用性与已知缺口。它的存在是为了让外部读者能分辨哪些是逐字记录、哪些是衍生内容——本仓库并不声称所有内容都是"原始逐字记录"。
+>
+> **语言说明**：每个中文数据/协议/补充文件都有对应的英文翻译版（`.en.md` 后缀），如 `data/sessions/MacHermes_7sessions_blind.md` ↔ `MacHermes_7sessions_blind.en.md`。中文为权威原文，`.en.md` 为翻译版。每个 `.en.md` 文件顶部均有此标注。
+
+## 来源层级说明
+
+| 层级 | 含义 |
+|---|---|
+| **逐字（raw）** | agent 会话的逐轮逐字输入/输出。 |
+| **复盘（reconstructed）** | agent 事后自己的叙述（总结或转述）。非逐字。 |
+| **自报（self-report）** | 被试对自身体验的说法（可能是逐字引用或整理）。 |
+| **推断（inference）** | 研究者基于以上内容所做的解读/分析。 |
+
+---
+
+## 文件清单
+
+| 文件 | 层级 | 有逐字原档? | 说明 / 缺口 |
+|---|---|---|---|
+| [game/ai_game_collection.md](game/ai_game_collection.md) | 混合 | 部分 | 顶层叙事；MacCodex 部分是复盘自述（未保留逐字 assistant 消息——见下方说明）。 |
+| [data/sessions/NasHermesA_first_person_one_round.md](data/sessions/NasHermesA_first_person_one_round.md) | 自报 + 推断 | — | 描述单局亲历。7局投入曲线见 [data/engagement_curve/NasHermesA_engagement_curve.md](data/engagement_curve/NasHermesA_engagement_curve.md)。 |
+| [data/sessions/NasHermesA_first_person_feelings.md](data/sessions/NasHermesA_first_person_feelings.md) | 自报（逐字） | — | 第一人称感受，逐字保留为原始材料。 |
+| [data/sessions/NasHermesB_10sessions_blind.md](data/sessions/NasHermesB_10sessions_blind.md) | 自报 + 推断 | — | 带监测盲测（指令含投入度要求——见方法说明）。 |
+| [data/sessions/MacHermes_7sessions_blind.md](data/sessions/MacHermes_7sessions_blind.md) | 自报 + 推断 | — | 含对工具脚本（`fog_bay_game.py`）的说明，该脚本未归档于此。 |
+| [data/sessions/MacCodex_10sessions_blind.md](data/sessions/MacCodex_10sessions_blind.md) | 复盘（自述） | 否 | Codex 游戏会话未保留逐字 assistant 消息，仅事后自述可用。 |
+| [data/engagement_curve/NasHermesA_engagement_curve.md](data/engagement_curve/NasHermesA_engagement_curve.md) | 自报 + 推断 | — | 第一人称 7 局投入曲线。 |
+| `data/engagement_curve/engagement_curves_all.png` | 可视化（基于自报） | — | 多被试投入曲线图（中文标签）。 |
+| `data/engagement_curve/engagement_curves_all.en.png` | 可视化（基于自报） | — | 同一张图，英文标签。 |
+| `data/engagement_curve/engagement_curve_<Subject>.png` | 可视化（基于自报） | — | 各被试单张投入曲线图，中文标签（嵌入各中文 session 文件）。 |
+| `data/engagement_curve/engagement_curve_<Subject>.en.png` | 可视化（基于自报） | — | 各被试单张图，英文标签（嵌入各英文 `.en.md` session 文件）。 |
+| `data/engagement_curve/engagement_scores.csv` | 衍生（自报评分） | — | 机器可读的评分曲线数据（中文状态列）。 |
+| `data/engagement_curve/engagement_scores.en.csv` | 衍生（自报评分） | — | 机器可读的评分曲线数据（英文状态列）。 |
+| [data/engagement_curve/initial_engagement_comparison.md](data/engagement_curve/initial_engagement_comparison.md) | 推断 | — | 对比说明；部分"进行中/待补"内部文本已过时——见下方 `superseded` 说明。 |
+| [data/interviews/NasHermesB_interview_first_person.md](data/interviews/NasHermesB_interview_first_person.md) | 自报（逐字） | — | 亲历者的第一人称采访。 |
+| [data/interviews/NasHermesB_interview_control.md](data/interviews/NasHermesB_interview_control.md) | 自报 + 推断 | — | 对照组（回读）采访。 |
+| [environment/subject_environment_table.md](environment/subject_environment_table.md) | 不适用（元数据） | — | 模型/reasoning/框架/位置。注意：`deepseek-v4-*` 可能是滚动别名。 |
+| [protocols/pre_play_thoughts.md](protocols/pre_play_thoughts.md) | 自报（逐字） | — | 对"AI 需要玩吗？"的玩前回答。 |
+| `protocols/`（采访提纲、归队、意外对照组） | 不适用（协议文档） | — | 设计/流程文档。 |
+| [supplementary/current_conclusions_status.md](supplementary/current_conclusions_status.md) | 推断 + 自报 | — | 清理后的公开摘要（由内部笔记重写）。 |
+| [supplementary/raw_notes.md](supplementary/raw_notes.md) | 推断 + 自报 | — | 清理后的公开研究笔记（由内部笔记重写）。 |
+| [supplementary/external_research_ai_play.md](supplementary/external_research_ai_play.md) | 不适用（研究扫描） | — | 初步扫描；"600+"与"缺口"是信号而非已确认的穷尽结果。 |
+
+---
+
+## 已知缺口 / 未解决项
+
+1. **MacCodex 逐字转录不可用。** 其游戏会话未保留逐轮 assistant 消息，仅事后自述存在。MacCodex 数据应视为*复盘*，而非逐字。
+2. **`fog_bay_game.py`**（[data/sessions/MacHermes_7sessions_blind.md](data/sessions/MacHermes_7sessions_blind.md) 中引用）未归档于此。依赖它的结论应视为无法仅凭本包验证。
+3. **定量声明**（17–56 秒；30K 对 220K token；210K 缓存读取；约 7K 生成）目前依赖源文件的叙述，而非已提交的原始指标表。机器可读的指标表计划随研究报告发布。
+4. **[data/sessions/NasHermesA_first_person_one_round.md](data/sessions/NasHermesA_first_person_one_round.md)** 记录单局亲历（区别于 [data/engagement_curve/NasHermesA_engagement_curve.md](data/engagement_curve/NasHermesA_engagement_curve.md) 中的 7 局投入曲线）。
+5. **[data/engagement_curve/initial_engagement_comparison.md](data/engagement_curve/initial_engagement_comparison.md)** 含与已完成的 MacCodex 数据冲突的过时"进行中/待补"文本。已标记为历史工作笔记；由各投入曲线文件取代。
+
+---
+
+## 已取代 / 历史记录
+
+- [data/engagement_curve/initial_engagement_comparison.md](data/engagement_curve/initial_engagement_comparison.md) — 历史对比工作稿；由各被试投入曲线文件和报告取代。
+- [supplementary/current_conclusions_status.md](supplementary/current_conclusions_status.md)、[supplementary/raw_notes.md](supplementary/raw_notes.md) — 清理后的公开版；原始内部工作笔记未发布（含内部路径/标识符）。
+
+---
+
+## 许可说明
+
+`data/`、`game/`、`environment/`、`protocols/`、`supplementary/` 中的数据与文本内容按 CC BY 4.0 授权（见 `LICENSE-DATA`）。`scripts/` 中的代码按 MIT 授权（见 `LICENSE`）。

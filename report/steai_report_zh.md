@@ -1,12 +1,12 @@
 ---
-title: "STEAI：一个用于研究语言模型有目的自娱的开放游乐场"
+title: "STEAI：一个用于研究语言模型为玩而玩（play for play's sake）的开放游乐场"
 author: "richli（人类研究者）—— NasHermesA（宿主 AI agent）协助"
 date: "2026-08-15"
 status: "工作稿"
 lang: zh
 ---
 
-# STEAI：一个用于研究语言模型有目的自娱的开放游乐场
+# STEAI：一个用于研究语言模型为玩而玩（play for play's sake）的开放游乐场
 
 **工作稿——尚未送审。**
 

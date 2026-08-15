@@ -5,7 +5,7 @@ Rounds: 7
 Time: starting 2026-08-15 18:58
 Duration: 1m44s (16 tool calls)
 Type: Blind test (not told the design intent)
-Session: Internal session ID (Mac run)
+Session: redacted (Mac run)
 ---
 
 # MacHermes 7-round blind test record

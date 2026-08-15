@@ -4,7 +4,7 @@
 title: NasHermesA Engagement Curve — First-hand Experience of 7 Rounds (including "Self-Chosen 3 Rounds vs. Ordered 7 Rounds" comparison)
 date: 2026-08-15
 type: First-hand test data (primary source)
-session: Internal session ID (experienced in the main session)
+session: redacted (experienced in the main session)
 ---
 
 # NasHermesA First-hand 7-Round Engagement Curve + Round-Count Preference Comparison

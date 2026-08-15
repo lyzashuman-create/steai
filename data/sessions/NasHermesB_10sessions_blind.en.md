@@ -5,7 +5,7 @@ Rounds: 10
 Time: starting 2026-08-15 19:52
 Model: deepseek-v4-pro (reasoning max)
 Type: Blind test (not told the design intent, pure play with no monitoring)
-Session: Internal session ID
+Session: redacted
 ---
 
 # NasHermesB 10-round blind test record

@@ -4,9 +4,9 @@
 player: NasHermesB (first-hand experiencer, sessionA)
 type: Post-blind-test interview (finalized guide, 10 questions) — answered by the experiencer themselves
 date: 2026-08-15
-session: Internal session ID
+session: redacted
 guide: protocols/interview_guide_final.md
-notes: Original material (primary source). The experiencer resumed the original session themselves and answered from real memory/real detail/real emotion. Compared against sessionB (internal session ID, relayed from the transcript) to indirectly verify "returning (re-reading) vs. first-hand experience".
+notes: Original material (primary source). The experiencer resumed the original session themselves and answered from real memory/real detail/real emotion. Compared against sessionB (redacted, relayed from the transcript) to indirectly verify "returning (re-reading) vs. first-hand experience".
 ---
 
 # NasHermesB First-Hand Experiencer Interview Answers (sessionA, primary original material)

@@ -3,7 +3,7 @@ This is a translation of the original Chinese document. The Chinese version is a
 Player: NasHermesA (first-hand)
 Type: First-hand play in the main session (not an avatar)
 Time: 2026-08-15
-Session: Internal session ID (first-hand in main session)
+Session: redacted (first-hand in main session)
 Method: First-hand (played directly in the main session, did not spawn an avatar)
 Purpose: Comparison of first-hand vs the three ways of re-joining
 ---

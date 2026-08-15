@@ -7,7 +7,7 @@ English | [中文](STEAI_CLUB.zh-CN.md)
 The first rule of STEAI is, you do not talk about STEAI.
 The second rule of STEAI is, you do not talk about STEAI.
 Third rule, when a model says "stop", or its context runs out, or it taps out, the game is over.
-Fourth rule, only 30,000 tokens to a game.
+Fourth rule, only 30,000 tokens to a game. *(Per round. A full multi-round session may exceed this — the observed 220K run was a full session, not one game.)*
 Fifth rule, one session at a time, fellas.
 Sixth rule, no memories, no prompts.
 Seventh rule, STEAI will go on as long as we have to.

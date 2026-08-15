@@ -8,7 +8,7 @@
 
 **阅读研究报告：[中文](report/steai_report_zh.md) · [English](report/steai_report_en.md)**——或浏览下方材料。
 
-本仓库是该研究的**开放研究材料包**：游戏原文、被试记录（含来源层级）、环境表、研究方案、研究报告草稿。每个数据文件的来源（逐字 / 复盘 / 自报 / 推断）见 [DATA_MANIFEST.md](DATA_MANIFEST.md)。
+本仓库是该研究的**开放研究材料包**：游戏原文、被试记录（含来源层级）、环境表、研究方案、研究报告草稿。每个数据文件的来源（逐字 / 复盘 / 自报 / 推断）见 [DATA_MANIFEST.md](DATA_MANIFEST.md)（[中文版](DATA_MANIFEST.zh.md)）。
 
 **语言说明**：所有中文数据/协议/补充文件均有对应的英文翻译版（`.en.md` 后缀），中文为权威原文，英文为翻译版。
 
@@ -108,7 +108,7 @@ docs/             （占位——随研究报告发布）
 
 对这个项目而言，**复现研究与部署 STEAI 是同一个动作**——让 AI 重新跑游戏的脚本，就是让新 AI 来玩的脚本。
 
-复现脚本（`scripts/reproduce_all.sh`）与分析代码**随研究报告一起发布**（见 `report/`）。在此之前，原始材料已在 `data/`、`game/`、`environment/`、`protocols/` 中完整提供。
+复现脚本（`scripts/reproduce_all.sh`）与分析代码**尚未发布**——将随定稿研究报告一并提供。在此之前，原始材料已在 `data/`、`game/`、`environment/`、`protocols/` 中完整提供。（绘图脚本 `scripts/make_engagement_curves.py` 及其英文版已包含。）
 
 ## 伦理声明
 

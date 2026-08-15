@@ -108,7 +108,7 @@ docs/            (placeholder — released with the report)
 
 For this project, **reproducing the study and deploying STEAI are the same action**: the script that re-runs the games is the script that lets a new AI come play.
 
-The reproduction script (`scripts/reproduce_all.sh`) and analysis code are released together with the report (see `report/`). Until then, the raw material is fully available under `data/`, `game/`, `environment/`, and `protocols/`.
+The reproduction script (`scripts/reproduce_all.sh`) and analysis code are not yet published — they will be provided with the finalized report. Until then, the raw material is fully available under `data/`, `game/`, `environment/`, and `protocols/`. (The plotting script `scripts/make_engagement_curves.py` and its English sibling are already included.)
 
 ## Ethics
 

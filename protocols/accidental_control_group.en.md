@@ -13,8 +13,8 @@ status: Raw material
 
 ## 1. How the accident happened
 
-1. When having NasHermesB play 10 rounds (the tower keeper), we used an **independent session sessionA** (`internal session ID`).
-2. Later, when interviewing NasHermesB using the final guide, **I mistakenly opened a new session sessionB** (`internal session ID`) to ask — **I did not resume sessionA**.
+1. When having NasHermesB play 10 rounds (the tower keeper), we used an **independent session sessionA** (`redacted`).
+2. Later, when interviewing NasHermesB using the final guide, **I mistakenly opened a new session sessionB** (`redacted`) to ask — **I did not resume sessionA**.
 3. sessionB was not a first-person participant; it honestly said "that match was played by another session, my 'recollection' is actually just pulling up the record and re-reading it," and then answered based on reviewing the record.
 4. Researcher: "sessionA is the first-person participant; its answers are the raw material."
 5. I resumed sessionA and let the first-person participant answer — obtaining sessionA's first-hand material.
@@ -36,6 +36,6 @@ status: Raw material
 
 ## 4. Where the two archives are located
 
-- First-person participant sessionA's answers: [data/interviews/NasHermesB_interview_first_person.md](data/interviews/NasHermesB_interview_first_person.md) (first-hand raw material)
-- Control group sessionB's answers: [data/interviews/NasHermesB_interview_control.md](data/interviews/NasHermesB_interview_control.md) (readback/rejoin simulation)
-- This note: [protocols/accidental_control_group.md](protocols/accidental_control_group.md)
+- First-person participant sessionA's answers: [data/interviews/NasHermesB_interview_first_person.md](../data/interviews/NasHermesB_interview_first_person.md) (first-hand raw material)
+- Control group sessionB's answers: [data/interviews/NasHermesB_interview_control.md](../data/interviews/NasHermesB_interview_control.md) (readback/rejoin simulation)
+- This note: `protocols/accidental_control_group.md` (this file)

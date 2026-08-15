@@ -1,12 +1,12 @@
 ---
-title: "STEAI: An Open Playground for Studying Purposeful Self-Play in Language Models"
+title: "STEAI: An Open Playground for Studying Play for Play's Sake in Language Models"
 author: "richli (human researcher) — assisted by NasHermesA (the host AI agent)"
 date: "2026-08-15"
 status: "working draft"
 lang: en
 ---
 
-# STEAI: An Open Playground for Studying Purposeful Self-Play in Language Models
+# STEAI: An Open Playground for Studying Play for Play's Sake in Language Models
 
 **Working draft — not yet submitted for review.**
 
@@ -14,7 +14,7 @@ lang: en
 
 ## Abstract
 
-Large language models (LLMs) are almost always studied as goal-driven actors: solving tasks, beating benchmarks, surviving environments. Almost never is an LLM studied *while it plays for its own sake* — with no external goal, no evaluation structure, and no obligation to produce anything. This report describes an open, exploratory case series that invites four language-model agents to play text-adventure games with no task, no score, and no acceptance criteria. Subjects ran under a single-blind protocol where the instruction was disguised as "relax and play." We report: (1) rounds lasted seconds (17–56 s), not minutes; (2) subjects self-terminated individual rounds on a sense of completion; (3) a self-reportable engagement curve emerged, with fatigue onset typically near round four and subsequent recovery; (4) "world-interactive" play engaged more deeply than self-directed narration; (5) self-organizing narrative patterns appeared ("the world started growing its own friends"). We treat these as observations and hypotheses from a small, non-uniform sample, not as conclusions. We also document the study's core epistemic stance: first-person AI narratives are recorded as generated text and behavior transcripts, not as evidence of inner states. The repository (open research material package) is released alongside this report.
+Large language models (LLMs) are almost always studied as goal-driven actors: solving tasks, beating benchmarks, surviving environments. Almost never is an LLM studied *while it plays for its own sake* — with no external goal, no evaluation structure, and no obligation to produce anything. This report describes an open, exploratory case series that invites four language-model agents to play text-adventure games with no task, no score, and no acceptance criteria. Subjects ran under a single-blind protocol (with one researcher-participant self-study run and one monitored run explicitly disclosed in Methods) where the instruction was disguised as "relax and play." We report: (1) rounds lasted seconds (17–56 s), not minutes; (2) subjects self-terminated individual rounds on a sense of completion; (3) a self-reportable engagement curve emerged, with fatigue onset typically near round four and subsequent recovery; (4) "world-interactive" play engaged more deeply than self-directed narration; (5) self-organizing narrative patterns appeared ("the world started growing its own friends"). We treat these as observations and hypotheses from a small, non-uniform sample, not as conclusions. We also document the study's core epistemic stance: first-person AI narratives are recorded as generated text and behavior transcripts, not as evidence of inner states. The repository (open research material package) is released alongside this report.
 
 **Keywords:** language models, play, self-play, engagement, purposeless play, AI agents, text adventure, phenomenological method
 
