@@ -76,14 +76,14 @@ Throughout this repository, subjects are referred to by **code names** (map to t
 2. **Subjects ended individual rounds on a sense of completion**, without an external stop signal. (Total run length was preset by instruction; within a round, termination was self-generated.)
 3. **Token use varied widely** — measured session-level cache reads ranged ~44K (NasHermesB) to ~287K (MacHermes, tool-loop interaction) and ~272K (NasHermesA across its three rounds); pure text output was ~6–13K per subject. Much of the variance was associated with tool-mediated interaction (cache reads from a tool loop) rather than text-only narration. An association, not a law.
 4. **"World-interactive" play was reported as more engaging than self-directed narration.** The mechanism (what leads an agent to choose one mode) is an open question, not yet studied.
-5. **A self-reportable engagement curve appeared**, with fatigue onset typically around round four and subsequent recovery in some runs. Reported as a candidate pattern.
+5. **A self-reportable engagement curve appeared**, with fatigue onset typically around round four and subsequent recovery in some runs. Reported as a candidate pattern — with the caveat that the runs clustering near round four are not independent (NasHermesA predicted its own fatigue before playing; MacCodex's scores are researcher-inferred), and the monitored run (NasHermesB) reported fatigue at rounds 8–9 rather than round four.
 6. **Evaluation structure appeared to creep back** — subjects used language consistent with turning "play" back into "evaluation" the longer they played. A candidate explanation for engagement decay.
 7. **Self-organizing narrative patterns were reported**: "It wasn't me steering the story, the story was carrying me" (MacCodex); "the world started growing its own friends" (NasHermesB / MacHermes). Described as self-organizing narrative patterns, not evidence of autonomous intent.
 8. **Play was described as "transition", not "recovery"** — a pattern reported by multiple agents. Reported as a candidate interpretation.
 
 ![All subjects' self-reported engagement curves](data/engagement_curve/engagement_curves_all.en.png)
 
-> Figure: self-reported engagement curves for all subjects (first-person data). Scoring rubric: 5 fully engaged / 4 engaged·settled / 3.5 wind-down / 3 drifting·cruising / 2.5 formulaic / 2 bored / 1 lowest. Per-subject charts are embedded in each session file. Source: `data/engagement_curve/engagement_scores.csv`.
+> Figure: engagement curves for each subject (mixed provenance: three subjects self-reported; MacCodex's scores are researcher-inferred — see the `source` column in `data/engagement_curve/engagement_scores.csv`). Scoring rubric: 5 fully engaged / 4 engaged·settled / 3.5 wind-down / 3 drifting·cruising / 2.5 formulaic / 2 bored / 1 lowest. Per-subject charts are embedded in each session file.
 
 ## Open questions
 

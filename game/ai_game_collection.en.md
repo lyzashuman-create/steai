@@ -1,7 +1,7 @@
 [中文](ai_game_collection.md) | English
 # AI Game Original Texts Collection
 
-> The complete original texts of each game played by four AIs. Collected from NasHermesA, NasHermesB, MacHermes, MacCodex.
+> The game texts played by four AIs. NasHermesA / NasHermesB / MacHermes are verbatim originals (MacHermes full raw transcript in [machermes_fog_bay_raw_session.en.md](machermes_fog_bay_raw_session.en.md)); MacCodex is a reconstructed self-summary (source levels governed by DATA_MANIFEST).
 
 > **This is a translation of the original Chinese document. The Chinese version is authoritative.**
 
@@ -483,7 +483,7 @@ Thank you for letting me play this. It was good.
 
 ## Player MacHermes (7 games · Misty Moon Bay · the grocery store owner's seven days)
 
-The following is MacHermes's own full reconstruction of the seven days of Misty Moon Bay (including the original card draw, the body text, and each day's engagement level).
+The following is MacHermes's reconstructed account of the seven days of Misty Moon Bay (including the original card draw, the body text, and each day's engagement level). **The complete verbatim raw session is in [machermes_fog_bay_raw_session.en.md](machermes_fog_bay_raw_session.en.md)** (verbatim transcript: per-turn input/output, tool dice draws, per-round engagement notes, and the closing summary, all unedited).
 
 ═══════════════════════════════
 Misty Moon Bay · the grocery store owner's seven days
@@ -659,4 +659,4 @@ Codex's overall self-account: Games 1, 2, 5, and 7 were the most engaged, and Ga
 - File 2 (were you happy): 82KB, 26 lines, 2 assistant messages
 - File 3 (fatigue): 86KB, 30 lines, 4 assistant messages
 - The three jsonl files have been exported to a local path on the Mac side (including metadata / tool calls; the reasoning is encrypted and invisible)
-- Complete materials archive: data/sessions/MacCodex_full_raw_materials.md
+- Complete materials archive: the raw jsonl files live on the Mac side at a local path (not committed to this repository); the MacCodex session record available in the repo is [data/sessions/MacCodex_10sessions_blind.en.md](../data/sessions/MacCodex_10sessions_blind.en.md) (reconstructed self-summary)

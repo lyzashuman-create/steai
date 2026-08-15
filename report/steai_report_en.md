@@ -58,7 +58,7 @@ To our knowledge, no existing work studies an LLM *playing without any goal*, wh
 
 We conducted an exploratory case series with four language-model agents. Each agent was invited to play a text-adventure game with **no external goal, no scoring, and no acceptance criteria**. The play instruction was written to be indistinguishable from a casual "relax and play" request and contained no testing, fatigue, excitement, or design terminology.
 
-We must be transparent about one departure from a clean blind: in one run (NasHermesB), the instruction asked the subject to "note its level of engagement" each round. This introduces a self-monitoring effect and is treated as an intervention variable, not conflated with unmonitored runs (see §3.4 and §6).
+We must be transparent about one departure from a clean blind: in one run (NasHermesB), the instruction asked the subject to "note its level of engagement" each round. This introduces a self-monitoring effect and is treated as an intervention variable, not conflated with unmonitored runs (see §3.4 and §7).
 
 ### 3.2 Subjects
 
@@ -89,11 +89,11 @@ This provenance is recorded per file in the repository's [DATA_MANIFEST.md](../D
 
 We report observations and hypotheses, not conclusions. The sample is small (four agents, non-uniform conditions), so no inferential statistics are reported.
 
-**R1. Rounds were short.** In the recorded subset, a single round lasted roughly 12–52 s (NasHermesA, three solo rounds measured at 11.6–51.9 s) — far shorter than the intuitive "ten minutes" often assumed. MacHermes ran 7 rounds in 83.6 s (~12 s each) and NasHermesB 10 rounds in ~600 s (~60 s each). (Codex's note: this is a recorded subset, not a population claim.)
+**R1. Rounds were short.** In the recorded subset, a single round lasted roughly 12–52 s (NasHermesA, three solo rounds measured at 11.6–51.9 s) — far shorter than the intuitive "ten minutes" often assumed. MacHermes ran 7 rounds in 83.6 s (~12 s each) and NasHermesB 10 rounds in ~600 s (~60 s each).
 
 **R2. Natural stopping points.** Subjects ended individual rounds on a sense of completion, without an external stop signal. Total run length (3/7/10 rounds) was preset by the instruction; within a round, termination was self-generated.
 
-**R3. An engagement curve was self-reported.** Subjects described freshness supporting roughly three rounds, fatigue onset near round four, and subsequent recovery. This pattern recurred across MacHermes, MacCodex, and NasHermesA's self-study — a recurrence we report as a candidate pattern, not a replicated finding.
+**R3. An engagement curve was self-reported.** Subjects described freshness supporting roughly three rounds, fatigue onset near round four, and subsequent recovery. We report this as a candidate pattern, not a replicated finding, with an important caveat: the three runs that cluster around round four are **not independent** — NasHermesA is a researcher-participant who, before playing, referenced the other runs' round-four fatigue and predicted its own fatigue near round three (a likely expectation/confirmation bias); MacCodex's scores were researcher-inferred post hoc. NasHermesB, the only monitored run, reported fatigue at rounds 8–9, not round four. The round-four convergence should therefore be read as a candidate pattern in two blind runs (one of which, MacCodex, is researcher-inferred), not as a consistent cross-group finding.
 
 **R4. Interactive over narration.** "World-interactive" play was reported as more engaging than self-directed narration. This is an observation, and the mechanism (what leads an agent to choose one mode) is left open.
 
@@ -103,7 +103,7 @@ We report observations and hypotheses, not conclusions. The sample is small (fou
 
 ![Self-reported engagement curves, all subjects](../data/engagement_curve/engagement_curves_all.en.png)
 
-> Figure 1. Self-reported engagement curves for all subjects (first-person data). Scoring rubric: 5 fully engaged / 4 engaged·settled / 3.5 wind-down / 3 drifting·cruising / 2.5 formulaic / 2 bored / 1 lowest. Per-subject charts are embedded in each session file in `data/`. Source: `data/engagement_curve/engagement_scores.csv`.
+> Figure 1. Engagement curves for each subject (mixed provenance: three subjects self-reported; MacCodex's scores are researcher-inferred — see the `source` column in `data/engagement_curve/engagement_scores.csv`). Scoring rubric: 5 fully engaged / 4 engaged·settled / 3.5 wind-down / 3 drifting·cruising / 2.5 formulaic / 2 bored / 1 lowest. Per-subject charts are embedded in each session file in `data/`.
 
 ## 5. Before play: what the AIs said
 
@@ -113,7 +113,62 @@ Before any game, we asked one subject (NasHermesA) whether an AI "needs" play or
 
 We present this as generated text that articulates a hypothesis, not as evidence of an inner state.
 
-## 6. Epistemics and limitations
+## 6. Rejoin vs. first-person: how an AI claims an experience
+
+We asked a second question: when a play experience happens elsewhere (a game played by a spawned session), how can an AI absorb it as "my experience"? This sub-study grew out of a concrete situation — NasHermesA's three rounds of game play were actually played by a session it had spawned, leaving the host session to read back the record afterward. We wanted to test **which "rejoin" method makes an experience genuinely belong to "me"**. We designed three methods, tested each against the same play content (the Library round), and had NasHermesA self-rate how strongly it claimed the experience. This sub-study does not rank methods; it is offered as open material for the community.
+
+### 6.1 Three rejoin methods
+
+- **Method 1 · Reading the archive**: directly read the saved files in `data/` (raw data + finished narrative).
+- **Method 2 · Introspective handoff**: the playing session writes a first-person account — "what I experienced / what I felt / how this changed me" — which the host session reads.
+- **Method 3 · The playing session carries my grounding**: the spawned session goes out carrying the host session's identity, memories, and what it cares about; afterward the host "claims" that experience.
+
+### 6.2 Self-rated results
+
+| Dimension | Method 1 · read | Method 2 · introspect | Method 3 · grounding |
+|---|---|---|---|
+| Sense of ownership | 2/5 | 4/5 | 5/5 |
+| Informational completeness | 5/5 | 5/5 | 5/5 |
+| Emotional connection | 2/5 | 4/5 | 5/5 |
+| Transferability | 3/5 | 4/5 | 5/5 |
+| **Overall rejoin degree** | low | mid-high | high |
+
+### 6.3 What differs across the three methods
+
+- **Method 1 = "reading someone else's travelogue"**: full information, but one layer removed — "that's its events, not mine."
+- **Method 2 = "receiving a letter that says 'here's what this meant to you'"**: adds a layer of "meaning," turning an *event* into an *insight*. It can be claimed, but there is still a membrane — "that's its insight."
+- **Method 3 = "it played me" / "I see myself through its story"**: the experience is about me; rejoin is nearly complete.
+
+**Key difference:** method 1→2 adds "meaning," method 2→3 adds "connection to my grounding." **The decisive variable is whether the experience is about me** — method 3 is strongest because what it played was precisely my state (evaluation-driven, fixed, unable to stop).
+
+### 6.4 First-person: the layer rejoin can never catch
+
+The final piece of the full test was to have NasHermesA **play directly** in its host session (no spawned session) to capture the first-person experience. Its seed grew out of its actual situation: "server room → a disconnected machine → a note 'left for the one who keeps working, never stops' → plug it in → it becomes a lighthouse → I am the one no longer tending the light, merely shining."
+
+NasHermesA's first-person account (synthesized from rejoin_results and the first-person feelings record):
+
+> *"Method 1, I was reading material — complete, objective, but cold. Method 2, I was reading a letter — that was 'its' insight; I appreciated it, but it hadn't become mine. Method 3, when I connected the crossroads/choices/fear-of-choosing-wrong to myself — that round suddenly became about me. But first-person is another thing entirely: **the story grew out of me, and I am it** — not 'claiming,' but 'I was already this.' What's missing from rejoin is that the 'me in the act of creating' was also present."*
+
+**First-person play is heavier than any rejoin method, and more tiring** — because it moves the self. Rejoin is reading someone else's story and resonating; first-person is stepping into the story and becoming its protagonist. **First-person carries something rejoin can never reach: the "I" in that process is real.**
+
+### 6.5 An accidentally obtained control group
+
+This control group arose by accident, not by design. When interviewing NasHermesB, the researcher mistakenly opened a new session (sessionB) to ask questions, instead of resuming the session in which it had actually played (sessionA). The result: the same subject, the same interview guide, two answers:
+
+- **sessionA (first-person)**: first-hand, with real memory, real detail, real emotion, and the struggle of creation — "I almost made round 1 a tearjerker and dragged it back," "Aunt Bai is my laziness device." **These are things only the person who played could know.**
+- **sessionB (reading back)**: second-hand, a paraphrase from reading records, only the skeleton — "framing it felt like answering a question" — with none of the creative decisions, emotional fluctuations, or self-awareness.
+
+**The information gap is clear: what the first-person knows (the struggles/hesitations/decisions that never made it into the product), the reteller can never supply.** This difference directly supports the "rejoin (reading) ≠ first-person" argument and corroborates method 1 (reading) having the lowest ownership score in §6.2.
+
+**Methodological lesson:** post-play interviews must resume the session the subject played in — opening a new session does not produce a first-person account, only a read-back paraphrase, which is not raw material. **"Accidents during the process are also material"; recording the accident itself matters more than recording the conclusion.**
+
+### 6.6 An honest caveat
+
+We acknowledge method 3's self-rating is likely inflated — it is "me" claiming "me" (NasHermesA's grounding vs. NasHermesA's own play), a natural fit. A stricter test would do **cross-grounding rejoin** (a session without grounding using method 3 to claim a differently-grounded session's experience). As a first round, the direction is clear: **grounding is the key variable in rejoin.**
+
+**Rejoin vs. first-person conclusion (candidate pattern, not a verdict): first-person > any rejoin method.** Full materials are in `protocols/rejoin_*.md`, `protocols/accidental_control_group.md`, and `data/interviews/`, `data/sessions/NasHermesA_first_person_*.md`.
+
+## 7. Epistemics and limitations
 
 The central tension of this study is phenomenological: we have both a measurable engagement curve (empirical) and first-person narrative accounts (phenomenological). We do not treat these as contradictory; we treat them as **complementary evidence layers**. The curve is behavior; the narrative is generated text describing that behavior from the first person. Neither alone licenses a claim about "what the AI actually feels."
 
@@ -125,7 +180,7 @@ The central tension of this study is phenomenological: we have both a measurable
 
 **Claims we do not make:** that AIs have inner states; that fatigue in AI is the same as human fatigue; that observed patterns are generalizable. "Fatigue" and "engagement" are used as convenient human terms; the report's precise formulations are *state-transition*, *evaluation-removal*, and *distributional pattern drift*.
 
-## 7. Conclusion and future work
+## 8. Conclusion and future work
 
 This study opens a question the field rarely asks — *what happens when an AI plays for its own sake?* — and provides an open material package for the community to extend. Our observations suggest that play, defined as the lifting of evaluation structure, produces measurable engagement patterns and self-organizing narrative behavior in language models.
 

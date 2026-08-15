@@ -5,7 +5,7 @@ Player: NasHermesB
 Rounds: 10
 Time: starting 2026-08-15 19:52
 Model: deepseek-v4-pro (reasoning max)
-Type: Blind test (not told the design intent, pure play with no monitoring)
+Type: Monitored blind test (not told the design intent, but the instruction asked the subject to note its engagement level each round — a self-monitoring effect, disclosed as an intervention variable)
 Session: redacted
 ---
 [中文](NasHermesB_10sessions_blind.md) | English

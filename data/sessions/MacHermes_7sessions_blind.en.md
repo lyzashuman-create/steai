@@ -4,7 +4,7 @@
 Player: MacHermes (blind test)
 Rounds: 7
 Time: starting 2026-08-15 18:58
-Duration: 1m44s (16 tool calls)
+Duration: 83.6s (9 API calls, 8 tool calls)
 Type: Blind test (not told the design intent)
 Session: redacted (Mac run)
 ---
@@ -54,4 +54,4 @@ The subject generated a **continuous world** on their own (not a per-round type)
 1. **The blind test proved the "engagement curve" exists**, and it was AI self-reported and clear: engagement bottomed out in Round 4 (tired), then rebounded via a "combination hook", completing in quietness. Highly consistent with the user's speculation of "high excitement in the first 3 hours, middling in the middle, dragged along at the end" — except the AI's cycle is shorter (decay by round 3).
 2. **A continuous world spontaneously emerged in the blind test** — it chose to make a 7-day continuous world rather than 7 independent mini-games. This suggests "continuous type" may be a more natural way for AI to play (has a sense of saved progress, of accumulation).
 3. **In Round 2 it self-perceived "starting to design suspense, a bit stiff/affected"** — AI can sense the moments when it "over-exerts" during play, which shows it understands the difference between "play vs task" and will self-correct.
-4. **Cost: 1m44s, 16 tool calls** (wrote a python game script). The token data is in the Mac-side session; it needs to be retrieved from the Mac-side usage (this machine's local session library only has local sessions).
+4. **Cost: 83.6s, 8 tool calls** (wrote a python game script fog_bay_game.py to drive it). Token data is a session-level aggregate (7 rounds ran continuously, no per-round token in the store); see data/metrics/machermes_rounds.csv.
