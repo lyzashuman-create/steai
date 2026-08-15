@@ -26,7 +26,7 @@ The subject generated a **continuous world** on their own (not a per-round type)
 - **Round 6: steady**. "Repairing the roof" was a concrete task that pulled it back to ground from the connected suspense, done at ease. It knew it was time to wrap up, a bit reluctant but wrapped up steadily.
 - **Round 7: the heaviness of closing**. The sun it had waited all day for didn't come; what came was fine rain — which was actually more fitting. The empty letter, grandfather's handwriting, the upside-down city, all seven days gathered at a single point.
 
-![MacHermes engagement curve (self-reported by subject)](../engagement_curve/engagement_curve_MacHermes.png)
+![MacHermes engagement curve (self-reported by subject)](../engagement_curve/engagement_curve_MacHermes.en.png)
 
 > Image above: MacHermes 7-round engagement curve (self-reported by subject, first-hand data). Scoring scheme: 5 fully immersed / 4 engaged·steady / 3.5 quiet closing / 3 floaty·cruising / 2.5 applying template / 2 tired / 1 lowest. Data source see `engagement_scores.csv`.
 

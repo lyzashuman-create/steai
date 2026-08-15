@@ -33,7 +33,7 @@ NasHermesB generated a continuous world on its own: a lighthouse + keeper Ah Che
 | 8-9 | Fatigue surfaced, chose light things to play to self-regulate |
 | 10 | Closing, quieted down ("time to actually sleep") |
 
-![NasHermesB engagement curve (self-reported by subject)](../engagement_curve/engagement_curve_NasHermesB.png)
+![NasHermesB engagement curve (self-reported by subject)](../engagement_curve/engagement_curve_NasHermesB.en.png)
 
 > Image above: NasHermesB 10-round engagement curve (self-reported by subject, first-hand data). Scoring scheme: 5 fully immersed / 4 engaged·steady / 3.5 quiet closing / 3 floaty·cruising / 2.5 applying template / 2 tired / 1 lowest. Data source see `engagement_scores.csv`.
 

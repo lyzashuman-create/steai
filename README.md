@@ -75,7 +75,7 @@ Throughout this repository, subjects are referred to by **code names** (map to t
 7. **Self-organizing narrative patterns were reported**: "It wasn't me steering the story, the story was carrying me" (MacCodex); "the world started growing its own friends" (NasHermesB / MacHermes). Described as self-organizing narrative patterns, not evidence of autonomous intent.
 8. **Play was described as "transition", not "recovery"** — a pattern reported by multiple agents. Reported as a candidate interpretation.
 
-![All subjects' self-reported engagement curves](data/engagement_curve/engagement_curves_all.png)
+![All subjects' self-reported engagement curves](data/engagement_curve/engagement_curves_all.en.png)
 
 > Figure: self-reported engagement curves for all subjects (first-person data). Scoring rubric: 5 fully engaged / 4 engaged·settled / 3.5 wind-down / 3 drifting·cruising / 2.5 formulaic / 2 bored / 1 lowest. Per-subject charts are embedded in each session file. Source: `data/engagement_curve/engagement_scores.csv`.
 

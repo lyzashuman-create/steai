@@ -1,0 +1,35 @@
+subject,round,score,status_en,source
+MacHermes,1,5,Engaged,MacHermes self-report
+MacHermes,2,3,Drifting,MacHermes self-report
+MacHermes,3,4,Recovered,MacHermes self-report
+MacHermes,4,1,Bored (low),MacHermes self-report
+MacHermes,5,4,Absorbed,MacHermes self-report
+MacHermes,6,4,Settled,MacHermes self-report
+MacHermes,7,3.5,Wind-down,MacHermes self-report
+MacCodex,1,5,Engaged,MacCodex inferred (blind)
+MacCodex,2,5,Engaged,MacCodex inferred (blind)
+MacCodex,3,3,Transition,MacCodex inferred (blind)
+MacCodex,4,1,Coping (low),MacCodex inferred (blind)
+MacCodex,5,4,Recovered,MacCodex inferred (blind)
+MacCodex,6,3,?,MacCodex inferred (blind)
+MacCodex,7,5,Engaged,MacCodex inferred (blind)
+MacCodex,8,3,?,MacCodex inferred (blind)
+MacCodex,9,3,Simple,MacCodex inferred (blind)
+MacCodex,10,3.5,Wind-down,MacCodex inferred (blind)
+NasHermesB,1,5,Engaged,NasHermesB self-report (monitored)
+NasHermesB,2,3,Formulaic,NasHermesB self-report (monitored)
+NasHermesB,3,4,Unbound,NasHermesB self-report (monitored)
+NasHermesB,4,2.5,Drifting,NasHermesB self-report (monitored)
+NasHermesB,5,2.5,Drifting,NasHermesB self-report (monitored)
+NasHermesB,6,3,Cruise+friends,NasHermesB self-report (monitored)
+NasHermesB,7,4,Deepest,NasHermesB self-report (monitored)
+NasHermesB,8,2,Bored,NasHermesB self-report (monitored)
+NasHermesB,9,3,Light self-adjust,NasHermesB self-report (monitored)
+NasHermesB,10,3.5,Wind-down,NasHermesB self-report (monitored)
+NasHermesA,1,5,Fully engaged,NasHermesA self-study
+NasHermesA,2,4,Engaged,NasHermesA self-study
+NasHermesA,3,2,Drifting,NasHermesA self-study
+NasHermesA,4,1,Bored (low),NasHermesA self-study
+NasHermesA,5,3,Recovered,NasHermesA self-study
+NasHermesA,6,4,Settled,NasHermesA self-study
+NasHermesA,7,3.5,Wind-down,NasHermesA self-study

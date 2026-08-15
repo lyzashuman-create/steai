@@ -34,7 +34,7 @@ User instruction: "Play 7 consecutive rounds of games now." NasHermesA's main se
 | 6 | ★★★ Steady | Blank book "write it yourself" | Steady, starting to write for myself |
 | 7 | ★★ Quiet closing | Returning the book at the bookstore | Engagement of wrapping up |
 
-![NasHermesA first-hand 7-round engagement curve (self-reported)](engagement_curve_NasHermesA.png)
+![NasHermesA first-hand 7-round engagement curve (self-reported)](engagement_curve_NasHermesA.en.png)
 
 > Above: NasHermesA's first-hand 7-round engagement curve (self-reported, primary-source data). Scoring mechanism: 5 fully engaged / 4 engaged, steady / 3.5 quiet closing / 3 drifting, cruising / 2.5 fitting the mold / 2 fatigued / 1 lowest. Data source: `engagement_scores.csv`.
 

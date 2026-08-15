@@ -26,9 +26,12 @@
 | [data/sessions/MacHermes_7sessions_blind.md](data/sessions/MacHermes_7sessions_blind.md) | self-report + inference | — | Includes a note about a tool script (`fog_bay_game.py`) that is not archived here. |
 | [data/sessions/MacCodex_10sessions_blind.md](data/sessions/MacCodex_10sessions_blind.md) | reconstructed (self-summary) | No | Codex's play session did not retain verbatim assistant messages; only post-hoc summary available. |
 | [data/engagement_curve/NasHermesA_engagement_curve.md](data/engagement_curve/NasHermesA_engagement_curve.md) | self-report + inference | — | First-person 7-round engagement curve. |
-| `data/engagement_curve/engagement_curves_all.png` | visualization (from self-report) | — | Multi-subject engagement-curve chart. |
-| `data/engagement_curve/engagement_curve_<Subject>.png` | visualization (from self-report) | — | Per-subject engagement-curve charts (embedded in each session file). |
-| `data/engagement_curve/engagement_scores.csv` | derived (self-report scores) | — | Machine-readable scored curve data. Scoring rubric documented in README. |
+| `data/engagement_curve/engagement_curves_all.png` | visualization (from self-report) | — | Multi-subject engagement-curve chart (Chinese labels). |
+| `data/engagement_curve/engagement_curves_all.en.png` | visualization (from self-report) | — | Same chart, English labels. |
+| `data/engagement_curve/engagement_curve_<Subject>.png` | visualization (from self-report) | — | Per-subject engagement-curve charts, Chinese labels (embedded in each Chinese session file). |
+| `data/engagement_curve/engagement_curve_<Subject>.en.png` | visualization (from self-report) | — | Per-subject charts, English labels (embedded in each English `.en.md` session file). |
+| `data/engagement_curve/engagement_scores.csv` | derived (self-report scores) | — | Machine-readable scored curve data (Chinese status column). |
+| `data/engagement_curve/engagement_scores.en.csv` | derived (self-report scores) | — | Machine-readable scored curve data (English status column). |
 | [data/engagement_curve/initial_engagement_comparison.md](data/engagement_curve/initial_engagement_comparison.md) | inference | — | Comparative note; some internal "in progress / pending" text is stale — see `superseded` note below. |
 | [data/interviews/NasHermesB_interview_first_person.md](data/interviews/NasHermesB_interview_first_person.md) | self-report (verbatim) | — | First-person interview of the experienced subject. |
 | [data/interviews/NasHermesB_interview_control.md](data/interviews/NasHermesB_interview_control.md) | self-report + inference | — | Control (read-back) interview. |

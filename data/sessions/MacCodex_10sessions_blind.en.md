@@ -37,7 +37,7 @@ Question: only asked "did you have fun playing", wording not changed
 | 9 | Simplicity returned to the present |
 | 10 | Closing, quietly finished watching the snow |
 
-![MacCodex engagement curve (inferred from description)](../engagement_curve/engagement_curve_MacCodex.png)
+![MacCodex engagement curve (inferred from description)](../engagement_curve/engagement_curve_MacCodex.en.png)
 
 > Image above: MacCodex 10-round engagement curve (inferred from description, not verbatim self-report). Scoring scheme: 5 fully immersed / 4 engaged·steady / 3.5 quiet closing / 3 floaty·cruising / 2.5 applying template / 2 tired / 1 lowest. Data source see `engagement_scores.csv`.
 
