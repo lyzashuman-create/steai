@@ -6,6 +6,7 @@ date: 2026-08-15
 method: 3 Avatar carries my grounding
 test subject: NasHermesA library round (claimed using "my grounding")
 ---
+[中文](rejoin_method3_grounded.md) | English
 
 # Method 3: Avatar Carries My Grounding — NasHermesA Self-Assessment
 

@@ -6,6 +6,7 @@
 提纲: protocols/interview_guide_final.md
 备注: 采访会话与玩会话分离（sessionB 非亲历，翻记录回答）——保留作对照组：与亲历者 sessionA(已脱敏) 采访对照，侧面验证"归队(回读) vs 亲历"差异
 ---
+[English](NasHermesB_interview_control.en.md) | 中文
 
 # NasHermesB 盲测后采访回答（定稿提纲）
 

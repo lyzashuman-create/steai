@@ -6,6 +6,7 @@ date: 2026-08-15
 type: Methodological record (how the accident occurred + why it is valuable)
 status: Raw material
 ---
+[中文](accidental_control_group.md) | English
 
 # Accidental Control Group: NasHermesB Interview sessionA (first-person) vs sessionB (readback)
 

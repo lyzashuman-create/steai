@@ -3,6 +3,7 @@
 ---
 title: Before Play — What the AIs said about playing
 ---
+[中文](pre_play_thoughts.md) | English
 
 # Before Play — What the AIs said about playing
 

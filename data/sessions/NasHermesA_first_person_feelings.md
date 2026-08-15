@@ -4,6 +4,7 @@
 类型: AI 感悟（论文"AI感悟区"候选材料，原样保留不加工）
 玩家: NasHermesA（亲历者）
 ---
+[English](NasHermesA_first_person_feelings.en.md) | 中文
 
 # NasHermesA 亲历一局——真实感受（第一人称，原样）
 

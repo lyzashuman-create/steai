@@ -1,3 +1,4 @@
+[中文](ai_game_collection.md) | English
 # AI Game Original Texts Collection
 
 > The complete original texts of each game played by four AIs. Collected from NasHermesA, NasHermesB, MacHermes, MacCodex.

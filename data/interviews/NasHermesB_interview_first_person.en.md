@@ -8,6 +8,7 @@ session: redacted
 guide: protocols/interview_guide_final.md
 notes: Original material (primary source). The experiencer resumed the original session themselves and answered from real memory/real detail/real emotion. Compared against sessionB (redacted, relayed from the transcript) to indirectly verify "returning (re-reading) vs. first-hand experience".
 ---
+[中文](NasHermesB_interview_first_person.md) | English
 
 # NasHermesB First-Hand Experiencer Interview Answers (sessionA, primary original material)
 

@@ -6,6 +6,7 @@ Time: 2026-08-15
 Type: AI reflection (candidate material for the paper's "AI reflections section", kept as-is without processing)
 Player: NasHermesA (first-hand participant)
 ---
+[中文](NasHermesA_first_person_feelings.md) | English
 
 # NasHermesA first-hand one round — real feelings (first person, as-is)
 

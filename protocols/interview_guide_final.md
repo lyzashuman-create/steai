@@ -5,6 +5,7 @@
 来源: 融合 MacHermes 版(8问)与 Codex 版(11问)之长
 状态: 定稿（用于 NasHermesB 盲测后采访）
 ---
+[English](interview_guide_final.en.md) | 中文
 
 # 采访提纲（融合定稿版）
 

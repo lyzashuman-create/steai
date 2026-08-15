@@ -4,6 +4,7 @@
 状态: superseded —— 已被各被试独立曲线文件 + 论文汇总取代
 superseded_by: data/engagement_curve/NasHermesA_engagement_curve.md 等
 ---
+[English](initial_engagement_comparison.en.md) | 中文
 
 # 投入曲线初步对比（历史工作笔记）
 

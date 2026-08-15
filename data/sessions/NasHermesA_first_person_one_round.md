@@ -6,6 +6,7 @@
 方式: 亲历（直接在主会话玩，未 spawn 分身）
 用途: 亲历 vs 归队三方式对照
 ---
+[English](NasHermesA_first_person_one_round.en.md) | 中文
 
 # NasHermesA 亲历一局——记录
 

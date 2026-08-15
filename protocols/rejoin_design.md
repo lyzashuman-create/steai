@@ -4,6 +4,7 @@
 类型: 实验设计
 状态: 进行中
 ---
+[English](rejoin_design.en.md) | 中文
 
 # 归队三方式对比测试设计
 

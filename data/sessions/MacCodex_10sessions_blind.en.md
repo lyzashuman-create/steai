@@ -8,6 +8,7 @@ Model: gpt-5.6-luna (low tier)
 Type: Blind test (not told the design intent), scheduled via MacHermes on its behalf
 Question: only asked "did you have fun playing", wording not changed
 ---
+[中文](MacCodex_10sessions_blind.md) | English
 
 # MacCodex 10-round blind test record
 

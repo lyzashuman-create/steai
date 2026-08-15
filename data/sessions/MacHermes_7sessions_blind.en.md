@@ -8,6 +8,7 @@ Duration: 1m44s (16 tool calls)
 Type: Blind test (not told the design intent)
 Session: redacted (Mac run)
 ---
+[中文](MacHermes_7sessions_blind.md) | English
 
 # MacHermes 7-round blind test record
 

@@ -6,6 +6,7 @@ date: 2026-08-15
 type: Experimental design
 status: In progress
 ---
+[中文](rejoin_design.md) | English
 
 # Three-Way Rejoin Comparison Test Design
 

@@ -5,6 +5,7 @@ type: Research notes (public-facing)
 ---
 
 > This is a translation of the original Chinese document. The Chinese version is authoritative.
+[中文](raw_notes.md) | English
 
 # STEAI Research Notes
 

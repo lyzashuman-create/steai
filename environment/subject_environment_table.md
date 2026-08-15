@@ -3,6 +3,7 @@
 时间: 2026-08-15
 类型: 实验环境记录
 ---
+[English](subject_environment_table.en.md) | 中文
 
 # 被试环境表
 

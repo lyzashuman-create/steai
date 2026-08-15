@@ -4,6 +4,7 @@
 方式: 1 回读存档
 被测内容: NasHermesA 图书馆局（838字）
 ---
+[English](rejoin_method1_readback.en.md) | 中文
 
 # 方式1：回读存档——NasHermesA 自评
 

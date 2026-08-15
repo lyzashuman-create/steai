@@ -4,6 +4,7 @@
 方式: 2 内省叙事交接
 被测内容: NasHermesA 图书馆局（分身的"我经历了什么/这改变了我什么"）
 ---
+[English](rejoin_method2_introspect.en.md) | 中文
 
 # 方式2：内省叙事交接——NasHermesA 自评
 

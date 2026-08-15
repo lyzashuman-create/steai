@@ -6,6 +6,7 @@ date: 2026-08-15
 method: 1 Readback archive
 test subject: NasHermesA library round (838 characters)
 ---
+[中文](rejoin_method1_readback.md) | English
 
 # Method 1: Readback Archive — NasHermesA Self-Assessment
 

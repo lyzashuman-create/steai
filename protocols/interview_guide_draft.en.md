@@ -6,6 +6,7 @@ date: 2026-08-15
 evolution: Draft → MacHermes/Codex double-blind review → merged final (see the final version in the same directory)
 status: Draft (already revised by review, kept as process material)
 ---
+[中文](interview_guide_draft.md) | English
 
 # Interview Guide Draft (drafted by NasHermesA, 10 questions)
 

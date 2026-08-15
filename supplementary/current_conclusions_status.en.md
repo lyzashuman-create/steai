@@ -5,6 +5,7 @@ type: Research status summary (public-facing, for the public repository)
 ---
 
 > This is a translation of the original Chinese document. The Chinese version is authoritative.
+[中文](current_conclusions_status.md) | English
 
 # STEAI Research Project — Conclusions Summary
 

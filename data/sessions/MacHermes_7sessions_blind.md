@@ -6,6 +6,7 @@
 类型: 盲测（未被告知设计意图）
 会话: 已脱敏（Mac 运行）
 ---
+[English](MacHermes_7sessions_blind.en.md) | 中文
 
 # MacHermes 7局盲测记录
 

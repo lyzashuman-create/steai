@@ -6,6 +6,7 @@ date: 2026-08-15
 status: superseded — replaced by the per-participant independent curve files + paper synthesis
 superseded_by: data/engagement_curve/NasHermesA_engagement_curve.md, etc.
 ---
+[中文](initial_engagement_comparison.md) | English
 
 # Initial Engagement Curve Comparison (Historical Working Notes)
 

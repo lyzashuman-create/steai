@@ -4,6 +4,7 @@
 演进: 初稿 → MacHermes/Codex 双盲评审 → 融合定稿（见同目录 定稿版）
 状态: 初稿（已被评审修正，保留作过程材料）
 ---
+[English](interview_guide_draft.en.md) | 中文
 
 # 采访提纲初稿（NasHermesA 拟，10问）
 

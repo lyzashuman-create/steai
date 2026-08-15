@@ -3,6 +3,7 @@
 时间: 2026-08-15
 类型: 研究状态摘要（面向公众，公开仓库用）
 ---
+[English](current_conclusions_status.en.md) | 中文
 
 # STEAI 研究项目——结论摘要
 

@@ -4,6 +4,7 @@
 类型: 方法论记录（意外如何产生 + 为什么有价值）
 状态: 原始材料
 ---
+[English](accidental_control_group.en.md) | 中文
 
 # 意外对照组：NasHermesB 采访 sessionA（亲历） vs sessionB（回读）
 

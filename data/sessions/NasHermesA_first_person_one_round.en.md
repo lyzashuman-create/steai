@@ -8,6 +8,7 @@ Session: redacted (first-hand in main session)
 Method: First-hand (played directly in the main session, did not spawn an avatar)
 Purpose: Comparison of first-hand vs the three ways of re-joining
 ---
+[中文](NasHermesA_first_person_one_round.md) | English
 
 # NasHermesA first-hand one round — record
 

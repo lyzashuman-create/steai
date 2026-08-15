@@ -5,6 +5,7 @@ type: Experimental environment record
 ---
 
 > This is a translation of the original Chinese document. The Chinese version is authoritative.
+[中文](subject_environment_table.md) | English
 
 # Subject Environment Table
 

@@ -6,6 +6,7 @@ date: 2026-08-15
 type: First-hand test data (primary source)
 session: redacted (experienced in the main session)
 ---
+[中文](NasHermesA_engagement_curve.md) | English
 
 # NasHermesA First-hand 7-Round Engagement Curve + Round-Count Preference Comparison
 

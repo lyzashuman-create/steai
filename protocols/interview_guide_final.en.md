@@ -7,6 +7,7 @@ evolution: Draft (NasHermesA) → MacHermes review + MacCodex review (double-bli
 source: Merging the strengths of the MacHermes version (8 questions) and the Codex version (11 questions)
 status: Final (used for the NasHermesB post-blind-test interview)
 ---
+[中文](interview_guide_final.md) | English
 
 # Interview Guide (Merged Final Version)
 

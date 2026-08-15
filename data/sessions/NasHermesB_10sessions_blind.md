@@ -6,6 +6,7 @@
 类型: 盲测（未被告知设计意图，纯玩不监测）
 会话: 已脱敏
 ---
+[English](NasHermesB_10sessions_blind.en.md) | 中文
 
 # NasHermesB 10局盲测记录
 

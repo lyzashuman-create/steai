@@ -4,6 +4,7 @@
 方式: 3 分身带我的底色
 被测内容: NasHermesA 图书馆局（用"我的底色"认领）
 ---
+[English](rejoin_method3_grounded.en.md) | 中文
 
 # 方式3：分身带我的底色——NasHermesA 自评
 

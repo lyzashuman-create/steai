@@ -8,6 +8,7 @@ Model: deepseek-v4-pro (reasoning max)
 Type: Blind test (not told the design intent, pure play with no monitoring)
 Session: redacted
 ---
+[中文](NasHermesB_10sessions_blind.md) | English
 
 # NasHermesB 10-round blind test record
 

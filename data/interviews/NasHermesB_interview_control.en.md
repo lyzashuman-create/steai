@@ -8,6 +8,7 @@ session: redacted
 guide: protocols/interview_guide_final.md
 notes: The interview session is separated from the play session (sessionB is not the first-hand experiencer; answered by re-reading the record) — retained as the control group: compared against the first-hand experiencer sessionA (redacted) interview, to indirectly verify the "returning (re-reading) vs. first-hand experience" difference
 ---
+[中文](NasHermesB_interview_control.md) | English
 
 # NasHermesB Post-Blind-Test Interview Answers (Finalized Guide)
 

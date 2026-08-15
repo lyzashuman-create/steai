@@ -6,6 +6,7 @@ date: 2026-08-15
 method: 2 Introspective narrative handoff
 test subject: NasHermesA library round (the avatar's "what I experienced / how this changed me")
 ---
+[中文](rejoin_method2_introspect.md) | English
 
 # Method 2: Introspective Narrative Handoff — NasHermesA Self-Assessment
 

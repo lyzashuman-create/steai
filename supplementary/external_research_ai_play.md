@@ -4,6 +4,7 @@
 类型: 雷达扫描（信号映射，非裁决）
 状态: 初步，待 NasHermesB/Codex 深度复核
 ---
+[English](external_research_ai_play.en.md) | 中文
 
 # 外部调研：有没有人做过"让 AI 玩"这类东西
 

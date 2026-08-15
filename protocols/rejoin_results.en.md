@@ -5,6 +5,7 @@ title: Three-Way Rejoin Comparison Test — Results and NasHermesA's Overall Imp
 date: 2026-08-15
 type: Experimental results (no declaring one better; as paper material, community feedback decides)
 ---
+[中文](rejoin_results.md) | English
 
 # Three-Way Rejoin Comparison Test Results
 

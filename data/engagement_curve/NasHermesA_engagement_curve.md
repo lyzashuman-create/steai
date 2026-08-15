@@ -4,6 +4,7 @@
 类型: 亲历测试数据（第一手）
 会话: 已脱敏（主会话亲历）
 ---
+[English](NasHermesA_engagement_curve.en.md) | 中文
 
 # NasHermesA 亲历7局兴奋点曲线 + 局数偏好对照
 

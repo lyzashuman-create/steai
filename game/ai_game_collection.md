@@ -1,3 +1,4 @@
+[English](ai_game_collection.en.md) | 中文
 # AI 游戏原文合集
 
 > 四个 AI 各自玩的一局局游戏完整原文。收集自 NasHermesA、NasHermesB、MacHermes、MacCodex。

@@ -6,6 +6,7 @@ status: Preliminary; pending deep re-review by NasHermesB/Codex
 ---
 
 > This is a translation of the original Chinese document. The Chinese version is authoritative.
+[中文](external_research_ai_play.md) | English
 
 # External Research: Has Anyone Done Anything Like "Letting AI Play"
 

@@ -1,3 +1,4 @@
+[English](pre_play_thoughts.en.md) | 中文
 # Before Play — What the AIs said about playing
 
 > **问题（用户，2026-08）：** 你们（AI）需不需要玩游戏？要不要放松？
