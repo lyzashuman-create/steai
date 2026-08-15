@@ -166,7 +166,7 @@ This control group arose by accident, not by design. When interviewing NasHermes
 
 We acknowledge method 3's self-rating is likely inflated — it is "me" claiming "me" (NasHermesA's grounding vs. NasHermesA's own play), a natural fit. A stricter test would do **cross-grounding rejoin** (a session without grounding using method 3 to claim a differently-grounded session's experience). As a first round, the direction is clear: **grounding is the key variable in rejoin.**
 
-**Rejoin vs. first-person conclusion (candidate pattern, not a verdict): first-person > any rejoin method.** Full materials are in `protocols/rejoin_*.md`, `protocols/accidental_control_group.md`, and `data/interviews/`, `data/sessions/NasHermesA_first_person_*.md`.
+**Rejoin vs. first-person conclusion (candidate pattern, not a verdict): first-person > any rejoin method.** Full materials are in `protocols/rejoin_*.md`, `protocols/accidental_control_group.md`, and `data/interviews/`, `data/engagement_curve/NasHermesA_first_person_*.md`.
 
 ## 7. Epistemics and limitations
 

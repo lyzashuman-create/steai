@@ -1,7 +1,7 @@
 [English](ai_game_collection.en.md) | 中文
 # AI 游戏原文合集
 
-> 四个 AI 各自玩的一局局游戏文本。NasHermesA / NasHermesB / MacHermes 为逐字原文（MacHermes 完整原始见 [machermes_fog_bay_raw_session.md](machermes_fog_bay_raw_session.md)）；MacCodex 为复盘还原（来源层级以 DATA_MANIFEST 为准）。
+> 四个 AI 各自玩的一局局游戏文本。NasHermesA / NasHermesB / MacHermes 为逐字原文（MacHermes 完整原始见 [../engagement_curve/machermes_fog_bay_raw_session.md](../engagement_curve/machermes_fog_bay_raw_session.md)）；MacCodex 为复盘还原（来源层级以 DATA_MANIFEST 为准）。
 
 ---
 
@@ -482,7 +482,7 @@ TERMINAL> [ 屏幕上那盏绿光标，缓缓暗下去 ]
 
 ## 玩家 MacHermes（7 局 · 雾月湾 · 杂货铺老板的七天）
 
-以下为 MacHermes 雾月湾七天的复盘还原版（含原始牌面、正文、每日投入度）。**完整逐字原始会话见 [machermes_fog_bay_raw_session.md](machermes_fog_bay_raw_session.md)**（verbatim transcript，逐轮输入/输出、工具骰子牌面、每局投入度、结尾总评全部原样）。
+以下为 MacHermes 雾月湾七天的复盘还原版（含原始牌面、正文、每日投入度）。**完整逐字原始会话见 [../engagement_curve/machermes_fog_bay_raw_session.md](../engagement_curve/machermes_fog_bay_raw_session.md)**（verbatim transcript，逐轮输入/输出、工具骰子牌面、每局投入度、结尾总评全部原样）。
 
 ═══════════════════════════════
 雾月湾 · 杂货铺老板的七天
@@ -651,4 +651,4 @@ Codex 整体自述：第一、二、五、七局最投入，第七局最像真�
 - 文件2（开不开心）：82KB，26行，assistant 2条
 - 文件3（疲劳感）：86KB，30行，assistant 4条
 - 三个 jsonl 已导出到 Mac 侧本地路径（含元数据/工具调用，reasoning 明文加密不可见）
-- 完整材料存档：原始 jsonl 在 Mac 侧本地路径（未提交仓库）；仓库内可用的 MacCodex 会话记录见 [MacCodex_10sessions_blind.md](MacCodex_10sessions_blind.md)（复盘还原）
+- 完整材料存档：原始 jsonl 在 Mac 侧本地路径（未提交仓库）；仓库内可用的 MacCodex 会话记录见 [../engagement_curve/MacCodex_10sessions_blind.md](../engagement_curve/MacCodex_10sessions_blind.md)（复盘还原）

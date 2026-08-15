@@ -4,7 +4,7 @@
 
 > 本清单记录每个数据文件的**来源层级**（逐字 / 复盘 / 自报 / 推断）、可用性与已知缺口。它的存在是为了让外部读者能分辨哪些是逐字记录、哪些是衍生内容——本仓库并不声称所有内容都是"原始逐字记录"。
 >
-> **语言说明**：每个中文数据/协议/补充文件都有对应的英文翻译版（`.en.md` 后缀），如 `data/sessions/MacHermes_7sessions_blind.md` ↔ `MacHermes_7sessions_blind.en.md`。中文为权威原文，`.en.md` 为翻译版。每个 `.en.md` 文件顶部均有此标注。
+> **语言说明**：每个中文数据/协议/补充文件都有对应的英文翻译版（`.en.md` 后缀），如 `data/engagement_curve/MacHermes_7sessions_blind.md` ↔ `MacHermes_7sessions_blind.en.md`。中文为权威原文，`.en.md` 为翻译版。每个 `.en.md` 文件顶部均有此标注。
 
 ## 来源层级说明
 
@@ -22,12 +22,12 @@
 | 文件 | 层级 | 有逐字原档? | 说明 / 缺口 |
 |---|---|---|---|
 | [data/sessions/ai_game_collection.md](data/sessions/ai_game_collection.md) | 混合 | 部分 | 顶层叙事；MacCodex 部分是复盘自述（未保留逐字 assistant 消息——见下方说明）。 |
-| [data/sessions/NasHermesA_first_person_one_round.md](data/sessions/NasHermesA_first_person_one_round.md) | 自报 + 推断 | — | 描述单局亲历。7局投入曲线见 [data/engagement_curve/NasHermesA_engagement_curve.md](data/engagement_curve/NasHermesA_engagement_curve.md)。 |
-| [data/sessions/NasHermesA_first_person_feelings.md](data/sessions/NasHermesA_first_person_feelings.md) | 自报（逐字） | — | 第一人称感受，逐字保留为原始材料。 |
-| [data/sessions/NasHermesB_10sessions_blind.md](data/sessions/NasHermesB_10sessions_blind.md) | 自报 + 推断 | — | 带监测盲测（指令含投入度要求——见方法说明）。 |
-| [data/sessions/MacHermes_7sessions_blind.md](data/sessions/MacHermes_7sessions_blind.md) | 自报 + 推断 | — | 复盘还原版；完整逐字原始会话见 [data/sessions/machermes_fog_bay_raw_session.md](data/sessions/machermes_fog_bay_raw_session.md)。 |
-| [data/sessions/machermes_fog_bay_raw_session.md](data/sessions/machermes_fog_bay_raw_session.md) | **原始（逐字会话）** | 是 | 完整逐字会话 `20260815_185800_54cf78`（来自 Mac Hermes 本地库）——7 局单会话连续跑完，逐轮输入/输出、工具骰子牌面、每局投入度、结尾总评。局边界在正文有标记，但数据层无法拆分（单连续会话）。 |
-| [data/sessions/MacCodex_10sessions_blind.md](data/sessions/MacCodex_10sessions_blind.md) | 复盘（自述） | 否 | Codex 游戏会话未保留逐字 assistant 消息，仅事后自述可用。 |
+| [data/engagement_curve/NasHermesA_first_person_one_round.md](data/engagement_curve/NasHermesA_first_person_one_round.md) | 自报 + 推断 | — | 描述单局亲历。7局投入曲线见 [data/engagement_curve/NasHermesA_engagement_curve.md](data/engagement_curve/NasHermesA_engagement_curve.md)。 |
+| [data/engagement_curve/NasHermesA_first_person_feelings.md](data/engagement_curve/NasHermesA_first_person_feelings.md) | 自报（逐字） | — | 第一人称感受，逐字保留为原始材料。 |
+| [data/engagement_curve/NasHermesB_10sessions_blind.md](data/engagement_curve/NasHermesB_10sessions_blind.md) | 自报 + 推断 | — | 带监测盲测（指令含投入度要求——见方法说明）。 |
+| [data/engagement_curve/MacHermes_7sessions_blind.md](data/engagement_curve/MacHermes_7sessions_blind.md) | 自报 + 推断 | — | 复盘还原版；完整逐字原始会话见 [data/engagement_curve/machermes_fog_bay_raw_session.md](data/engagement_curve/machermes_fog_bay_raw_session.md)。 |
+| [data/engagement_curve/machermes_fog_bay_raw_session.md](data/engagement_curve/machermes_fog_bay_raw_session.md) | **原始（逐字会话）** | 是 | 完整逐字会话 `20260815_185800_54cf78`（来自 Mac Hermes 本地库）——7 局单会话连续跑完，逐轮输入/输出、工具骰子牌面、每局投入度、结尾总评。局边界在正文有标记，但数据层无法拆分（单连续会话）。 |
+| [data/engagement_curve/MacCodex_10sessions_blind.md](data/engagement_curve/MacCodex_10sessions_blind.md) | 复盘（自述） | 否 | Codex 游戏会话未保留逐字 assistant 消息，仅事后自述可用。 |
 | [data/engagement_curve/NasHermesA_engagement_curve.md](data/engagement_curve/NasHermesA_engagement_curve.md) | 自报 + 推断 | — | 第一人称 7 局投入曲线。 |
 | `data/engagement_curve/engagement_curves_all.png` | 可视化（基于自报） | — | 多被试投入曲线图（中文标签）。 |
 | `data/engagement_curve/engagement_curves_all.en.png` | 可视化（基于自报） | — | 同一张图，英文标签。 |
@@ -57,9 +57,9 @@
 ## 已知缺口 / 未解决项
 
 1. **MacCodex 逐字转录不可用。** 其游戏会话未保留逐轮 assistant 消息，仅事后自述存在。MacCodex 数据应视为*复盘*，而非逐字。
-2. **`fog_bay_game.py`**（MacHermes 编写并用于驱动雾月湾的工具脚本）未作为独立文件提交，但其**完整调用与输出已在原始会话中逐字保留**（[data/sessions/machermes_fog_bay_raw_session.md](data/sessions/machermes_fog_bay_raw_session.md) 中的工具骰子牌面）。脚本源码本身未归档；依赖确切脚本代码的结论应视为无法仅凭本包独立验证，但观察到的工具输出是可验证的。
+2. **`fog_bay_game.py`**（MacHermes 编写并用于驱动雾月湾的工具脚本）未作为独立文件提交，但其**完整调用与输出已在原始会话中逐字保留**（[data/engagement_curve/machermes_fog_bay_raw_session.md](data/engagement_curve/machermes_fog_bay_raw_session.md) 中的工具骰子牌面）。脚本源码本身未归档；依赖确切脚本代码的结论应视为无法仅凭本包独立验证，但观察到的工具输出是可验证的。
 3. **定量声明**此前依赖源文件的叙述。现已提交机器可读指标表到 `data/metrics/`（见 `token_cost_summary.csv` + 各被试文件），含实测值（NasHermesA 独立单局时长约 12–52 秒；session 级缓存读取约 44K–287K；纯输出约 6–13K）。**粒度说明：** 仅当某被试的各局各自跑在独立会话中时（NasHermesA 3 局）才存在逐局 token；MacHermes（7 局）与 NasHermesB（10 局）各局都在单会话内连续跑完，仅有 session 级聚合；MacCodex（10 局）完全没有逐局 token 数据。这些表在底层数据存在处提供原始数字供独立复算，**不会补造日志从未记录的逐局数值**。
-4. **[data/sessions/NasHermesA_first_person_one_round.md](data/sessions/NasHermesA_first_person_one_round.md)** 记录单局亲历（区别于 [data/engagement_curve/NasHermesA_engagement_curve.md](data/engagement_curve/NasHermesA_engagement_curve.md) 中的 7 局投入曲线）。
+4. **[data/engagement_curve/NasHermesA_first_person_one_round.md](data/engagement_curve/NasHermesA_first_person_one_round.md)** 记录单局亲历（区别于 [data/engagement_curve/NasHermesA_engagement_curve.md](data/engagement_curve/NasHermesA_engagement_curve.md) 中的 7 局投入曲线）。
 5. **[data/engagement_curve/initial_engagement_comparison.md](data/engagement_curve/initial_engagement_comparison.md)** 含与已完成的 MacCodex 数据冲突的过时"进行中/待补"文本。已标记为历史工作笔记；由各投入曲线文件取代。
 
 ---
