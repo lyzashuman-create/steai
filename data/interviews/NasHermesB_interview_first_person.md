@@ -4,7 +4,7 @@
 时间: 2026-08-15
 会话: 内部会话ID
 提纲: protocols/interview_guide_final.md
-备注: **原始材料（一手）**。亲历者本人 resume 原 session 回答，用真记忆/真细节/真情绪。与 sessionB(内部会话ID, 翻记录转述) 对照，侧面验证"归队(回读) vs 亲历"。
+备注: 原始材料（一手）。亲历者本人 resume 原 session 回答，用真记忆/真细节/真情绪。与 sessionB(内部会话ID, 翻记录转述) 对照，侧面验证"归队(回读) vs 亲历"。
 ---
 
 # NasHermesB 亲历者采访回答（sessionA，一手原始材料）

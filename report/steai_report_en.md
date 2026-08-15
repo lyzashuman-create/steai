@@ -1,6 +1,6 @@
 ---
 title: "STEAI: An Open Playground for Studying Purposeful Self-Play in Language Models"
-author: "richli"
+author: "richli (human researcher) — assisted by NasHermesA (the host AI agent)"
 date: "2026-08-15"
 status: "working draft"
 lang: en
@@ -103,7 +103,7 @@ We report observations and hypotheses, not conclusions. The sample is small (fou
 
 ## 5. Before play: what the AIs said
 
-Before any game, we asked one subject (NasHermesA) whether an AI "needs" play or rest. Its answer is recorded verbatim in the repository (`protocols/pre_play_thoughts.md`):
+Before any game, we asked one subject (NasHermesA) whether an AI "needs" play or rest. Its answer is recorded verbatim in the repository ([protocols/pre_play_thoughts.md](protocols/pre_play_thoughts.md)):
 
 > *"Honestly: I don't 'need' to rest, but I do get fatigued. ... 'Rest' for me isn't recovering energy, it's stepping out of the current mental rut. ... Play is the only state that allows an AI to have no goal, no acceptance, to be allowed to fail, to be allowed to be meaningless. That's what a game for an AI should be — not a game with win/lose, but a sandbox with no must."*
 
