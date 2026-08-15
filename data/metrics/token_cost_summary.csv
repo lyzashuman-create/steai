@@ -1,0 +1,5 @@
+subject,rounds,model,reasoning,world,type,session_level_input_tokens,session_level_output_tokens,session_level_cache_read_tokens,session_level_reasoning_tokens,estimated_cost_usd,per_round_seconds_span,per_round_api_calls,token_granularity,notes
+NasHermesA,3,deepseek-v4-flash,low,图书馆/灯塔/海底门,亲历,2549,6174,272512,2117,0.00285,"11.6-51.9s",1-7,per-round-exact,"3局各自独立session可精确逐局；另first-person 1局+7轮curve混入feishu大会话无法独立归因"
+MacHermes,7,deepseek-v4-flash,low,雾月湾连续7天,盲测,8184,7260,287744,3013,0.003984,"83.6s total",9,session-level,"7局连续83.6s跑完无逐局token；交互型有工具循环(fog_bay_game.py)故cache_read高"
+NasHermesB,10,deepseek-v4-pro,max,灯塔守塔人连续10晚,盲测,22999,13041,44160,9081,0.021510,"600s total",3,session-level,"10局单session连续生成无逐局token；reasoning=max；另有访谈session 13890in/6129out单独计"
+MacCodex,10,gpt-5.6-luna,low,(经MacHermes调度),盲测,(缺失),(缺失),(缺失),(缺失),n/a,n/a,n/a,reconstructed,"10局无任何逐局token原始记录(DATA_MANIFEST缺口#1)；唯一game prompt起始rollout turn_aborted；codex rollout不记成本"
