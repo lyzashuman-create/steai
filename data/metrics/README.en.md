@@ -10,11 +10,11 @@
 
 | File | Content | Granularity |
 |---|---|---|
-| `nashermesa_rounds.csv` ([中文](nashermesa_rounds.csv)) | NasHermesA first-hand 3 rounds (The Library / The Lighthouse / The Door Under the Sea), per-round token | **per-round exact** (3 rounds each in their own session) |
-| `machermes_rounds.csv` ([中文](machermes_rounds.csv)) | MacHermes Misty Moon Bay 7 rounds | session-level (7 rounds ran continuously in 83.6s; no per-round token in the store) |
-| `nashermesb_rounds.csv` ([中文](nashermesb_rounds.csv)) | NasHermesB The Keeper of the Lighthouse 10 rounds + interview | session-level (10 rounds generated continuously in one session; no per-round token) |
-| `maccodex_rollouts.csv` ([中文](maccodex_rollouts.csv)) | MacCodex 10 rounds + full 08/15 rollout detail | **reconstructed** (no per-round token for the 10 rounds; only rollout aggregates) |
-| `token_cost_summary.csv` ([中文](token_cost_summary.csv)) | Cross-subject comparison summary | mixed (per-subject granularity noted honestly) |
+| `nashermesa_rounds.csv` | NasHermesA first-hand 3 rounds (图书馆 The Library / 灯塔 The Lighthouse / 海底门 The Door Under the Sea), per-round token | **per-round exact** (3 rounds each in their own session) |
+| `machermes_rounds.csv` | MacHermes Misty Moon Bay (雾月湾) 7 rounds | session-level (7 rounds ran continuously in 83.6s; no per-round token in the store) |
+| `nashermesb_rounds.csv` | NasHermesB The Keeper of the Lighthouse (守塔人) 10 rounds + interview | session-level (10 rounds generated continuously in one session; no per-round token) |
+| `maccodex_rollouts.csv` | MacCodex 10 rounds + full 08/15 rollout detail | **reconstructed** (no per-round token for the 10 rounds; only rollout aggregates) |
+| `token_cost_summary.csv` | Cross-subject comparison summary | mixed (per-subject granularity noted honestly) |
 | `basic_metrics.csv` | Basic per-subject metrics (rounds/duration/tool calls) | derived (metadata) |
 
 ## Key granularity notes (honest, don't misread)

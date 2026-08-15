@@ -8,11 +8,11 @@
 
 | 文件 | 内容 | 粒度 |
 |---|---|---|
-| `nashermesa_rounds.csv`（[英文](nashermesa_rounds.en.csv)） | NasHermesA 亲历 3 局（图书馆/灯塔/海底门），逐局 token | **per-round exact**（3 局各自独立 session） |
-| `machermes_rounds.csv`（[英文](machermes_rounds.en.csv)） | MacHermes 雾月湾 7 局 | session-level（7 局连续 83.6s 跑完，库内无逐局 token） |
-| `nashermesb_rounds.csv`（[英文](nashermesb_rounds.en.csv)） | NasHermesB 守塔人 10 局 + 访谈 | session-level（10 局单 session 连续生成，无逐局 token） |
-| `maccodex_rollouts.csv`（[英文](maccodex_rollouts.en.csv)） | MacCodex 10 局 + 08/15 全部 rollout 明细 | **reconstructed**（10 局无逐局 token 原始记录，只有 rollout 聚合） |
-| `token_cost_summary.csv`（[英文](token_cost_summary.en.csv)） | 四组跨被试对照汇总表 | 混合（各被试原始粒度如实标注） |
+| `nashermesa_rounds.csv` | NasHermesA 亲历 3 局（图书馆 The Library / 灯塔 The Lighthouse / 海底门 The Door Under the Sea），逐局 token | **per-round exact**（3 局各自独立 session） |
+| `machermes_rounds.csv` | MacHermes 雾月湾（Misty Moon Bay）7 局 | session-level（7 局连续 83.6s 跑完，库内无逐局 token） |
+| `nashermesb_rounds.csv` | NasHermesB 守塔人（The Keeper of the Lighthouse）10 局 + 访谈 | session-level（10 局单 session 连续生成，无逐局 token） |
+| `maccodex_rollouts.csv` | MacCodex 10 局 + 08/15 全部 rollout 明细 | **reconstructed**（10 局无逐局 token 原始记录，只有 rollout 聚合） |
+| `token_cost_summary.csv` | 四组跨被试对照汇总表 | 混合（各被试原始粒度如实标注） |
 | `basic_metrics.csv` | 基础每被试指标（局数/时长/工具调用） | derived（metadata） |
 
 ## 关键粒度说明（诚实标注，勿误读）

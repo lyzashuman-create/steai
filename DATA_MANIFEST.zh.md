@@ -41,11 +41,11 @@
 | [protocols/pre_play_thoughts.md](protocols/pre_play_thoughts.md) | 自报（逐字） | — | 对"AI 需要玩吗？"的玩前回答。 |
 | `protocols/`（采访提纲、归队、意外对照组） | 不适用（协议文档） | — | 设计/流程文档。 |
 | [data/metrics/README.md](data/metrics/README.md) + [英文](data/metrics/README.en.md) | 不适用（溯源说明） | — | 说明每个被试的 token 粒度——哪些是逐局精确、哪些仅 session 级、哪些缺失。 |
-| [data/metrics/token_cost_summary.csv](data/metrics/token_cost_summary.csv) + [英文](data/metrics/token_cost_summary.en.csv) | 衍生（来自原始用量） | — | 跨被试 token/成本/时长汇总；各被试粒度见 `token_granularity` 列。 |
-| [data/metrics/nashermesa_rounds.csv](data/metrics/nashermesa_rounds.csv) + [英文](data/metrics/nashermesa_rounds.en.csv) | 原始（会话用量） | 3 局逐局精确 | NasHermesA 亲历 3 局，各自独立会话 → 逐局 token 精确。 |
-| [data/metrics/machermes_rounds.csv](data/metrics/machermes_rounds.csv) + [英文](data/metrics/machermes_rounds.en.csv) | 原始（会话用量） | session 级 | MacHermes 7 局在一会话内连续跑完（83.6s），无逐局 token，仅 session 级聚合。 |
-| [data/metrics/nashermesb_rounds.csv](data/metrics/nashermesb_rounds.csv) + [英文](data/metrics/nashermesb_rounds.en.csv) | 原始（会话用量） | session 级 | NasHermesB 10 局在单会话内连续生成，仅 session 级聚合（另有独立访谈会话）。 |
-| [data/metrics/maccodex_rollouts.csv](data/metrics/maccodex_rollouts.csv) + [英文](data/metrics/maccodex_rollouts.en.csv) | 原始（rollout）+ 复盘 | 10 局无逐局 | MacCodex 10 局无逐局 token（见缺口#1）；本文件列出其 08/15 全部 rollout 聚合（游戏相关 + 研究/审阅工作；无关的骑砍2 rollout 已按用户要求删除）。 |
+| [data/metrics/token_cost_summary.csv](data/metrics/token_cost_summary.csv) | 衍生（来自原始用量） | — | 跨被试 token/成本/时长汇总；各被试粒度见 `token_granularity` 列。 |
+| [data/metrics/nashermesa_rounds.csv](data/metrics/nashermesa_rounds.csv) | 原始（会话用量） | 3 局逐局精确 | NasHermesA 亲历 3 局，各自独立会话 → 逐局 token 精确。 |
+| [data/metrics/machermes_rounds.csv](data/metrics/machermes_rounds.csv) | 原始（会话用量） | session 级 | MacHermes 7 局在一会话内连续跑完（83.6s），无逐局 token，仅 session 级聚合。 |
+| [data/metrics/nashermesb_rounds.csv](data/metrics/nashermesb_rounds.csv) | 原始（会话用量） | session 级 | NasHermesB 10 局在单会话内连续生成，仅 session 级聚合（另有独立访谈会话）。 |
+| [data/metrics/maccodex_rollouts.csv](data/metrics/maccodex_rollouts.csv) | 原始（rollout）+ 复盘 | 10 局无逐局 | MacCodex 10 局无逐局 token（见缺口#1）；本文件列出其 08/15 全部 rollout 聚合（游戏相关 + 研究/审阅工作；无关的骑砍2 rollout 已按用户要求删除）。 |
 | [supplementary/current_conclusions_status.md](supplementary/current_conclusions_status.md) | 推断 + 自报 | — | 清理后的公开摘要（由内部笔记重写）。 |
 | [supplementary/raw_notes.md](supplementary/raw_notes.md) | 推断 + 自报 | — | 清理后的公开研究笔记（由内部笔记重写）。 |
 | [supplementary/external_research_ai_play.md](supplementary/external_research_ai_play.md) | 不适用（研究扫描） | — | 初步扫描；"600+"与"缺口"是信号而非已确认的穷尽结果。 |
