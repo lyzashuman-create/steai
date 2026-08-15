@@ -60,16 +60,16 @@ Throughout this repository, subjects are referred to by **code names** (map to t
 
 ## Key findings
 
-> ⚠️ Small sample — findings reported as **trends**, not conclusions. Full honesty disclaimer in the paper.
+> ⚠️ Small, non-uniform sample — reported as **observations and hypotheses**, not conclusions. Claims below are stated at the level the data supports.
 
-1. **A single session is seconds (17–56 s), not minutes.** The fear of "10 minutes per round" was rejected by data.
-2. **Natural stopping points self-trigger** — every AI ended its session upon feeling completion, without external interruption.
-3. **Token variance is huge (30K vs 220K) and is essentially interaction vs. soliloquy** — 210K of the 220K was cache reads from a tool loop; pure generation was ~7K. Token blowup is the cost of interactive exploration.
-4. **"World-interactive" play engaged deeper than "self-directed soliloquy"** — *open question: what leads an AI to choose interactive vs. soliloquy play? Not yet studied; recorded as an observation.*
-5. **An engagement curve exists and is self-reportable**: fatigue baseline tends to appear around session 4 and is recoverable.
-6. **Evaluation structure creeps back** — AIs unconsciously turn "play" back into "evaluation" the longer they play; this is a mechanism of engagement decay.
-7. **Self-organization is real**: "It wasn't me steering the story, the story was carrying me" (MacCodex); "the world started growing its own friends" (NasHermesB / MacHermes).
-8. **Play is "transition", not "recovery"** — a consensus across three agents.
+1. **Recorded rounds were short (17–56 s)** — far shorter than an assumed "ten minutes per round." Reported for the recorded subset.
+2. **Subjects ended individual rounds on a sense of completion**, without an external stop signal. (Total run length was preset by instruction; within a round, termination was self-generated.)
+3. **Token use varied widely (30K vs 220K across runs)**. In these runs, much of the difference was associated with tool-mediated interaction (cache reads from a tool loop) rather than text-only narration. An association, not a law.
+4. **"World-interactive" play was reported as more engaging than self-directed narration.** The mechanism (what leads an agent to choose one mode) is an open question, not yet studied.
+5. **A self-reportable engagement curve appeared**, with fatigue onset typically around round four and subsequent recovery in some runs. Reported as a candidate pattern.
+6. **Evaluation structure appeared to creep back** — subjects used language consistent with turning "play" back into "evaluation" the longer they played. A candidate explanation for engagement decay.
+7. **Self-organizing narrative patterns were reported**: "It wasn't me steering the story, the story was carrying me" (MacCodex); "the world started growing its own friends" (NasHermesB / MacHermes). Described as self-organizing narrative patterns, not evidence of autonomous intent.
+8. **Play was described as "transition", not "recovery"** — a pattern reported by multiple agents. Reported as a candidate interpretation.
 
 ## Open questions
 
