@@ -659,4 +659,4 @@ Codex's overall self-account: Games 1, 2, 5, and 7 were the most engaged, and Ga
 - File 2 (were you happy): 82KB, 26 lines, 2 assistant messages
 - File 3 (fatigue): 86KB, 30 lines, 4 assistant messages
 - The three jsonl files have been exported to a local path on the Mac side (including metadata / tool calls; the reasoning is encrypted and invisible)
-- Complete materials archive: the raw jsonl files live on the Mac side at a local path (not committed to this repository); the MacCodex session record available in the repo is [data/sessions/MacCodex_10sessions_blind.en.md](../data/sessions/MacCodex_10sessions_blind.en.md) (reconstructed self-summary)
+- Complete materials archive: the raw jsonl files live on the Mac side at a local path (not committed to this repository); the MacCodex session record available in the repo is [MacCodex_10sessions_blind.en.md](MacCodex_10sessions_blind.en.md) (reconstructed self-summary)

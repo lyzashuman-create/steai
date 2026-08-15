@@ -96,12 +96,11 @@ STEAI 站在一条清晰分水岭的另一侧：
 
 ```
 DATA_MANIFEST.md  每个数据文件的来源（逐字 / 复盘 / 自报 / 推断）
-game/             游戏原文（逐字原稿 + 来源说明）
 data/
-  sessions/       各被试游玩记录（来源层级见 manifest）
-  metrics/        token / 时长 / 成本原始表
-  engagement_curve/  投入曲线数据
-  interviews/     第一人称采访记录
+  sessions/            各被试游玩记录：游戏逐字原文（ai_game_collection.md、machermes_fog_bay_raw_session.md）+ 各被试会话说明（来源层级见 manifest）
+  metrics/             token / 时长 / 成本原始表
+  engagement_curve/    投入曲线数据
+  interviews/          第一人称采访记录
 environment/      被试环境表（模型 / reasoning / 框架 / 版本）
 protocols/        盲测指令 / 采访提纲 / 设计决策 / 玩前心理想法
 scripts/          分析脚本 + 一键部署
@@ -171,7 +170,7 @@ docs/             （占位）
 ## 许可
 
 - **代码**（`scripts/`）：[MIT](LICENSE)。
-- **数据、游戏文本、文本内容**（`data/`、`game/`、`environment/`、`protocols/`、`supplementary/`、`report/`）：[CC BY 4.0](LICENSE-DATA)。
+- **数据、游戏文本、文本内容**（`data/`、`data/sessions/`、`environment/`、`protocols/`、`supplementary/`、`report/`）：[CC BY 4.0](LICENSE-DATA)。
 
 双许可说明见 [LICENSE-DATA](LICENSE-DATA)。
 

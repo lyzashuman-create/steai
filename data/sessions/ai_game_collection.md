@@ -651,4 +651,4 @@ Codex 整体自述：第一、二、五、七局最投入，第七局最像真�
 - 文件2（开不开心）：82KB，26行，assistant 2条
 - 文件3（疲劳感）：86KB，30行，assistant 4条
 - 三个 jsonl 已导出到 Mac 侧本地路径（含元数据/工具调用，reasoning 明文加密不可见）
-- 完整材料存档：原始 jsonl 在 Mac 侧本地路径（未提交仓库）；仓库内可用的 MacCodex 会话记录见 [data/sessions/MacCodex_10sessions_blind.md](../data/sessions/MacCodex_10sessions_blind.md)（复盘还原）
+- 完整材料存档：原始 jsonl 在 Mac 侧本地路径（未提交仓库）；仓库内可用的 MacCodex 会话记录见 [MacCodex_10sessions_blind.md](MacCodex_10sessions_blind.md)（复盘还原）

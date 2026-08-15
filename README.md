@@ -96,12 +96,11 @@ These are **open questions for future work**, discussed in the report's "Open qu
 
 ```
 DATA_MANIFEST.md  Provenance of every data file (raw / reconstructed / self-report / inference)
-game/            Game texts (original + provenance notes)
 data/
-  sessions/      Per-subject play records (source level in manifest)
-  metrics/       Token / duration / cost raw tables
-  engagement_curve/  Engagement curve data
-  interviews/    First-person interview records
+  sessions/            Per-subject play records: verbatim game transcripts (ai_game_collection.md, machermes_fog_bay_raw_session.md) + each subject's session notes (source level in manifest)
+  metrics/             Token / duration / cost raw tables
+  engagement_curve/    Engagement curve data
+  interviews/          First-person interview records
 environment/     Subject environment table
 protocols/       Blind-trial instruction, interview guide, design decisions, pre-play thoughts
 scripts/         Analysis scripts + one-command deployment
@@ -171,7 +170,7 @@ See [CITATION.cff](CITATION.cff). BibTeX will be added with the report.
 ## License
 
 - **Code** (in `scripts/`): [MIT](LICENSE).
-- **Data, game texts, and textual content** (`data/`, `game/`, `environment/`, `protocols/`, `supplementary/`, `report/`): [CC BY 4.0](LICENSE-DATA).
+- **Data, game texts, and textual content** (`data/`, `data/sessions/`, `environment/`, `protocols/`, `supplementary/`, `report/`): [CC BY 4.0](LICENSE-DATA).
 
 See [LICENSE-DATA](LICENSE-DATA) for the full dual-license explanation.
 
