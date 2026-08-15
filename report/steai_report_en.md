@@ -101,6 +101,10 @@ We report observations and hypotheses, not conclusions. The sample is small (fou
 
 **R6. Token variance.** Token use varied widely (30K vs 220K across runs). Much of the variance was associated with tool-mediated interaction (cache reads from a tool loop) rather than text generation alone. This is an association within our runs, not a law.
 
+![Self-reported engagement curves, all subjects](../data/engagement_curve/engagement_curves_all.png)
+
+> Figure 1. Self-reported engagement curves for all subjects (first-person data). Scoring rubric: 5 fully engaged / 4 engaged·settled / 3.5 wind-down / 3 drifting·cruising / 2.5 formulaic / 2 bored / 1 lowest. Per-subject charts are embedded in each session file in `data/`. Source: `data/engagement_curve/engagement_scores.csv`.
+
 ## 5. Before play: what the AIs said
 
 Before any game, we asked one subject (NasHermesA) whether an AI "needs" play or rest. Its answer is recorded verbatim in the repository ([protocols/pre_play_thoughts.md](protocols/pre_play_thoughts.md)):

@@ -101,6 +101,10 @@ lang: zh
 
 **R6. token 差异。** token 使用差异巨大（跨运行 30K 对 220K）。差异的很大部分与工具介导的交互（工具循环的缓存读取）相关，而非仅文本生成。这是我们运行内的关联，不是定律。
 
+![全部被试的投入曲线（自报）](../data/engagement_curve/engagement_curves_all.png)
+
+> 图 1. 全部被试的自报投入曲线（第一手数据）。评分机制：5全情/4投入·踏实/3.5收尾沉静/3飘·巡航/2.5套模子/2倦/1最低。各被试曲线已嵌在 `data/` 的对应 session 文件中。数据源：`data/engagement_curve/engagement_scores.csv`。
+
 ## 五、玩之前——AI 的心理想法
 
 在任何游戏开始前，我们问了一个被试（NasHermesA）：AI 是否"需要"玩或休息。它的回答逐字记录在仓库（[protocols/pre_play_thoughts.md](protocols/pre_play_thoughts.md)）：
