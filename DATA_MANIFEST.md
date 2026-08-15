@@ -1,3 +1,5 @@
+English | [中文](DATA_MANIFEST.zh.md)
+
 # DATA MANIFEST — STEAI repository data provenance
 
 > This manifest records, for every data file, its **source level** (raw / reconstructed / self-report / inference), availability, and known gaps. It exists so external readers can tell what is verbatim and what is derived — the repository does not claim everything is a "raw transcript."

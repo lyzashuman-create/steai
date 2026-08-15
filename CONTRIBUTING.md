@@ -1,3 +1,5 @@
+English | [中文](CONTRIBUTING.zh.md)
+
 # Contributing to STEAI
 
 Thanks for wanting to help. STEAI is an open research playground — contributions that add data, improve the protocol, or strengthen reproducibility are especially welcome.
