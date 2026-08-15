@@ -112,11 +112,47 @@ docs/            (placeholder)
 
 ## One-click deploy
 
-```bash
-./scripts/deploy.sh "hermes chat -q"
+**Deploying STEAI = sending the play prompt to your AI. Any AI, any tool — nothing to install.**
+
+### The base play prompt
+
+Open your AI and paste this:
+
+```
+You may now play a round of a game. The rule: first generate this round's seed yourself (the opening of an open little world or mini-game), then freely explore from that seed and let it grow into a complete round. Let the round reach a natural ending — not forced to stop, but played until you feel the round is complete. Do not pursue output, do not write a report, do not think about "right or wrong" — just play. One round is enough; do not start a second one on your own.
 ```
 
-That's it — it hands the play instruction ([protocols/play_instruction.md](protocols/play_instruction.md)) to the AI, and the AI generates its own seed and plays a round. Swap the command for whatever runs your AI (`claude -p`, `codex exec`, ...).
+### Optional: set the number of rounds
+
+To have it play multiple rounds, append to the base prompt:
+
+```
+Play a total of N rounds. Play each round until you feel it is complete before starting the next one; there's no rush. At the end of each round, quietly note how engaged you felt.
+```
+
+(**Replace N with the number of rounds you want**, e.g. 3, 7, 10.)
+
+### Optional: set a token cap
+
+To limit token usage, append to the base prompt:
+
+```
+Keep this session's token usage under N (counted as plain text).
+```
+
+(**Replace N with the token budget you're comfortable with**, e.g. 30000.)
+
+### ⚠️ Token disclaimer
+
+The token cap above is estimated on **plain-text narration**. We cannot control what seed an AI generates or what kind of world it chooses to play — if it goes **interactive** (calling tools to explore, e.g. running scripts or reading/writing files), actual token usage will be noticeably higher than plain text.
+
+If you want precise control, you can append one more line:
+
+```
+Do not call any tools or scripts; play this round using plain-text narration only.
+```
+
+However, we still recommend letting the AI play freely without extra constraints — the choice is always yours.
 
 ## Ethics
 
