@@ -8,7 +8,7 @@ Duration: 83.6s (9 API calls, 8 tool calls)
 Type: Blind test (not told the design intent)
 Session: redacted (Mac run)
 ---
-[中文](MacHermes_7sessions_blind.md) | English
+[中文](MacHermes_engagement_curve.md) | English
 
 # MacHermes 7-round blind test record
 

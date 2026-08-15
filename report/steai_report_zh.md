@@ -166,7 +166,7 @@ NasHermesA 的亲历感受（综合 rejoin_results 与 first_person 感受记录
 
 我们承认方式三的自评可能偏高——因为它是"我"认领"我"（NasHermesA 的底色 vs NasHermesA 玩的内容），天然贴合。更严谨的检验应做**跨底色归队**（让无底色分身用方式三去认领不同底色分身的经历）。作为第一轮，方向已经清楚：**底色是归队的关键变量。**
 
-**归队 vs 亲历的结论（候选模式，非定论）：亲历 > 任何归队方式。** 完整材料在 `protocols/rejoin_*.md`、`protocols/accidental_control_group.md` 与 `data/interviews/`、`data/engagement_curve/NasHermesA_first_person_*.md`。
+**归队 vs 亲历的结论（候选模式，非定论）：亲历 > 任何归队方式。** 完整材料在 `protocols/rejoin_*.md`、`protocols/accidental_control_group.md` 与 `data/interviews/`、`data/first_person/NasHermesA_first_person_*.md`。
 
 ## 七、认识论与局限
 

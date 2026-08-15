@@ -6,9 +6,9 @@
 类型: 盲测（未被告知设计意图）
 会话: 已脱敏（Mac 运行）
 ---
-[English](MacHermes_7sessions_blind.en.md) | 中文
+[English](MacHermes_engagement_curve.en.md) | 中文
 
-# MacHermes 7局盲测记录
+# MacHermes 7局兴奋点曲线（盲测）
 
 > 盲测：指令完全伪装成"用户让放松玩"，不含任何设计词。被试自己玩出了连续世界，并主动汇报了每局投入状态曲线。
 

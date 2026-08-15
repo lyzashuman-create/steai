@@ -8,7 +8,7 @@ Model: deepseek-v4-pro (reasoning max)
 Type: Monitored blind test (not told the design intent, but the instruction asked the subject to note its engagement level each round — a self-monitoring effect, disclosed as an intervention variable)
 Session: redacted
 ---
-[中文](NasHermesB_10sessions_blind.md) | English
+[中文](NasHermesB_engagement_curve.md) | English
 
 # NasHermesB 10-round blind test record
 

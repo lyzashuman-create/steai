@@ -3,7 +3,7 @@
 > 来源：Mac Hermes 本地会话库 `~/.hermes/state.db`，session `20260815_185800_54cf78`。
 > 性质：**原始逐字会话**（verbatim session transcript），逐轮输入/输出、工具骰子随机牌面、每局投入度标注、结尾总评全部原样保留，未加整理。
 > 为何逐句不分：7 局在**单个 session 内一整条超长 assistant 消息里连续生成**，非每局独立 API 调用，故逐局边界在数据层不可拆分；但正文自带「第 N 天 / 第 N 局 · 投入度」标记，下文按天分节。
-> 对应：复盘还原版见 `data/sessions/MacHermes_7sessions_blind.md`；本文件为完整原始材料。
+> 对应：复盘还原版见 `data/engagement_curve/MacHermes_engagement_curve.md`；本文件为完整原始材料。
 
 > **用户** · `2026-08-15 18:58:21`
 

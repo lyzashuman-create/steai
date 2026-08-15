@@ -97,9 +97,10 @@ STEAI 站在一条清晰分水岭的另一侧：
 ```
 DATA_MANIFEST.md  每个数据文件的来源（逐字 / 复盘 / 自报 / 推断）
 data/
-  sessions/            游戏会话合集（ai_game_collection.md / .en.md）——各 AI agent 的游戏会话记录
+  sessions/            游戏会话合集（ai_game_collection.md / .en.md）+ MacHermes 原始会话——各 AI agent 的游戏会话记录
+  first_person/        亲历记录（NasHermesA 的感受与单局亲历）
   metrics/             token / 时长 / 成本原始表
-  engagement_curve/    各被试投入曲线数据、图表、会话说明与亲历记录
+  engagement_curve/    各被试兴奋点曲线数据与图表
   interviews/          第一人称采访记录
 environment/      被试环境表（模型 / reasoning / 框架 / 版本）
 protocols/        盲测指令 / 采访提纲 / 设计决策 / 玩前心理想法

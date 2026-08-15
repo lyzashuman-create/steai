@@ -97,9 +97,10 @@ These are **open questions for future work**, discussed in the report's "Open qu
 ```
 DATA_MANIFEST.md  Provenance of every data file (raw / reconstructed / self-report / inference)
 data/
-  sessions/            Game transcript collection (ai_game_collection.md / .en.md) — the AI agents' game session records
+  sessions/            Game transcript collection (ai_game_collection.md / .en.md) + MacHermes raw session — the AI agents' game session records
+  first_person/        First-person accounts (NasHermesA's feelings and one-round record)
   metrics/             Token / duration / cost raw tables
-  engagement_curve/    Per-subject engagement curve data, charts, session notes, and first-person records
+  engagement_curve/    Per-subject engagement curve data and charts
   interviews/          First-person interview records
 environment/     Subject environment table
 protocols/       Blind-trial instruction, interview guide, design decisions, pre-play thoughts

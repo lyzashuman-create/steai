@@ -6,9 +6,9 @@
 类型: 盲测（未被告知设计意图），经 MacHermes 代为调度
 问话: 只问"你玩得开不开心"，原话未改
 ---
-[English](MacCodex_10sessions_blind.en.md) | 中文
+[English](MacCodex_engagement_curve.en.md) | 中文
 
-# MacCodex 10局盲测记录
+# MacCodex 10局兴奋点曲线（盲测）
 
 ## 直接回答（一字未改，第一手）
 

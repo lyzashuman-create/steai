@@ -6,9 +6,9 @@
 类型: 带监测盲测（未被告知设计意图，但指令要求每局自报投入程度——自我监测效应，作干预变量披露）
 会话: 已脱敏
 ---
-[English](NasHermesB_10sessions_blind.en.md) | 中文
+[English](NasHermesB_engagement_curve.en.md) | 中文
 
-# NasHermesB 10局盲测记录
+# NasHermesB 10局兴奋点曲线（盲测）
 
 ## 玩出的世界：灯塔守塔人
 

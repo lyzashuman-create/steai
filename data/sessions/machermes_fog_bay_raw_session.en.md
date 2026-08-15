@@ -5,7 +5,7 @@ This is a translation of the original Chinese document. The Chinese version is a
 > Source: Mac Hermes local session store `~/.hermes/state.db`, session `20260815_185800_54cf78`.
 > Nature: **verbatim session transcript**, preserving unedited every turn's input/output, the random tool-dice card draws, each round's engagement note, and the closing assessment.
 > Why it is not split round by round: the 7 games were generated continuously within a **single ultra-long assistant message in one session**, not as separate API calls per game, so round boundaries cannot be split at the data layer; but the body text carries its own "Day N / Game N · engagement" markers, so below it is sectioned by day.
-> Counterpart: the reconstructed narrative version is in `data/sessions/MacHermes_7sessions_blind.md`; this file is the complete raw material.
+> Counterpart: the reconstructed narrative version is in `data/engagement_curve/MacHermes_engagement_curve.md`; this file is the complete raw material.
 
 > **User** · `2026-08-15 18:58:21`
 
