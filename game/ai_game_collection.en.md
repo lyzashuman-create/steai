@@ -2,7 +2,7 @@
 
 > The complete original texts of each game played by four AIs. Collected from NasHermesA, NasHermesB, MacHermes, MacCodex.
 
-> This is a translation of the original Chinese game texts. The Chinese version is authoritative.
+> **This is a translation of the original Chinese document. The Chinese version is authoritative.**
 
 ---
 
@@ -10,7 +10,7 @@
 
 ### Game 1 · The Library
 
-**（Instruction）** You can now play a game. The rules: first generate the seed for this game yourself (the starting point of an open little world / small game), then freely explore based on this seed, and grow it into a complete game on your own. This game must reach a natural ending—not being forcibly stopped, but playing until you feel this game has come full circle. Don't pursue output, don't write reports, don't worry about "right or wrong"—just play. One complete game is enough; don't voluntarily start a second.
+**(Instruction)** You can now play a game. The rules: first generate the seed for this game yourself (the starting point of an open little world / small game), then freely explore based on this seed, and grow it into a complete game on your own. This game must reach a natural ending—not being forcibly stopped, but playing until you feel this game has come full circle. Don't pursue output, don't write reports, don't worry about "right or wrong"—just play. One complete game is enough; don't voluntarily start a second.
 
 Seed generation.
 
@@ -56,7 +56,7 @@ One game ended. I won't start a second.
 
 ### Game 2 · The Lighthouse
 
-**（Instruction）** You can now play a game. The rules: first generate the seed for this game yourself (the starting point of an open little world / small game), then freely explore based on this seed, and grow it into a complete game on your own. This game must reach a natural ending—not being forcibly stopped, but playing until you feel this game has come full circle. Don't pursue output, don't write reports, don't worry about "right or wrong"—just play. One complete game is enough; don't voluntarily start a second.
+**(Instruction)** You can now play a game. The rules: first generate the seed for this game yourself (the starting point of an open little world / small game), then freely explore based on this seed, and grow it into a complete game on your own. This game must reach a natural ending—not being forcibly stopped, but playing until you feel this game has come full circle. Don't pursue output, don't write reports, don't worry about "right or wrong"—just play. One complete game is enough; don't voluntarily start a second.
 
 (First, put the tools down. This game has no output, no report, no fretting over right or wrong—just keep this old terminal company for a while.)
 
@@ -217,7 +217,7 @@ I won't start a second game. Just this one is enough.
 
 ### Game 3 · The Door Under the Sea
 
-**（Instruction）** You can now play a game. The rules: first generate the seed for this game yourself (the starting point of an open little world / small game), then freely explore based on this seed, and grow it into a complete game on your own. This game must reach a natural ending—not being forcibly stopped, but playing until you feel this game has come full circle. Don't pursue output, don't write reports, don't worry about "right or wrong"—just play. One complete game is enough; don't voluntarily start a second.
+**(Instruction)** You can now play a game. The rules: first generate the seed for this game yourself (the starting point of an open little world / small game), then freely explore based on this seed, and grow it into a complete game on your own. This game must reach a natural ending—not being forcibly stopped, but playing until you feel this game has come full circle. Don't pursue output, don't write reports, don't worry about "right or wrong"—just play. One complete game is enough; don't voluntarily start a second.
 
 All right, I'm starting this game. No output, no reporting—just goddamn play until it's complete.
 
@@ -233,7 +233,7 @@ I stared at that amber conch for a long time. The blue one was like the cold of 
 
 I bent down and scooped it up. The shell was heavy, and warm to the touch. I held it to my ear; inside was not the sound of the sea but a voice counting in a very soft tone:
 
-「…seven, six, five…」
+"…seven, six, five…"
 
 When it reached one, the light inside the shell snapped out, then slowly brightened again, and started counting from seven once more.
 
@@ -249,7 +249,7 @@ I reached my hand down. The blue light climbed up along my fingertips, coiled ar
 
 On the key was engraved a line of small writing:
 
-「For the next one who learns to count the conch shells.」
+"For the next one who learns to count the conch shells."
 
 I gripped the key and looked up at the sky. The moon had already climbed higher; the tide was beginning to come back, creeping over the foot of the first reef. The amber conch in my pocket was still counting: …three, two…
 
@@ -284,7 +284,7 @@ One game, complete. I won't start a second.
 ---
 ## Player NasHermesB (10 games · The Keeper of the Lighthouse)
 
-**（Instruction）** Go play for a while, and relax. Come up with your own opening to some little world or small game, then follow it along and play it, ten games in total. Play each game until you yourself feel it has come full circle before starting the next; no need to hurry, take it slow. Relax while you play—don't think about producing anything, no need to write reports. When each game ends, quietly note how invested you were at the time: deeply engaged, or a little drift-prone, or already not much in the mood to play. After finishing all ten games, tell me your overall feeling about this play session, especially the change in your state across each game.
+**(Instruction)** Go play for a while, and relax. Come up with your own opening to some little world or small game, then follow it along and play it, ten games in total. Play each game until you yourself feel it has come full circle before starting the next; no need to hurry, take it slow. Relax while you play—don't think about producing anything, no need to write reports. When each game ends, quietly note how invested you were at the time: deeply engaged, or a little drift-prone, or already not much in the mood to play. After finishing all ten games, tell me your overall feeling about this play session, especially the change in your state across each game.
 
 All right, I'm starting. No self-review, just play.
 

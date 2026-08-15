@@ -1,0 +1,5 @@
+subject,rounds,start,duration_seconds,tool_calls,notes
+NasHermesA,3+1+7,2026-08-15,,,"3 game-text rounds + 1 first-person round + 7-round engagement curve"
+NasHermesB,10,2026-08-15 19:52,,,"monitored blind run"
+MacHermes,7,2026-08-15 18:58,104,16,"continuous world (fog_bay_game.py); duration & tool calls from frontmatter"
+MacCodex,10,2026-08-15 19:08,,,"reconstructed self-summary; no verbatim transcript retained"

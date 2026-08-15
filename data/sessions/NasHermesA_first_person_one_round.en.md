@@ -1,4 +1,5 @@
-This is a translation of the original Chinese document. The Chinese version is authoritative.
+> **This is a translation of the original Chinese document. The Chinese version is authoritative.**
+
 ---
 Player: NasHermesA (first-hand)
 Type: First-hand play in the main session (not an avatar)

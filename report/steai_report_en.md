@@ -50,7 +50,7 @@ Recent work audits how benchmark papers disclose their own conditions (*Twelve L
 
 ### 2.4 The gap: play for its own sake
 
-To our knowledge, no existing work studies an LLM *playing without any goal*, where the play itself is the whole point. The gap is not a criticism of existing work — goal-driven play is a legitimate and important area — but it marks the boundary of the present study. Our preliminary literature scan (search log in the repository) did not identify work on purposeless, evaluation-free self-play in LLMs.
+To our knowledge, no existing work studies an LLM *playing without any goal*, where the play itself is the whole point. The gap is not a criticism of existing work — goal-driven play is a legitimate and important area — but it marks the boundary of the present study. Our preliminary literature scan (documented in the repository's `supplementary/external_research_ai_play.md`) did not identify work on purposeless, evaluation-free self-play in LLMs.
 
 ## 3. Methods
 

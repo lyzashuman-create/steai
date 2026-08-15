@@ -37,7 +37,7 @@
 | [data/interviews/NasHermesB_interview_control.md](data/interviews/NasHermesB_interview_control.md) | self-report + inference | — | Control (read-back) interview. |
 | [environment/subject_environment_table.md](environment/subject_environment_table.md) | n/a (metadata) | — | Model/reasoning/framework/location. Note: `deepseek-v4-*` may be rolling aliases. |
 | [protocols/pre_play_thoughts.md](protocols/pre_play_thoughts.md) | self-report (verbatim) | — | Pre-play answer to "does an AI need play?" |
-| `protocols/` (interview guide, rejoin, accidental control) | n/a (protocol docs) | — | Design/procedure documents. |
+| [data/metrics/basic_metrics.csv](data/metrics/basic_metrics.csv) | derived (metadata) | — | Basic per-subject metrics (rounds, duration, tool calls where recorded). Per-round token/cost tables are not yet committed — see Known gaps #3. |
 | [supplementary/current_conclusions_status.md](supplementary/current_conclusions_status.md) | inference + self-report | — | Cleaned public summary (rewritten from internal notes). |
 | [supplementary/raw_notes.md](supplementary/raw_notes.md) | inference + self-report | — | Cleaned public research notes (rewritten from internal notes). |
 | [supplementary/external_research_ai_play.md](supplementary/external_research_ai_play.md) | n/a (research scan) | — | Preliminary scan; "600+" and "gap" claims are signals, not confirmed exhaustive results. |

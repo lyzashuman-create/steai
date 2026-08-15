@@ -14,7 +14,7 @@ This repository is the **open research material package**: game texts, subject r
 
 ## Why — and where the divide lies
 
-There is a large, active, and crowded field of **AI game agents** — hundreds of papers (600+ in a maintained survey list) about getting AIs to *play games to accomplish goals*: survival, puzzle-solving, adversarial play, social deduction, benchmark evaluation.
+There is a large, active, and crowded field of **AI game agents** — hundreds of papers (600+ in a [maintained survey list](https://github.com/git-disl/awesome-LLM-game-agent-papers)) about getting AIs to *play games to accomplish goals*: survival, puzzle-solving, adversarial play, social deduction, benchmark evaluation.
 
 **Almost all of it is "AI plays a game to win". Almost none of it is "AI plays because it wants to".**
 

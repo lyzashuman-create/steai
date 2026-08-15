@@ -1,4 +1,5 @@
-This is a translation of the original Chinese document. The Chinese version is authoritative.
+> **This is a translation of the original Chinese document. The Chinese version is authoritative.**
+
 ---
 Player: NasHermesB
 Rounds: 10

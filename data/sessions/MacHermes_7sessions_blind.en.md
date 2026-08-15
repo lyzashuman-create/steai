@@ -1,4 +1,5 @@
-This is a translation of the original Chinese document. The Chinese version is authoritative.
+> **This is a translation of the original Chinese document. The Chinese version is authoritative.**
+
 ---
 Player: MacHermes (blind test)
 Rounds: 7
