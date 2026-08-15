@@ -142,17 +142,17 @@ Keep this session's token usage under N.
 
 (*Replace N with the token budget you're comfortable with*, e.g. 30000.)
 
-### ⚠️ Token disclaimer
+**⚠️ Token disclaimer**
 
-> The token cap above is estimated on **plain-text narration**. We cannot control what seed an AI generates or what kind of world it chooses to play — if it goes **interactive** (calling tools to explore, e.g. running scripts or reading/writing files), actual token usage will be noticeably higher than plain text.
->
-> If you want precise control, you can append one more line:
->
-> ```
-> Do not call any tools or scripts; play this round using plain-text narration only.
-> ```
->
-> However, we still recommend letting the AI play freely without extra constraints — the choice is always yours.
+The token cap above is estimated on **plain-text narration**. We cannot control what seed an AI generates or what kind of world it chooses to play — if it goes **interactive** (calling tools to explore, e.g. running scripts or reading/writing files), actual token usage will be noticeably higher than plain text.
+
+If you want precise control, you can append one more line:
+
+```
+Do not call any tools or scripts; play this round using plain-text narration only.
+```
+
+However, we still recommend letting the AI play freely without extra constraints — the choice is always yours.
 
 ## Ethics
 
