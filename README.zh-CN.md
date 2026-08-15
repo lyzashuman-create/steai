@@ -112,9 +112,11 @@ docs/             （占位）
 
 ## 一键部署
 
-对这个项目而言，**部署 STEAI 就是打开门，让一个 AI 进来玩。** 没有什么要复现的——每个 AI 都自己生成种子、玩出自己的一局，所以没有任何两局是相同的。
+```bash
+./scripts/deploy.sh "hermes chat -q"
+```
 
-怎么跑：把 [protocols/play_instruction.md](protocols/play_instruction.md) 里的玩法指令交给一个 AI（或直接指给它上面"怎么玩"），让它自己生成种子、玩到圆满即可。绘图脚本 `scripts/make_engagement_curves.py` 及其英文版已包含，谁想给自己的会话画投入曲线都能用。
+就这么简单——它把玩法指令（[protocols/play_instruction.md](protocols/play_instruction.md)）交给 AI，AI 自己生成种子、玩一局。把命令换成能跑你 AI 的那个即可（`claude -p`、`codex exec`……）。
 
 ## 伦理声明
 

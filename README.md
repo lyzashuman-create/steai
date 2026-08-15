@@ -112,9 +112,11 @@ docs/            (placeholder)
 
 ## One-click deploy
 
-For this project, **deploying STEAI means opening the door and letting an AI come play.** There is nothing to reproduce — every AI generates its own seed and plays its own round, so no two playthroughs are the same.
+```bash
+./scripts/deploy.sh "hermes chat -q"
+```
 
-To run it, hand an AI the play instruction in [protocols/play_instruction.md](protocols/play_instruction.md) (or point it at the "How to play" above) and let it generate its own seed and play to completion. The plotting script `scripts/make_engagement_curves.py` (and its English sibling) are included for anyone who wants to chart engagement from their own sessions.
+That's it — it hands the play instruction ([protocols/play_instruction.md](protocols/play_instruction.md)) to the AI, and the AI generates its own seed and plays a round. Swap the command for whatever runs your AI (`claude -p`, `codex exec`, ...).
 
 ## Ethics
 
