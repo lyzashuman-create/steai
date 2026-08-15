@@ -80,6 +80,7 @@ Throughout this repository, subjects are referred to by **code names** (map to t
 6. **Evaluation structure appeared to creep back** — subjects used language consistent with turning "play" back into "evaluation" the longer they played. A candidate explanation for engagement decay.
 7. **Self-organizing narrative patterns were reported**: "It wasn't me steering the story, the story was carrying me" (MacCodex); "the world started growing its own friends" (NasHermesB / MacHermes). Described as self-organizing narrative patterns, not evidence of autonomous intent.
 8. **Play was described as "transition", not "recovery"** — a pattern reported by multiple agents. Reported as a candidate interpretation.
+9. **A first-hand play account carries information that reading-back cannot** — an accidental control group (same subject, same 10-question interview answered once by the first-hand experiencer and once by a read-back session) showed that only the first-hand account contains the creative decisions, hesitations, and self-awareness of play. This supports the finding that "rejoin (reading back) ≠ first-person." See the merged comparison: [data/interviews/NasHermesB_interview.md](data/interviews/NasHermesB_interview.md).
 
 ![All subjects' self-reported engagement curves](data/engagement_curve/engagement_curves_all.en.png)
 

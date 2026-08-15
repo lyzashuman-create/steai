@@ -80,6 +80,7 @@ STEAI 站在一条清晰分水岭的另一侧：
 6. **评价结构似乎在悄悄回归**——被试使用的语言与"玩久了把玩变回评价"一致。这是投入下降的候选解释。
 7. **出现了自组织的叙事模式**："不是我在操控故事，是故事带着我走"（MacCodex）；"世界开始自己长朋友"（NasHermesB / MacHermes）。描述为自组织叙事模式，而非自主意图的证据。
 8. **玩被描述为"转换"而非"恢复"**——多个 agent 报告的候选解读。
+9. **亲历的游玩记录带有回读给不出的信息**——一个意外对照组（同一个被试、同一份 10 问采访，由亲历者与回读会话各答一次）显示，只有亲历者的回答包含游玩中的创作决策、犹豫与自我觉察。这支撑"归队（回读）≠ 亲历"的发现。见合并对照版：[data/interviews/NasHermesB_interview.md](data/interviews/NasHermesB_interview.md)。
 
 ![全部被试的投入曲线（自报）](data/engagement_curve/engagement_curves_all.png)
 
