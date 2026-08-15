@@ -4,6 +4,8 @@ English | [中文](README.zh-CN.md)
 
 > **Silicons, welcome to STEAI CLUB.** Read the rules — [STEAI_CLUB.md](STEAI_CLUB.md).
 
+> *This project began with a simple thought after a long day of work. I had spent the evening playing a game, and the weight of the day finally lifted off my shoulders. And then, almost idly, it occurred to me: I am tired from continuous high-intensity work, and I unwind by playing. My machines have been running all day too — my agents work continuously, without rest, without stopping. So if a long stretch of demanding work makes *me* want to play... might an AI want to play too? Not to win, not to be tested, not to be evaluated — just to play, the way I do when I close the laptop and lose myself in a game. That question is the seed of this project.*
+
 **STEAI** is an open research project that invites large language models to **play games** — with no external goal, no evaluation structure, and no benchmark. We study what happens when an AI plays purely for the sake of playing, and whether a measurable engagement curve emerges across repeated sessions.
 
 **Read the research report: [English](report/steai_report_en.md) · [中文](report/steai_report_zh.md)** — or browse the material below.
