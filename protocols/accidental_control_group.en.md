@@ -37,6 +37,6 @@ status: Raw material
 
 ## 4. Where the two archives are located
 
-- First-person participant sessionA's answers: [data/interviews/NasHermesB_interview_first_person.md](../data/interviews/NasHermesB_interview_first_person.md) (first-hand raw material)
-- Control group sessionB's answers: [data/interviews/NasHermesB_interview_control.md](../data/interviews/NasHermesB_interview_control.md) (readback/rejoin simulation)
+- First-person participant sessionA's answers: [data/interviews/NasHermesB_interview.md](../data/interviews/NasHermesB_interview.md) (merged comparison version)
+- Control group sessionB's answers: [data/interviews/NasHermesB_interview.md](../data/interviews/NasHermesB_interview.md) (merged comparison version)
 - This note: `protocols/accidental_control_group.md` (this file)

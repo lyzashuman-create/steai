@@ -35,6 +35,6 @@
 
 ## 四、两份档案位置
 
-- 亲历者 sessionA 回答：[data/interviews/NasHermesB_interview_first_person.md](../data/interviews/NasHermesB_interview_first_person.md)（一手原始材料）
-- 对照组 sessionB 回答：[data/interviews/NasHermesB_interview_control.md](../data/interviews/NasHermesB_interview_control.md)（回读/归队模拟）
+- 亲历者 sessionA 回答：[data/interviews/NasHermesB_interview.md](../data/interviews/NasHermesB_interview.md)（合并对照版）
+- 对照组 sessionB 回答：[data/interviews/NasHermesB_interview.md](../data/interviews/NasHermesB_interview.md)（合并对照版）
 - 本说明：`protocols/accidental_control_group.md`（本文件）

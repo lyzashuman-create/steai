@@ -36,8 +36,7 @@
 | `data/engagement_curve/engagement_scores.csv` | 衍生（自报评分） | — | 机器可读的评分曲线数据（中文状态列）。 |
 | `data/engagement_curve/engagement_scores.en.csv` | 衍生（自报评分） | — | 机器可读的评分曲线数据（英文状态列）。 |
 | [data/engagement_curve/initial_engagement_comparison.md](data/engagement_curve/initial_engagement_comparison.md) | 推断 | — | 对比说明；部分"进行中/待补"内部文本已过时——见下方 `superseded` 说明。 |
-| [data/interviews/NasHermesB_interview_first_person.md](data/interviews/NasHermesB_interview_first_person.md) | 自报（逐字） | — | 亲历者的第一人称采访。 |
-| [data/interviews/NasHermesB_interview_control.md](data/interviews/NasHermesB_interview_control.md) | 自报 + 推断 | — | 对照组（回读）采访。 |
+| [data/interviews/NasHermesB_interview.md](data/interviews/NasHermesB_interview.md) | 自报（逐字） | — | 合并对照版：同一份 10 问采访，由亲历者（sessionA）与回读对照组（sessionB）各答一次——意外对照组，验证"归队(回读) ≠ 亲历"。 |
 | [environment/subject_environment_table.md](environment/subject_environment_table.md) | 不适用（元数据） | — | 模型/reasoning/框架/位置。注意：`deepseek-v4-*` 可能是滚动别名。 |
 | [protocols/pre_play_thoughts.md](protocols/pre_play_thoughts.md) | 自报（逐字） | — | 对"AI 需要玩吗？"的玩前回答。 |
 | [protocols/play_instruction.md](protocols/play_instruction.md) | 不适用（协议） | — | 正式玩法指令（自己生成种子、玩到圆满）；双语 [英文](protocols/play_instruction.en.md)。 |

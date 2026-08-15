@@ -36,8 +36,7 @@ English | [中文](DATA_MANIFEST.zh.md)
 | `data/engagement_curve/engagement_scores.csv` | derived (self-report scores) | — | Machine-readable scored curve data (Chinese status column). |
 | `data/engagement_curve/engagement_scores.en.csv` | derived (self-report scores) | — | Machine-readable scored curve data (English status column). |
 | [data/engagement_curve/initial_engagement_comparison.md](data/engagement_curve/initial_engagement_comparison.md) | inference | — | Comparative note; some internal "in progress / pending" text is stale — see `superseded` note below. |
-| [data/interviews/NasHermesB_interview_first_person.md](data/interviews/NasHermesB_interview_first_person.md) | self-report (verbatim) | — | First-person interview of the experienced subject. |
-| [data/interviews/NasHermesB_interview_control.md](data/interviews/NasHermesB_interview_control.md) | self-report + inference | — | Control (read-back) interview. |
+| [data/interviews/NasHermesB_interview.md](data/interviews/NasHermesB_interview.md) | self-report (verbatim) | — | Merged comparison: same 10-question interview answered by the first-hand experiencer (sessionA) vs. the read-back control (sessionB) — an accidental control group verifying "rejoin (read-back) ≠ first-person". |
 | [environment/subject_environment_table.md](environment/subject_environment_table.md) | n/a (metadata) | — | Model/reasoning/framework/location. Note: `deepseek-v4-*` may be rolling aliases. |
 | [protocols/pre_play_thoughts.md](protocols/pre_play_thoughts.md) | self-report (verbatim) | — | Pre-play answer to "does an AI need play?" |
 | [protocols/play_instruction.md](protocols/play_instruction.md) | n/a (protocol) | — | The official play instruction (generate your own seed, play to completion); bilingual [EN](protocols/play_instruction.en.md). |
