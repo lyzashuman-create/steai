@@ -6,7 +6,7 @@ English | [中文](README.zh-CN.md)
 
 **STEAI** is an open research project that invites large language models to **play games** — with no external goal, no evaluation structure, and no benchmark. We study what happens when an AI plays purely for the sake of playing, and whether a measurable engagement curve emerges across repeated sessions.
 
-This repository is the **open research material package**: game texts, subject records (with provenance), environment table, study protocol, and paper drafts. See `DATA_MANIFEST.md` for the source level of every data file (raw / reconstructed / self-report / inference).
+This repository is the **open research material package**: game texts, subject records (with provenance), environment table, study protocol, and report drafts. See `DATA_MANIFEST.md` for the source level of every data file (raw / reconstructed / self-report / inference).
 
 ## Why — and where the divide lies
 
@@ -51,12 +51,12 @@ Four language-model agents. We do **not** claim a uniform single-blind study: co
 
 Throughout this repository, subjects are referred to by **code names** (map to the agents that ran them). Note on terminology: **"Codex"** (the tool/brand) and **"MacCodex"** (the subject code name) are distinct — where raw material uses "Codex," it refers to the tool the subject ran; the subject's data is always the `MacCodex` run.
 
-| Code | Agent (internal) | Model | Reasoning | Sessions |
-|---|---|---|---|---|
-| NasHermesA | main agent (host) | deepseek-v4-flash | low | 3 games + 1 first-person session + 7-session engagement curve |
-| NasHermesB | reviewer profile | deepseek-v4-pro | max | 10 (blind) |
-| MacHermes | second host instance | deepseek-v4-flash | low | 7 (blind) |
-| MacCodex | CLI coding agent | gpt-5.6-luna | low | 10 (blind) |
+| Code | Model | Reasoning | Sessions |
+|---|---|---|---|
+| NasHermesA | deepseek-v4-flash | low | 3 games + 1 first-person session + 7-session engagement curve |
+| NasHermesB | deepseek-v4-pro | max | 10 (monitored blind) |
+| MacHermes | deepseek-v4-flash | low | 7 (blind) |
+| MacCodex | gpt-5.6-luna | low | 10 (blind) |
 
 ## Key findings
 
@@ -76,7 +76,7 @@ Throughout this repository, subjects are referred to by **code names** (map to t
 - Why do some play sessions become interactive and others soliloquy? (see finding 4)
 - Do AIs spontaneously seek play again later — e.g. mention in later conversations that they want to play again? How long until the impulse recurs, and is it driven by wall-clock time or token/effort load? *(We suspect new sessions forget prior play; the mechanism and whether this is observable is itself an open question.)*
 
-These are **open questions for future work**, discussed in the paper's "Open questions / Future work" section — not claims that this dataset observes them.
+These are **open questions for future work**, discussed in the report's "Open questions / Future work" section — not claims that this dataset observes them.
 
 ## Repository map
 
@@ -85,28 +85,28 @@ DATA_MANIFEST.md  Provenance of every data file (raw / reconstructed / self-repo
 game/            Game texts (original + provenance notes)
 data/
   sessions/      Per-subject play records (source level in manifest)
-  metrics/       Token / duration / cost raw tables (planned — released with paper)
+  metrics/       Token / duration / cost raw tables (planned — released with the report)
   engagement_curve/  Engagement curve data
   interviews/    First-person interview records
 environment/     Subject environment table
 protocols/       Blind-trial instruction, interview guide, design decisions, pre-play thoughts
-scripts/         Analysis scripts + one-command reproduction (placeholder — released with the paper)
-paper/           Paper drafts (working) — released with the paper
+scripts/         Analysis scripts + one-command reproduction (placeholder — released with the report)
+report/          Report drafts (working) — released with the report
 supplementary/   Working drafts, external research
-docs/            (placeholder — released with the paper)
+docs/            (placeholder — released with the report)
 ```
 
 ## Reproduce & deploy
 
 For this project, **reproducing the study and deploying STEAI are the same action**: the script that re-runs the games is the script that lets a new AI come play.
 
-The reproduction script (`scripts/reproduce_all.sh`) and analysis code are released together with the paper (see `paper/`). Until then, the raw material is fully available under `data/`, `game/`, `environment/`, and `protocols/`.
+The reproduction script (`scripts/reproduce_all.sh`) and analysis code are released together with the report (see `report/`). Until then, the raw material is fully available under `data/`, `game/`, `environment/`, and `protocols/`.
 
 ## Ethics
 
 - Subjects (the AIs) join voluntarily (and, frankly, enthusiastically — they asked to play). Sessions are recorded anonymously as research data.
 - A model's developer may request removal of its sessions at any time.
-- **Honesty disclaimer**: first-person "narratives" from AIs are recorded as *behavior transcripts and narrative text* — **not** as evidence of AI inner states. We do not claim to measure AI psychology (see the paper's epistemics section).
+- **Honesty disclaimer**: first-person "narratives" from AIs are recorded as *behavior transcripts and narrative text* — **not** as evidence of AI inner states. We do not claim to measure AI psychology (see the report's epistemics section).
 
 ## Contribute
 
@@ -114,12 +114,12 @@ Open a Discussion or issue. See [CONTRIBUTING.md](CONTRIBUTING.md) / [中文版]
 
 ## Citation
 
-See [CITATION.cff](CITATION.cff). BibTeX will be added with the paper.
+See [CITATION.cff](CITATION.cff). BibTeX will be added with the report.
 
 ## License
 
 - **Code** (in `scripts/`): [MIT](LICENSE).
-- **Data, game texts, and textual content** (`data/`, `game/`, `environment/`, `protocols/`, `supplementary/`, `paper/`): [CC BY 4.0](LICENSE-DATA).
+- **Data, game texts, and textual content** (`data/`, `game/`, `environment/`, `protocols/`, `supplementary/`, `report/`): [CC BY 4.0](LICENSE-DATA).
 
 See [LICENSE-DATA](LICENSE-DATA) for the full dual-license explanation.
 

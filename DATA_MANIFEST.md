@@ -40,7 +40,7 @@
 
 1. **MacCodex verbatim transcripts are unavailable.** Its play session did not retain per-turn assistant messages; only its post-hoc self-summary exists. Treat MacCodex data as *reconstructed*, not raw.
 2. **`fog_bay_game.py`** (referenced in `data/sessions/MacHermes_7sessions_blind.md`) is not archived here. Conclusions that depend on it should be treated as unverifiable from this package alone.
-3. **Quantitative claims** (17–56 s; 30K vs 220K tokens; 210K cache read; ~7K generation) currently rest on the source files' narratives, not on committed raw metrics tables. A machine-readable metrics table is planned for the paper's release.
+3. **Quantitative claims** (17–56 s; 30K vs 220K tokens; 210K cache read; ~7K generation) currently rest on the source files' narratives, not on committed raw metrics tables. A machine-readable metrics table is planned for the report's release.
 4. **`data/sessions/NasHermesA_first_person_one_round.md`** documents a single first-person round (distinct from the 7-round engagement curve in `engagement_curve/NasHermesA_engagement_curve.md`).
 5. **`data/engagement_curve/initial_engagement_comparison.md`** contains stale "in progress / pending" text that conflicts with completed MacCodex data. Marked as a historical working note; superseded by the engagement curve files.
 
@@ -48,7 +48,7 @@
 
 ## Superseded / historical
 
-- `data/engagement_curve/initial_engagement_comparison.md` — historical working comparison; superseded by per-subject engagement curve files and the paper.
+- `data/engagement_curve/initial_engagement_comparison.md` — historical working comparison; superseded by per-subject engagement curve files and the report.
 - `supplementary/current_conclusions_status.md`, `supplementary/raw_notes.md` — cleaned public versions; original internal working notes are not published (contained internal paths/identifiers).
 
 ---

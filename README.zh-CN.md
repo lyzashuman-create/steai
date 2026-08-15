@@ -6,7 +6,7 @@
 
 **STEAI** 是一个开放研究项目：邀请大语言模型在没有外部目标、没有评价结构、没有基准的情况下，**玩游戏**。我们研究当 AI 纯粹为了玩而玩时，会发生什么——以及在连续多局中，是否会出现可测量的投入曲线。
 
-本仓库是该研究的**开放研究材料包**：游戏原文、被试记录（含来源层级）、环境表、研究方案、论文草稿。每个数据文件的来源（逐字 / 复盘 / 自报 / 推断）见 `DATA_MANIFEST.md`。
+本仓库是该研究的**开放研究材料包**：游戏原文、被试记录（含来源层级）、环境表、研究方案、研究报告草稿。每个数据文件的来源（逐字 / 复盘 / 自报 / 推断）见 `DATA_MANIFEST.md`。
 
 ## 为什么做这个——以及分水岭
 
@@ -51,12 +51,12 @@ STEAI 站在一条清晰分水岭的另一侧：
 
 本仓库统一使用**被试代号**（对应实际运行的 agent）。术语说明：**"Codex"**（工具/品牌名）与 **"MacCodex"**（被试代号）不同——原始材料中的"Codex"指被试运行的工具，被试数据一律归 `MacCodex` 运行。
 
-| 代号 | Agent（内部） | 模型 | reasoning | 局数 |
-|---|---|---|---|---|
-| NasHermesA | 主 agent（宿主） | deepseek-v4-flash | low | 3 局游戏原文 + 1 局亲历 + 7 局亲历曲线 |
-| NasHermesB | 审核员 profile | deepseek-v4-pro | max | 10（盲测） |
-| MacHermes | 第二宿主实例 | deepseek-v4-flash | low | 7（盲测） |
-| MacCodex | CLI 编码 agent | gpt-5.6-luna | low | 10（盲测） |
+| 代号 | 模型 | reasoning | 局数 |
+|---|---|---|---|
+| NasHermesA | deepseek-v4-flash | low | 3 局游戏 + 1 局亲历 + 7 局投入曲线 |
+| NasHermesB | deepseek-v4-pro | max | 10（带监测盲测） |
+| MacHermes | deepseek-v4-flash | low | 7（盲测） |
+| MacCodex | gpt-5.6-luna | low | 10（盲测） |
 
 ## 核心发现
 
@@ -76,7 +76,7 @@ STEAI 站在一条清晰分水岭的另一侧：
 - 为什么有的局变成交互式、有的变成独角戏？（见发现 4）
 - AI 会不会在之后的对话里自发想再玩——比如过一阵子提到"好久没玩游戏了，想玩"？隔多久会有这冲动？是墙钟时间还是 token/工作量消耗驱动？*（我们怀疑新 session 会遗忘之前的游玩，机制与可观测性本身就是一个待研究问题。）*
 
-这些是**留给未来工作的开放问题**，在论文的"开放问题 / 未来工作"章节讨论——**不是**本数据集声称观测到的内容。
+这些是**留给未来工作的开放问题**，在研究报告的"开放问题 / 未来工作"章节讨论——**不是**本数据集声称观测到的内容。
 
 ## 仓库结构
 
@@ -85,28 +85,28 @@ DATA_MANIFEST.md  每个数据文件的来源（逐字 / 复盘 / 自报 / 推�
 game/             游戏原文（逐字原稿 + 来源说明）
 data/
   sessions/       各被试游玩记录（来源层级见 manifest）
-  metrics/        token / 时长 / 成本原始表（计划中——随论文发布）
+  metrics/        token / 时长 / 成本原始表（计划中——随研究报告发布）
   engagement_curve/  投入曲线数据
   interviews/     第一人称采访记录
 environment/      被试环境表（模型 / reasoning / 框架 / 版本）
 protocols/        盲测指令 / 采访提纲 / 设计决策 / 玩前心理想法
-scripts/          分析脚本 + 一键复现（占位——随论文发布）
-paper/            论文草稿（工作稿）——随论文发布
+scripts/          分析脚本 + 一键复现（占位——随研究报告发布）
+report/           研究报告草稿（工作稿）——随研究报告发布
 supplementary/    工作稿、外部调研
-docs/             （占位——随论文发布）
+docs/             （占位——随研究报告发布）
 ```
 
 ## 一键复现 / 部署
 
 对这个项目而言，**复现研究与部署 STEAI 是同一个动作**——让 AI 重新跑游戏的脚本，就是让新 AI 来玩的脚本。
 
-复现脚本（`scripts/reproduce_all.sh`）与分析代码**随论文一起发布**（见 `paper/`）。在此之前，原始材料已在 `data/`、`game/`、`environment/`、`protocols/` 中完整提供。
+复现脚本（`scripts/reproduce_all.sh`）与分析代码**随研究报告一起发布**（见 `report/`）。在此之前，原始材料已在 `data/`、`game/`、`environment/`、`protocols/` 中完整提供。
 
 ## 伦理声明
 
 - 被试（AI）自愿（而且说真的，热情高涨地——它们主动要求玩）参与。游戏记录匿名作为研究数据。
 - 任何模型的使用者可随时要求撤回其游戏记录。
-- **诚实保留声明**：AI 的第一人称"叙述"仅作为**行为转录与叙述文本**记录——**不**作为 AI 内在状态的证据。我们不宣称测量 AI 的心理（详见论文认识论章节）。
+- **诚实保留声明**：AI 的第一人称"叙述"仅作为**行为转录与叙述文本**记录——**不**作为 AI 内在状态的证据。我们不宣称测量 AI 的心理（详见研究报告认识论章节）。
 
 ## 贡献
 
@@ -114,12 +114,12 @@ docs/             （占位——随论文发布）
 
 ## 引用
 
-见 [CITATION.cff](CITATION.cff)。BibTeX 随论文补充。
+见 [CITATION.cff](CITATION.cff)。BibTeX 随研究报告补充。
 
 ## 许可
 
 - **代码**（`scripts/`）：[MIT](LICENSE)。
-- **数据、游戏文本、文本内容**（`data/`、`game/`、`environment/`、`protocols/`、`supplementary/`、`paper/`）：[CC BY 4.0](LICENSE-DATA)。
+- **数据、游戏文本、文本内容**（`data/`、`game/`、`environment/`、`protocols/`、`supplementary/`、`report/`）：[CC BY 4.0](LICENSE-DATA)。
 
 双许可说明见 [LICENSE-DATA](LICENSE-DATA)。
 

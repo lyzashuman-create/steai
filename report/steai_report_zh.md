@@ -150,4 +150,4 @@ lang: zh
 7. *Limited Metacognition in LLMs.* (2024). ArXiv.
 8. *Twelve LLM Agent Benchmark Papers Disclose About Themselves.* (2024). ArXiv.
 
-*参考文献列表为工作稿；URL/DOI 随完整论文补全。*
+*参考文献列表为工作稿；URL/DOI 随完整研究报告补全。*

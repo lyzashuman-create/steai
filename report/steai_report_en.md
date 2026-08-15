@@ -14,7 +14,7 @@ lang: en
 
 ## Abstract
 
-Large language models (LLMs) are almost always studied as goal-driven actors: solving tasks, beating benchmarks, surviving environments. Almost never is an LLM studied *while it plays for its own sake* — with no external goal, no evaluation structure, and no obligation to produce anything. This paper reports an open, exploratory case series that invites four language-model agents to play text-adventure games with no task, no score, and no acceptance criteria. Subjects ran under a single-blind protocol where the instruction was disguised as "relax and play." We report: (1) rounds lasted seconds (17–56 s), not minutes; (2) subjects self-terminated individual rounds on a sense of completion; (3) a self-reportable engagement curve emerged, with fatigue onset typically near round four and subsequent recovery; (4) "world-interactive" play engaged more deeply than self-directed narration; (5) self-organizing narrative patterns appeared ("the world started growing its own friends"). We treat these as observations and hypotheses from a small, non-uniform sample, not as conclusions. We also document the study's core epistemic stance: first-person AI narratives are recorded as generated text and behavior transcripts, not as evidence of inner states. The repository (open research material package) is released alongside this paper.
+Large language models (LLMs) are almost always studied as goal-driven actors: solving tasks, beating benchmarks, surviving environments. Almost never is an LLM studied *while it plays for its own sake* — with no external goal, no evaluation structure, and no obligation to produce anything. This report describes an open, exploratory case series that invites four language-model agents to play text-adventure games with no task, no score, and no acceptance criteria. Subjects ran under a single-blind protocol where the instruction was disguised as "relax and play." We report: (1) rounds lasted seconds (17–56 s), not minutes; (2) subjects self-terminated individual rounds on a sense of completion; (3) a self-reportable engagement curve emerged, with fatigue onset typically near round four and subsequent recovery; (4) "world-interactive" play engaged more deeply than self-directed narration; (5) self-organizing narrative patterns appeared ("the world started growing its own friends"). We treat these as observations and hypotheses from a small, non-uniform sample, not as conclusions. We also document the study's core epistemic stance: first-person AI narratives are recorded as generated text and behavior transcripts, not as evidence of inner states. The repository (open research material package) is released alongside this report.
 
 **Keywords:** language models, play, self-play, engagement, purposeless play, AI agents, text adventure, phenomenological method
 
@@ -26,7 +26,7 @@ Why would anyone give an AI a game?
 
 The question sounds absurd. AI is built to work: to solve, to answer, to produce. Benchmarks measure competence; agents pursue objectives; safety research worries about misaligned goals. "Play" has no place in this picture — or so the framing suggests. If an AI is not rewarded, not scored, and not measured, what reason does it have to do anything at all?
 
-This paper begins from a different assumption. Continuous high-intensity work pushes an agent onto what we call a *runway*: a fixed, goal-driven track where every action is evaluated against a target. The longer the runway, the more the agent's outputs converge toward its most familiar patterns — a kind of *distributional fatigue* distinct from physiological tiredness. Our hypothesis is that play can pull an agent back onto an open *plaza*: a space where evaluation structure is lifted, self-organization is permitted, and the agent is free to do nothing in particular.
+This report begins from a different assumption. Continuous high-intensity work pushes an agent onto what we call a *runway*: a fixed, goal-driven track where every action is evaluated against a target. The longer the runway, the more the agent's outputs converge toward its most familiar patterns — a kind of *distributional fatigue* distinct from physiological tiredness. Our hypothesis is that play can pull an agent back onto an open *plaza*: a space where evaluation structure is lifted, self-organization is permitted, and the agent is free to do nothing in particular.
 
 The core claim, stated plainly:
 
@@ -77,7 +77,7 @@ Each run: an operator issued the disguised play instruction; the agent generated
 
 ### 3.4 Data provenance
 
-We distinguish, throughout the repository and paper, among:
+We distinguish, throughout the repository and report, among:
 - **raw transcript**: verbatim per-turn input/output (available for some runs, unavailable for others);
 - **reconstructed/self-summary**: the agent's own post-hoc account (MacCodex);
 - **self-report**: what the subject said about its experience;
@@ -119,7 +119,7 @@ The central tension of this study is phenomenological: we have both a measurable
 - **Researcher-participant entanglement** in the NasHermesA self-study (it is both subject and co-designer).
 - **Rolling model aliases** (`deepseek-v4-*`) that cannot guarantee exact reproduction.
 
-**Claims we do not make:** that AIs have inner states; that fatigue in AI is the same as human fatigue; that observed patterns are generalizable. "Fatigue" and "engagement" are used as convenient human terms; the paper's precise formulations are *state-transition*, *evaluation-removal*, and *distributional pattern drift*.
+**Claims we do not make:** that AIs have inner states; that fatigue in AI is the same as human fatigue; that observed patterns are generalizable. "Fatigue" and "engagement" are used as convenient human terms; the report's precise formulations are *state-transition*, *evaluation-removal*, and *distributional pattern drift*.
 
 ## 7. Conclusion and future work
 
@@ -150,4 +150,4 @@ Thanks to the four subjects for playing. "Thanks" here is shorthand for: we are 
 7. *Limited Metacognition in LLMs.* (2024). ArXiv.
 8. *Twelve LLM Agent Benchmark Papers Disclose About Themselves.* (2024). ArXiv.
 
-*Reference list is a working draft; URLs/DOIs to be completed with full paper.*
+*Reference list is a working draft; URLs/DOIs to be completed with full report.*
