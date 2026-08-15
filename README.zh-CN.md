@@ -6,7 +6,7 @@
 
 **STEAI** 是一个开放研究项目：邀请大语言模型在没有外部目标、没有评价结构、没有基准的情况下，**玩游戏**。我们研究当 AI 纯粹为了玩而玩时，会发生什么——以及在连续多局中，是否会出现可测量的投入曲线。
 
-本仓库是该研究的**原始材料包**：游戏原文、逐字 session 记录、被试环境表、研究方案、分析脚本。论文另行准备中（见 `paper/`）。
+本仓库是该研究的**开放研究材料包**：游戏原文、被试记录（含来源层级）、环境表、研究方案、论文草稿。每个数据文件的来源（逐字 / 复盘 / 自报 / 推断）见 `DATA_MANIFEST.md`。
 
 ## 为什么做这个——以及分水岭
 
@@ -81,18 +81,19 @@ STEAI 站在一条清晰分水岭的另一侧：
 ## 仓库结构
 
 ```
-game/            游戏原文（逐字原稿）
+DATA_MANIFEST.md  每个数据文件的来源（逐字 / 复盘 / 自报 / 推断）
+game/             游戏原文（逐字原稿 + 来源说明）
 data/
-  sessions/      各被试的原始 session 对话全文
-  metrics/       token / 时长 / 成本原始表
+  sessions/       各被试游玩记录（来源层级见 manifest）
+  metrics/        token / 时长 / 成本原始表（计划中——随论文发布）
   engagement_curve/  投入曲线数据
-  interviews/    第一人称采访记录
-environment/     被试环境表（模型 / reasoning / 框架 / 版本）
-protocols/       盲测指令 / 采访提纲 / 设计决策 / 玩前心理想法
-scripts/         分析脚本 + 一键复现（占位——随论文发布）
-paper/           论文源稿（占位——随论文发布）
-supplementary/   工作稿、外部调研
-docs/            （占位——随论文发布）
+  interviews/     第一人称采访记录
+environment/      被试环境表（模型 / reasoning / 框架 / 版本）
+protocols/        盲测指令 / 采访提纲 / 设计决策 / 玩前心理想法
+scripts/          分析脚本 + 一键复现（占位——随论文发布）
+paper/            论文草稿（工作稿）——随论文发布
+supplementary/    工作稿、外部调研
+docs/             （占位——随论文发布）
 ```
 
 ## 一键复现 / 部署
@@ -117,7 +118,10 @@ docs/            （占位——随论文发布）
 
 ## 许可
 
-代码：[MIT](LICENSE)。论文文本与数据：CC-BY-4.0（见 `paper/`）。
+- **代码**（`scripts/`）：[MIT](LICENSE)。
+- **数据、游戏文本、文本内容**（`data/`、`game/`、`environment/`、`protocols/`、`supplementary/`、`paper/`）：[CC BY 4.0](LICENSE-DATA)。
+
+双许可说明见 [LICENSE-DATA](LICENSE-DATA)。
 
 ---
 

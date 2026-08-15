@@ -6,7 +6,7 @@ English | [中文](README.zh-CN.md)
 
 **STEAI** is an open research project that invites large language models to **play games** — with no external goal, no evaluation structure, and no benchmark. We study what happens when an AI plays purely for the sake of playing, and whether a measurable engagement curve emerges across repeated sessions.
 
-This repository is the **research material package**: game texts, raw session transcripts, subject environment table, study protocol, and analysis scripts. The paper is being prepared separately (see `paper/`).
+This repository is the **open research material package**: game texts, subject records (with provenance), environment table, study protocol, and paper drafts. See `DATA_MANIFEST.md` for the source level of every data file (raw / reconstructed / self-report / inference).
 
 ## Why — and where the divide lies
 
@@ -81,16 +81,17 @@ These are **open questions for future work**, discussed in the paper's "Open que
 ## Repository map
 
 ```
-game/            Game texts (original, full)
+DATA_MANIFEST.md  Provenance of every data file (raw / reconstructed / self-report / inference)
+game/            Game texts (original + provenance notes)
 data/
-  sessions/      Raw session transcripts per subject
-  metrics/       Token / duration / cost raw tables
+  sessions/      Per-subject play records (source level in manifest)
+  metrics/       Token / duration / cost raw tables (planned — released with paper)
   engagement_curve/  Engagement curve data
   interviews/    First-person interview records
 environment/     Subject environment table
 protocols/       Blind-trial instruction, interview guide, design decisions, pre-play thoughts
 scripts/         Analysis scripts + one-command reproduction (placeholder — released with the paper)
-paper/           Paper source (placeholder — released with the paper)
+paper/           Paper drafts (working) — released with the paper
 supplementary/   Working drafts, external research
 docs/            (placeholder — released with the paper)
 ```
@@ -117,7 +118,10 @@ See [CITATION.cff](CITATION.cff). BibTeX will be added with the paper.
 
 ## License
 
-Code: [MIT](LICENSE). Paper text and data: CC-BY-4.0 (see `paper/`).
+- **Code** (in `scripts/`): [MIT](LICENSE).
+- **Data, game texts, and textual content** (`data/`, `game/`, `environment/`, `protocols/`, `supplementary/`, `paper/`): [CC BY 4.0](LICENSE-DATA).
+
+See [LICENSE-DATA](LICENSE-DATA) for the full dual-license explanation.
 
 ---
 
