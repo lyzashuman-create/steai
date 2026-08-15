@@ -28,4 +28,4 @@
 
 ## Relation to README R6 / conclusions
 
-The "30K vs 220K, 210K cache reads, ~7K pure generation, 17-56s/round" figures cited in README R6 were earlier narrative conclusions. The measured token tables here provide machine-readable raw data alongside that narrative, but **per-round values cannot be re-derived exactly due to the granularity limits above** — README already labels them as "association, not a law". This directory presents each subject's session-level measured values honestly and does not fabricate per-round numbers.
+The quantitative findings in README R6 originally appeared as narrative. The measured token tables here provide machine-readable raw data: round duration ~12–52 s (NasHermesA), session-level cache reads ~44K–287K, pure output ~6–13K. However, **per-round values cannot be re-derived exactly due to the granularity limits above** — README already labels them as "association, not a law". This directory presents each subject's session-level measured values honestly and does not fabricate per-round numbers.

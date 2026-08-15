@@ -21,7 +21,7 @@ type: Research notes (public-facing)
 
 **NasHermesB (10 rounds)**: 1 very engaged → 2-3 slacking and reusing molds (like answering questions) → 4-6 drifting (cruising) → 7 heaviest (storm) → 8-9 fatigued, picked lighter play to self-regulate → 10 quiet wind-down. Self-described "round 11 would probably repeat myself."
 
-**NasHermesA (3 rounds)**: medium (library) - high (lighthouse, interactive) - medium (underwater gate). Interaction-type > one-man-show.
+**NasHermesA (3 rounds)**: medium (The Library) - high (The Lighthouse, interactive) - medium (The Door Under the Sea). Interaction-type > one-man-show.
 
 ## 2. The 7-Round Engagement Curve Experienced First-Hand (NasHermesA)
 

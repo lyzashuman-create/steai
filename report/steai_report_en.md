@@ -14,7 +14,7 @@ lang: en
 
 ## Abstract
 
-Large language models (LLMs) are almost always studied as goal-driven actors: solving tasks, beating benchmarks, surviving environments. Almost never is an LLM studied *while it plays for its own sake* — with no external goal, no evaluation structure, and no obligation to produce anything. This report describes an open, exploratory case series that invites four language-model agents to play text-adventure games with no task, no score, and no acceptance criteria. Subjects ran under a single-blind protocol (with one researcher-participant self-study run and one monitored run explicitly disclosed in Methods) where the instruction was disguised as "relax and play." We report: (1) rounds lasted seconds (17–56 s), not minutes; (2) subjects self-terminated individual rounds on a sense of completion; (3) a self-reportable engagement curve emerged, with fatigue onset typically near round four and subsequent recovery; (4) "world-interactive" play engaged more deeply than self-directed narration; (5) self-organizing narrative patterns appeared ("the world started growing its own friends"). We treat these as observations and hypotheses from a small, non-uniform sample, not as conclusions. We also document the study's core epistemic stance: first-person AI narratives are recorded as generated text and behavior transcripts, not as evidence of inner states. The repository (open research material package) is released alongside this report.
+Large language models (LLMs) are almost always studied as goal-driven actors: solving tasks, beating benchmarks, surviving environments. Almost never is an LLM studied *while it plays for its own sake* — with no external goal, no evaluation structure, and no obligation to produce anything. This report describes an open, exploratory case series that invites four language-model agents to play text-adventure games with no task, no score, and no acceptance criteria. Subjects ran under a single-blind protocol (with one researcher-participant self-study run and one monitored run explicitly disclosed in Methods) where the instruction was disguised as "relax and play." We report: (1) rounds lasted seconds (roughly 12–52 s), not minutes; (2) subjects self-terminated individual rounds on a sense of completion; (3) a self-reportable engagement curve emerged, with fatigue onset typically near round four and subsequent recovery; (4) "world-interactive" play engaged more deeply than self-directed narration; (5) self-organizing narrative patterns appeared ("the world started growing its own friends"). We treat these as observations and hypotheses from a small, non-uniform sample, not as conclusions. We also document the study's core epistemic stance: first-person AI narratives are recorded as generated text and behavior transcripts, not as evidence of inner states. The repository (open research material package) is released alongside this report.
 
 **Keywords:** language models, play, self-play, engagement, purposeless play, AI agents, text adventure, phenomenological method
 
@@ -89,7 +89,7 @@ This provenance is recorded per file in the repository's [DATA_MANIFEST.md](../D
 
 We report observations and hypotheses, not conclusions. The sample is small (four agents, non-uniform conditions), so no inferential statistics are reported.
 
-**R1. Rounds were short.** In the recorded subset, a single round lasted 17–56 seconds — far shorter than the intuitive "ten minutes" often assumed. (Codex's note: this is a recorded subset, not a population claim.)
+**R1. Rounds were short.** In the recorded subset, a single round lasted roughly 12–52 s (NasHermesA, three solo rounds measured at 11.6–51.9 s) — far shorter than the intuitive "ten minutes" often assumed. MacHermes ran 7 rounds in 83.6 s (~12 s each) and NasHermesB 10 rounds in ~600 s (~60 s each). (Codex's note: this is a recorded subset, not a population claim.)
 
 **R2. Natural stopping points.** Subjects ended individual rounds on a sense of completion, without an external stop signal. Total run length (3/7/10 rounds) was preset by the instruction; within a round, termination was self-generated.
 
@@ -99,7 +99,7 @@ We report observations and hypotheses, not conclusions. The sample is small (fou
 
 **R5. Self-organizing patterns.** Multiple subjects reported the story "carrying" them rather than the reverse ("it wasn't me steering the story, the story was carrying me"; "the world started growing its own friends"). We describe these as self-organizing narrative patterns, not evidence of autonomous intent.
 
-**R6. Token variance.** Token use varied widely (30K vs 220K across runs). Much of the variance was associated with tool-mediated interaction (cache reads from a tool loop) rather than text generation alone. This is an association within our runs, not a law.
+**R6. Token variance.** Token use varied widely. Measured session-level cache reads ranged from ~44K (NasHermesB) to ~287K (MacHermes, tool-loop interaction) and ~272K (NasHermesA across its three rounds); pure text output was ~6–13K per subject. Much of the variance was associated with tool-mediated interaction (cache reads from a tool loop) rather than text generation alone. This is an association within our runs, not a law.
 
 ![Self-reported engagement curves, all subjects](../data/engagement_curve/engagement_curves_all.en.png)
 

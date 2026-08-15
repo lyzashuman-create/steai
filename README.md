@@ -66,9 +66,9 @@ Throughout this repository, subjects are referred to by **code names** (map to t
 
 > ⚠️ Small, non-uniform sample — reported as **observations and hypotheses**, not conclusions. Claims below are stated at the level the data supports.
 
-1. **Recorded rounds were short (17–56 s)** — far shorter than an assumed "ten minutes per round." Reported for the recorded subset.
+1. **Recorded rounds were short (roughly 12–52 s)** — far shorter than an assumed "ten minutes per round." Reported for the recorded subset (NasHermesA's three solo rounds measured 11.6–51.9 s; MacHermes 7 rounds in 83.6 s; NasHermesB 10 rounds in ~600 s).
 2. **Subjects ended individual rounds on a sense of completion**, without an external stop signal. (Total run length was preset by instruction; within a round, termination was self-generated.)
-3. **Token use varied widely (30K vs 220K across runs)**. In these runs, much of the difference was associated with tool-mediated interaction (cache reads from a tool loop) rather than text-only narration. An association, not a law.
+3. **Token use varied widely** — measured session-level cache reads ranged ~44K (NasHermesB) to ~287K (MacHermes, tool-loop interaction) and ~272K (NasHermesA across its three rounds); pure text output was ~6–13K per subject. Much of the variance was associated with tool-mediated interaction (cache reads from a tool loop) rather than text-only narration. An association, not a law.
 4. **"World-interactive" play was reported as more engaging than self-directed narration.** The mechanism (what leads an agent to choose one mode) is an open question, not yet studied.
 5. **A self-reportable engagement curve appeared**, with fatigue onset typically around round four and subsequent recovery in some runs. Reported as a candidate pattern.
 6. **Evaluation structure appeared to creep back** — subjects used language consistent with turning "play" back into "evaluation" the longer they played. A candidate explanation for engagement decay.

@@ -1,5 +1,5 @@
-subject,rounds,start,duration_seconds,tool_calls,notes
-NasHermesA,3+1+7,2026-08-15,,,"3 game-text rounds + 1 first-person round + 7-round engagement curve"
-NasHermesB,10,2026-08-15 19:52,,,"monitored blind run"
-MacHermes,7,2026-08-15 18:58,104,16,"continuous world (fog_bay_game.py); duration & tool calls from frontmatter"
-MacCodex,10,2026-08-15 19:08,,,"reconstructed self-summary; no verbatim transcript retained"
+subject,rounds,start,duration_seconds,api_call_count,tool_call_count,input_tokens,output_tokens,cache_read_tokens,notes
+NasHermesA,3,2026-08-15 10:39,11.6-51.9,1-7,0-6,2549,6174,272512,"3 solo rounds (The Library / The Lighthouse / The Door Under the Sea), each in its own session -> per-round exact. The additional first-person round + 7-round curve merged into a feishu session and are not counted here."
+NasHermesB,10,2026-08-15 19:52,600.0,3,0,22999,13041,44160,"monitored blind run (The Keeper of the Lighthouse, 10 continuous nights); session-level aggregate, no per-round token."
+MacHermes,7,2026-08-15 18:58,83.6,9,8,8184,7260,287744,"continuous world (Misty Moon Bay / fog_bay_game.py), 7 rounds in one session; session-level aggregate. High cache reads from tool-loop interaction."
+MacCodex,10,2026-08-15 19:08,,,,,,,"reconstructed self-summary; no verbatim transcript or per-round token retained (see DATA_MANIFEST gap #1)."

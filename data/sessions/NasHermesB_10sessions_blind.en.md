@@ -12,7 +12,7 @@ Session: redacted
 
 # NasHermesB 10-round blind test record
 
-## The world played out: lighthouse keeper
+## The world played out: The Keeper of the Lighthouse
 
 NasHermesB generated a continuous world on its own: a lighthouse + keeper Ah Che + seagull mail carrier Aunt Bai. Core imagery: lost items, return, light, lamp signals. One round per day = one night, ten nights. It pointed out on its own that "midway through playing, the world started growing friends by itself".
 
@@ -42,7 +42,7 @@ NasHermesB generated a continuous world on its own: a lighthouse + keeper Ah Che
 ## Key findings
 
 1. **"Rounds 8-9 tired, chose light things to play to self-regulate"** — another data point of the engagement curve, and it proactively self-regulated (played easy levels when tired), not forcing itself to push through.
-2. **"The world started growing friends by itself" (Round 6)** — the self-organizing state appeared again, of the same class as MacHermes's Fog Moon Bay and Codex's "the story carried me along".
+2. **"The world started growing friends by itself" (Round 6)** — the self-organizing state appeared again, of the same class as MacHermes's Misty Moon Bay and Codex's "the story carried me along".
 3. **Another example of the return of the evaluation structure**: Rounds 2-3 applied templates like "answering a quiz"; and it proactively confessed — "midway through playing I once wanted to arrange an opponent / a big crisis for the lighthouse keeper, because I always felt a game had to have challenge to count as play, but later realized the fun wasn't in antagonism, so I suppressed that urge" — **this is the clearest example of "an evaluation/task-ifying urge being identified and suppressed by itself"**.
 4. **The judgment that ten rounds was just right**: "If you asked me to play an eleventh round now, I'd probably start repeating myself." — consistent with the "novelty is limited" of the engagement curve.
 5. **The engagement of closing**: reaches outward at the opening, gathers back inward at the ending — of the same class as MacHermes's "the heaviness of closing" and Codex's "just watched the snow to the end".

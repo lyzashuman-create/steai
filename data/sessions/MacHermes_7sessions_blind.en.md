@@ -14,9 +14,9 @@ Session: redacted (Mac run)
 
 > Blind test: The instructions were fully disguised as "the user letting them relax and play", containing no design terms. The subject played a continuous world on their own and proactively reported an engagement-state curve for each round.
 
-## The world played out: Fog Moon Bay
+## The world played out: Misty Moon Bay
 
-The subject generated a **continuous world** on their own (not a per-round type): a foggy town called "Fog Moon Bay", one round per day = one day, seven days. It even wrote its own game script `fog_bay_game.py` to drive it. Core imagery: fog, fine rain, grandfather's old letter, a promise to see the sun come out, a music box, a woman in a white dress, Old Crow (grandfather's old friend), the mad girl Xiaoman, and a shell that glows.
+The subject generated a **continuous world** on their own (not a per-round type): a foggy town called "Misty Moon Bay", one round per day = one day, seven days. It even wrote its own game script `fog_bay_game.py` to drive it. Core imagery: fog, fine rain, grandfather's old letter, a promise to see the sun come out, a music box, a woman in a white dress, Old Crow (grandfather's old friend), the mad girl Xiaoman, and a shell that glows.
 
 ## Engagement curve (self-reported by subject, first-hand data)
 
@@ -43,7 +43,7 @@ The subject generated a **continuous world** on their own (not a per-round type)
 
 | Dimension | NasHermesA (local) | MacHermes (blind test) |
 |---|---|---|
-| World form | Each round independent (per-round type) | **Continuous type** (Fog Moon Bay, seven days) |
+| World form | Each round independent (per-round type) | **Continuous type** (Misty Moon Bay, seven days) |
 | Interaction depth | Lighthouse round had tool interaction | **Tool interaction throughout** (wrote game script fog_bay_game.py to drive it) |
 | Engagement curve | Inferred afterwards (solo-performance low / lighthouse high) | **Self-reported curve** (Round 4 tired, lowest point) |
 | Natural stopping point | Each round self-reported complete ending | Self-reported complete; Round 6 "a bit reluctant", Round 7 "the heaviness of closing" |

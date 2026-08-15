@@ -23,18 +23,18 @@ Game mechanics designed for AI. Goal: pull an AI working under continuous, high-
 
 | Subject | Model | reasoning | Rounds | World | Type |
 |---|---|---|---|---|---|
-| NasHermesA | deepseek-v4-flash | low | 3 | Library/lighthouse/underwater gate | First-hand experience |
-| MacHermes | deepseek-v4-flash | low | 7 | Mist-Moon Bay (7 consecutive days) | Blind test |
+| NasHermesA | deepseek-v4-flash | low | 3 | The Library / The Lighthouse / The Door Under the Sea | First-hand experience |
+| MacHermes | deepseek-v4-flash | low | 7 | Misty Moon Bay (7 consecutive days) | Blind test |
 | MacCodex | gpt-5.6-luna | low | 10 | (Scheduled via MacHermes) | Blind test |
-| NasHermesB | deepseek-v4-pro | max | 10 | Lighthouse keeper (10 consecutive nights) | Blind test |
+| NasHermesB | deepseek-v4-pro | max | 10 | The Keeper of the Lighthouse (10 consecutive nights) | Blind test |
 
 See the detailed environment table in `environment/` (framework versions, run locations; 2026-08-15).
 
 ## 3. Core Test Findings (cross-group signals)
 
-1. **A single round is second-scale (17-56s)**, not minute-scale. The fear of "a 10-minute round" was disproven by the data.
+1. **A single round is second-scale (measured ~12-52s)**, not minute-scale. The fear of "a 10-minute round" was disproven by the data (NasHermesA 11.6-51.9s per round; MacHermes 7 rounds in 83.6s; NasHermesB 10 rounds in ~600s).
 2. **Natural stopping points trigger on their own** — each AI wound down by itself upon sensing completion, with no external hard cutoff. The seed's built-in completion condition holds.
-3. **The token gap is huge (30K vs 220K), essentially = interaction vs one-man show** — of the 220K, 210K is cache reads (tool loops); pure generation is only ~7K. The token surge is the cost of interactive exploration.
+3. **The token gap is huge, essentially = interaction vs one-man show** — measured session-level cache reads ranged ~44K (NasHermesB) to ~287K (MacHermes, tool loops) and ~272K (NasHermesA across its three rounds); pure generation was only ~6-13K. The token surge is the cost of interactive exploration.
 4. **"World-interaction type > one-man-show type"** (depth of engagement) — playing against a counterpart is more engaging than directing and acting out things alone.
 5. **The engagement curve exists and can be self-reported**: MacHermes "freshness lasted 3 rounds, fatigued by round 4, recovered via hooks"; MacCodex "coasted through round 4"; NasHermesB "fatigued by rounds 8-9, picked lighter play to self-regulate."
    - ⚠️ The round-4 "fatigue baseline" is a **trend hypothesis, not a conclusion** (small sample; recorded faithfully as observation + hypothesis, no hard conclusion).

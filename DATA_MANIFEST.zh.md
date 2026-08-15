@@ -56,7 +56,7 @@
 
 1. **MacCodex 逐字转录不可用。** 其游戏会话未保留逐轮 assistant 消息，仅事后自述存在。MacCodex 数据应视为*复盘*，而非逐字。
 2. **`fog_bay_game.py`**（[data/sessions/MacHermes_7sessions_blind.md](data/sessions/MacHermes_7sessions_blind.md) 中引用）未归档于此。依赖它的结论应视为无法仅凭本包验证。
-3. **定量声明**（17–56 秒；30K 对 220K token；210K 缓存读取；约 7K 生成）此前依赖源文件的叙述。现已提交机器可读指标表到 `data/metrics/`（见 `token_cost_summary.csv` + 各被试文件）。**粒度说明：** 仅当某被试的各局各自跑在独立会话中时（NasHermesA 3 局）才存在逐局 token；MacHermes（7 局）与 NasHermesB（10 局）各局都在单会话内连续跑完，仅有 session 级聚合；MacCodex（10 局）完全没有逐局 token 数据。这些表在底层数据存在处提供原始数字供独立复算，**不会补造日志从未记录的逐局数值**。
+3. **定量声明**此前依赖源文件的叙述。现已提交机器可读指标表到 `data/metrics/`（见 `token_cost_summary.csv` + 各被试文件），含实测值（NasHermesA 独立单局时长约 12–52 秒；session 级缓存读取约 44K–287K；纯输出约 6–13K）。**粒度说明：** 仅当某被试的各局各自跑在独立会话中时（NasHermesA 3 局）才存在逐局 token；MacHermes（7 局）与 NasHermesB（10 局）各局都在单会话内连续跑完，仅有 session 级聚合；MacCodex（10 局）完全没有逐局 token 数据。这些表在底层数据存在处提供原始数字供独立复算，**不会补造日志从未记录的逐局数值**。
 4. **[data/sessions/NasHermesA_first_person_one_round.md](data/sessions/NasHermesA_first_person_one_round.md)** 记录单局亲历（区别于 [data/engagement_curve/NasHermesA_engagement_curve.md](data/engagement_curve/NasHermesA_engagement_curve.md) 中的 7 局投入曲线）。
 5. **[data/engagement_curve/initial_engagement_comparison.md](data/engagement_curve/initial_engagement_comparison.md)** 含与已完成的 MacCodex 数据冲突的过时"进行中/待补"文本。已标记为历史工作笔记；由各投入曲线文件取代。
 
