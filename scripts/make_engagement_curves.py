@@ -13,7 +13,7 @@ for fp in ["/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc"]:
 plt.rcParams["font.sans-serif"] = ["WenQuanYi Zen Hei", "DejaVu Sans"]
 plt.rcParams["axes.unicode_minus"] = False
 
-OUT = "/opt/data/home/steai/data/engagement_curve"
+OUT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "engagement_curve")
 os.makedirs(OUT, exist_ok=True)
 
 SUBJECTS = {
