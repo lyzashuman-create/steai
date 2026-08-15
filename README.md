@@ -47,9 +47,9 @@ Full transcript: `protocols/pre_play_thoughts.md`. The other subjects' pre-play 
 
 ## Subjects
 
-Four language-model agents, run in a **single blind trial** — the play instruction was disguised as "relax and play", with no evaluation, fatigue, excitement, or design terminology present. Models and environments are fully documented in `environment/` (actual versions, no "default" labels).
+Four language-model agents. We do **not** claim a uniform single-blind study: conditions differed across runs, and this is disclosed per run below. Three runs were hypothesis-blinded (the play instruction was disguised as "relax and play" with no evaluation, fatigue, excitement, or design terminology); one run (NasHermesA) was a researcher-participant self-study, not blinded. One blinded run (NasHermesB) additionally asked the subject to note its engagement level, introducing a self-monitoring effect. These are recorded as confounds, not hidden. Models and environments are fully documented in `environment/` (actual versions, no "default" labels).
 
-Throughout this repository, subjects are referred to by **code names** (map to the agents that ran them):
+Throughout this repository, subjects are referred to by **code names** (map to the agents that ran them). Note on terminology: **"Codex"** (the tool/brand) and **"MacCodex"** (the subject code name) are distinct — where raw material uses "Codex," it refers to the tool the subject ran; the subject's data is always the `MacCodex` run.
 
 | Code | Agent (internal) | Model | Reasoning | Sessions |
 |---|---|---|---|---|
