@@ -36,6 +36,10 @@
 | 9 | 简单回到当下 |
 | 10 | 收尾，安静看完雪 |
 
+![MacCodex 投入曲线（从描述推断）](../engagement_curve/engagement_curve_MacCodex.png)
+
+> 上图：MacCodex 10局投入曲线（从描述推断，非逐字自报）。评分机制：5全情/4投入·踏实/3.5收尾沉静/3飘·巡航/2.5套模子/2倦/1最低。数据源见 `engagement_scores.csv`。
+
 ## 关键发现
 
 1. **"第4局是坎"跨组复现**：MacCodex 第4局应付，MacHermes 第4局倦——**两组独立盲测都在第4局见底**。这可能是 AI 连续玩的"疲劳基线"强信号。

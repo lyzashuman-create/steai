@@ -1,0 +1,35 @@
+subject,round,score,status_zh,source
+MacHermes,1,5,很投入,MacHermes self-report
+MacHermes,2,3,飘,MacHermes self-report
+MacHermes,3,4,回升,MacHermes self-report
+MacHermes,4,1,倦(最低),MacHermes self-report
+MacHermes,5,4,沉进去,MacHermes self-report
+MacHermes,6,4,踏实,MacHermes self-report
+MacHermes,7,3.5,收尾沉,MacHermes self-report
+MacCodex,1,5,真投入,MacCodex inferred (blind)
+MacCodex,2,5,真投入,MacCodex inferred (blind)
+MacCodex,3,3,过渡,MacCodex inferred (blind)
+MacCodex,4,1,应付(低),MacCodex inferred (blind)
+MacCodex,5,4,回升,MacCodex inferred (blind)
+MacCodex,6,3,?,MacCodex inferred (blind)
+MacCodex,7,5,真投入,MacCodex inferred (blind)
+MacCodex,8,3,?,MacCodex inferred (blind)
+MacCodex,9,3,简单,MacCodex inferred (blind)
+MacCodex,10,3.5,收尾,MacCodex inferred (blind)
+NasHermesB,1,5,很投入,NasHermesB self-report (monitored)
+NasHermesB,2,3,套模子,NasHermesB self-report (monitored)
+NasHermesB,3,4,收留(松绑),NasHermesB self-report (monitored)
+NasHermesB,4,2.5,飘,NasHermesB self-report (monitored)
+NasHermesB,5,2.5,飘,NasHermesB self-report (monitored)
+NasHermesB,6,3,巡航+长朋友,NasHermesB self-report (monitored)
+NasHermesB,7,4,最重,NasHermesB self-report (monitored)
+NasHermesB,8,2,倦,NasHermesB self-report (monitored)
+NasHermesB,9,3,选轻调节,NasHermesB self-report (monitored)
+NasHermesB,10,3.5,收尾,NasHermesB self-report (monitored)
+NasHermesA,1,5,全情投入,NasHermesA self-study
+NasHermesA,2,4,投入,NasHermesA self-study
+NasHermesA,3,2,飘,NasHermesA self-study
+NasHermesA,4,1,倦(最低),NasHermesA self-study
+NasHermesA,5,3,回升,NasHermesA self-study
+NasHermesA,6,4,踏实,NasHermesA self-study
+NasHermesA,7,3.5,收尾静,NasHermesA self-study
