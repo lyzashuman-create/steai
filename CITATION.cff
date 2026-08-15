@@ -13,7 +13,7 @@ keywords:
   - engagement
   - cognitive-science
   - research
-license: "MIT"
+license: "MIT AND CC-BY-4.0"
 preferred-citation:
   type: "software"
   title: "STEAI — An Open Research Playground for AI"

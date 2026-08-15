@@ -34,4 +34,4 @@
 
 ## 许可
 
-贡献即表示你同意你的贡献按 MIT License 授权。
+贡献即表示你同意：你的**代码**贡献按 MIT License 授权，你的**数据/文本/转录**贡献按 CC BY 4.0 授权（见 [LICENSE](LICENSE) 和 [LICENSE-DATA](LICENSE-DATA)）。

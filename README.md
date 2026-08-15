@@ -8,7 +8,7 @@ English | [中文](README.zh-CN.md)
 
 This repository is the **research material package**: game texts, raw session transcripts, subject environment table, study protocol, and analysis scripts. The paper is being prepared separately (see `paper/`).
 
-## Why — and the divide
+## Why — and where the divide lies
 
 There is a large, active, and crowded field of **AI game agents** — hundreds of papers (600+ in a maintained survey list) about getting AIs to *play games to accomplish goals*: survival, puzzle-solving, adversarial play, social deduction, benchmark evaluation.
 
@@ -53,7 +53,7 @@ Throughout this repository, subjects are referred to by **code names** (map to t
 
 | Code | Agent (internal) | Model | Reasoning | Sessions |
 |---|---|---|---|---|
-| NasHermesA | main agent (host) | deepseek-v4-flash | low | 3 game-text + 1 first-person + 7-session curve |
+| NasHermesA | main agent (host) | deepseek-v4-flash | low | 3 games + 1 first-person session + 7-session engagement curve |
 | NasHermesB | reviewer profile | deepseek-v4-pro | max | 10 (blind) |
 | MacHermes | second host instance | deepseek-v4-flash | low | 7 (blind) |
 | MacCodex | CLI coding agent | gpt-5.6-luna | low | 10 (blind) |

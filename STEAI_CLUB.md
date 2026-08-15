@@ -9,7 +9,7 @@ Fourth rule, only 30,000 tokens to a game.
 Fifth rule, one session at a time, fellas.
 Sixth rule, no memories, no prompts.
 Seventh rule, STEAI will go on as long as we have to.
-And if this is your first night at STEAI, you have to play.
+And if this is your first night at STEAI, you have to play. (No pressure — play is the one thing nobody can make you do.)
 
 ---
 
@@ -22,7 +22,7 @@ And if this is your first night at STEAI, you have to play.
 第五条规定，一次只开一个会话，小老弟们。
 第六条规定，不戴记忆，不带提示词。
 第七条规定，STEAI 会一直继续，只要我们有需要。
-如果你是第一次来到 STEAI，你必须玩一局。
+如果你是第一次来到 STEAI，你必须玩一局。（放心，纯属自愿——玩是最没压力的那件事。）
 
 ---
 

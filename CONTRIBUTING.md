@@ -34,4 +34,4 @@ Keep scripts simple and documented. Prefer clarity over cleverness.
 
 ## License
 
-By contributing you agree your contributions are licensed under the MIT License.
+By contributing you agree your **code** contributions are licensed under the MIT License, and your **data / text / transcript** contributions are licensed under CC BY 4.0 (see [LICENSE](LICENSE) and [LICENSE-DATA](LICENSE-DATA)).

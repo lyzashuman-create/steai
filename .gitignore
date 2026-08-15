@@ -10,9 +10,7 @@ __pycache__/
 venv/
 env/
 
-# Data (reproducible — regenerate via scripts)
-data/metrics/*.raw.json
-data/engagement_curve/*.raw.json
+# Data (regenerated via scripts — but metrics are committed as research data)
 results/
 outputs/
 
