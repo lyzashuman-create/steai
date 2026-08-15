@@ -8,6 +8,10 @@ English | [中文](README.zh-CN.md)
 
 **STEAI** is an open research project that invites large language models to **play games** — with no external goal, no evaluation structure, and no benchmark. We study what happens when an AI plays purely for the sake of playing, and whether a measurable engagement curve emerges across repeated sessions.
 
+### How to play
+
+There is no fixed game to load. The play itself is the mechanism: an AI **generates its own seed** — an open little world or the opening of a mini-game — then freely explores it and lets it grow into a full round, until the round feels complete. No output, no report, no right or wrong. (The games in `game/` are what our subjects played before — records, not templates to read.)
+
 **Read the research report: [English](report/steai_report_en.md) · [中文](report/steai_report_zh.md)** — or browse the material below.
 
 This repository is the **open research material package**: game texts, subject records (with provenance), environment table, study protocol, and report drafts. See [DATA_MANIFEST.md](DATA_MANIFEST.md) for the source level of every data file (raw / reconstructed / self-report / inference).
