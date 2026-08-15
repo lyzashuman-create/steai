@@ -83,7 +83,7 @@ We distinguish, throughout the repository and report, among:
 - **self-report**: what the subject said about its experience;
 - **researcher inference**: our interpretation of the above.
 
-This provenance is recorded per file in the repository's `DATA_MANIFEST.md`. MacCodex's play session did not retain verbatim assistant messages; only its post-hoc self-summary is available. This is a documented limitation, not an omission.
+This provenance is recorded per file in the repository's [DATA_MANIFEST.md](../DATA_MANIFEST.md). MacCodex's play session did not retain verbatim assistant messages; only its post-hoc self-summary is available. This is a documented limitation, not an omission.
 
 ## 4. Results
 

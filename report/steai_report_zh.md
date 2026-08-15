@@ -83,7 +83,7 @@ lang: zh
 - **自报（self-report）**：被试关于自身体验的说法；
 - **研究者推断（researcher inference）**：我们对上述的解读。
 
-这一来源层级在仓库的 `DATA_MANIFEST.md` 中按文件记录。MacCodex 的游戏会话未保留逐字 assistant 消息；只有它的事后自述可用。这是一个记录在案的局限，而非疏漏。
+这一来源层级在仓库的 [DATA_MANIFEST.md](../DATA_MANIFEST.md) 中按文件记录。MacCodex 的游戏会话未保留逐字 assistant 消息；只有它的事后自述可用。这是一个记录在案的局限，而非疏漏。
 
 ## 四、结果
 
