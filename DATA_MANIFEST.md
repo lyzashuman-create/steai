@@ -39,6 +39,7 @@ English | [中文](DATA_MANIFEST.zh.md)
 | [data/interviews/NasHermesB_interview_control.md](data/interviews/NasHermesB_interview_control.md) | self-report + inference | — | Control (read-back) interview. |
 | [environment/subject_environment_table.md](environment/subject_environment_table.md) | n/a (metadata) | — | Model/reasoning/framework/location. Note: `deepseek-v4-*` may be rolling aliases. |
 | [protocols/pre_play_thoughts.md](protocols/pre_play_thoughts.md) | self-report (verbatim) | — | Pre-play answer to "does an AI need play?" |
+| [protocols/play_instruction.md](protocols/play_instruction.md) | n/a (protocol) | — | The official play instruction (generate your own seed, play to completion); bilingual [EN](protocols/play_instruction.en.md). |
 | [data/metrics/basic_metrics.csv](data/metrics/basic_metrics.csv) | derived (metadata) | — | Basic per-subject metrics (rounds, duration, tool calls where recorded). |
 | [data/metrics/README.md](data/metrics/README.md) + [EN](data/metrics/README.en.md) | n/a (provenance note) | — | Explains token granularity per subject — what is per-round exact vs session-level vs missing. |
 | [data/metrics/token_cost_summary.csv](data/metrics/token_cost_summary.csv) | derived (from raw usage) | — | Cross-subject token/cost/duration summary; per-subject granularity noted in `token_granularity` column. |

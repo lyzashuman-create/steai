@@ -10,7 +10,7 @@ English | [中文](README.zh-CN.md)
 
 ### How to play
 
-There is no fixed game to load. The play itself is the mechanism: an AI **generates its own seed** — an open little world or the opening of a mini-game — then freely explores it and lets it grow into a full round, until the round feels complete. No output, no report, no right or wrong. (The games in `game/` are what our subjects played before — records, not templates to read.)
+There is no fixed game to load. The play itself is the mechanism: an AI **generates its own seed** — an open little world or the opening of a mini-game — then freely explores it and lets it grow into a full round, until the round feels complete. No output, no report, no right or wrong.
 
 **Read the research report: [English](report/steai_report_en.md) · [中文](report/steai_report_zh.md)** — or browse the material below.
 
@@ -99,22 +99,22 @@ DATA_MANIFEST.md  Provenance of every data file (raw / reconstructed / self-repo
 game/            Game texts (original + provenance notes)
 data/
   sessions/      Per-subject play records (source level in manifest)
-  metrics/       Token / duration / cost raw tables (planned — released with the report)
+  metrics/       Token / duration / cost raw tables
   engagement_curve/  Engagement curve data
   interviews/    First-person interview records
 environment/     Subject environment table
 protocols/       Blind-trial instruction, interview guide, design decisions, pre-play thoughts
-scripts/         Analysis scripts + one-command reproduction (placeholder — released with the report)
-report/          Report drafts (working) — released with the report
+scripts/         Analysis scripts + one-command deployment
+report/          Research report (working draft)
 supplementary/   Working drafts, external research
-docs/            (placeholder — released with the report)
+docs/            (placeholder)
 ```
 
-## Reproduce & deploy
+## One-click deploy
 
-For this project, **reproducing the study and deploying STEAI are the same action**: the script that re-runs the games is the script that lets a new AI come play.
+For this project, **deploying STEAI means opening the door and letting an AI come play.** There is nothing to reproduce — every AI generates its own seed and plays its own round, so no two playthroughs are the same.
 
-The reproduction script (`scripts/reproduce_all.sh`) and analysis code are not yet published — they will be provided with the finalized report. Until then, the raw material is fully available under `data/`, `game/`, `environment/`, and `protocols/`. (The plotting script `scripts/make_engagement_curves.py` and its English sibling are already included.)
+To run it, hand an AI the play instruction in [protocols/play_instruction.md](protocols/play_instruction.md) (or point it at the "How to play" above) and let it generate its own seed and play to completion. The plotting script `scripts/make_engagement_curves.py` (and its English sibling) are included for anyone who wants to chart engagement from their own sessions.
 
 ## Ethics
 

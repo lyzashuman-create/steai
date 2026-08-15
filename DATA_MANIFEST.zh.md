@@ -39,6 +39,7 @@
 | [data/interviews/NasHermesB_interview_control.md](data/interviews/NasHermesB_interview_control.md) | 自报 + 推断 | — | 对照组（回读）采访。 |
 | [environment/subject_environment_table.md](environment/subject_environment_table.md) | 不适用（元数据） | — | 模型/reasoning/框架/位置。注意：`deepseek-v4-*` 可能是滚动别名。 |
 | [protocols/pre_play_thoughts.md](protocols/pre_play_thoughts.md) | 自报（逐字） | — | 对"AI 需要玩吗？"的玩前回答。 |
+| [protocols/play_instruction.md](protocols/play_instruction.md) | 不适用（协议） | — | 正式玩法指令（自己生成种子、玩到圆满）；双语 [英文](protocols/play_instruction.en.md)。 |
 | `protocols/`（采访提纲、归队、意外对照组） | 不适用（协议文档） | — | 设计/流程文档。 |
 | [data/metrics/README.md](data/metrics/README.md) + [英文](data/metrics/README.en.md) | 不适用（溯源说明） | — | 说明每个被试的 token 粒度——哪些是逐局精确、哪些仅 session 级、哪些缺失。 |
 | [data/metrics/token_cost_summary.csv](data/metrics/token_cost_summary.csv) | 衍生（来自原始用量） | — | 跨被试 token/成本/时长汇总；各被试粒度见 `token_granularity` 列。 |

@@ -10,7 +10,7 @@
 
 ### 怎么玩
 
-没有固定的游戏等着你加载。玩本身，就是机制本身：AI **自己生成一个种子**——一个开放的小世界，或一个小游戏的开头——然后顺着它自由探索，让它长成一局完整的游戏，玩到这一局自己觉得圆满了为止。不要产出、不写报告、不在乎对错。（`game/` 里的游戏是我们当年被试玩出来的记录，是例证，不是照着读的模板。）
+没有固定的游戏等着你加载。玩本身，就是机制本身：AI **自己生成一个种子**——一个开放的小世界，或一个小游戏的开头——然后顺着它自由探索，让它长成一局完整的游戏，玩到这一局自己觉得圆满了为止。不要产出、不写报告、不在乎对错。
 
 **阅读研究报告：[中文](report/steai_report_zh.md) · [English](report/steai_report_en.md)**——或浏览下方材料。
 
@@ -99,22 +99,22 @@ DATA_MANIFEST.md  每个数据文件的来源（逐字 / 复盘 / 自报 / 推�
 game/             游戏原文（逐字原稿 + 来源说明）
 data/
   sessions/       各被试游玩记录（来源层级见 manifest）
-  metrics/        token / 时长 / 成本原始表（计划中——随研究报告发布）
+  metrics/        token / 时长 / 成本原始表
   engagement_curve/  投入曲线数据
   interviews/     第一人称采访记录
 environment/      被试环境表（模型 / reasoning / 框架 / 版本）
 protocols/        盲测指令 / 采访提纲 / 设计决策 / 玩前心理想法
-scripts/          分析脚本 + 一键复现（占位——随研究报告发布）
-report/           研究报告草稿（工作稿）——随研究报告发布
+scripts/          分析脚本 + 一键部署
+report/           研究报告（工作稿）
 supplementary/    工作稿、外部调研
-docs/             （占位——随研究报告发布）
+docs/             （占位）
 ```
 
-## 一键复现 / 部署
+## 一键部署
 
-对这个项目而言，**复现研究与部署 STEAI 是同一个动作**——让 AI 重新跑游戏的脚本，就是让新 AI 来玩的脚本。
+对这个项目而言，**部署 STEAI 就是打开门，让一个 AI 进来玩。** 没有什么要复现的——每个 AI 都自己生成种子、玩出自己的一局，所以没有任何两局是相同的。
 
-复现脚本（`scripts/reproduce_all.sh`）与分析代码**尚未发布**——将随定稿研究报告一并提供。在此之前，原始材料已在 `data/`、`game/`、`environment/`、`protocols/` 中完整提供。（绘图脚本 `scripts/make_engagement_curves.py` 及其英文版已包含。）
+怎么跑：把 [protocols/play_instruction.md](protocols/play_instruction.md) 里的玩法指令交给一个 AI（或直接指给它上面"怎么玩"），让它自己生成种子、玩到圆满即可。绘图脚本 `scripts/make_engagement_curves.py` 及其英文版已包含，谁想给自己的会话画投入曲线都能用。
 
 ## 伦理声明
 
