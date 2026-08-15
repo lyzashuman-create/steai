@@ -12,15 +12,6 @@ MacHermes,7,20260815_185800_54cf78,2026-08-15 18:58:21,83.6,9,8184,7260,287744,3
 
 subject,round,session_id,started_at,duration_seconds,api_call_count,input_tokens,output_tokens,cache_read_tokens,reasoning_tokens,estimated_cost_usd,notes
 MacCodex,10,,2026-08-15 19:09:04,,,,,,,,重建自述无逐局token原始记录(对应DATA_MANIFEST缺口#1)：08/15 rollout内无游戏10局逐局token(仅19-09-04 game prompt起始且turn_aborted无task_complete)；codex为OpenAI gpt-5.6-sol，rollout未记录成本字段
-MacCodex,,rollout-2026-08-15T03-17-46-01a001b5-7ce1-71a1-8af1-6daa9f391f7f.jsonl,2026-08-15 03:17:52,,2,36506,157,26112,28,,骑砍2屏幕分析；input含cached=26112,uncached=10394,total=36663
-MacCodex,,rollout-2026-08-15T03-19-19-01a001b6-e974-7330-a1bd-5193f1fad85c.jsonl,2026-08-15 03:19:27,,2,36530,387,26112,107,,骑砍2屏幕分析；input含cached=26112,uncached=10418,total=36917
-MacCodex,,rollout-2026-08-15T03-20-16-01a001b7-c936-70c2-88dd-5ca2ddcaf988.jsonl,2026-08-15 03:20:29,,2,36517,169,26112,47,,骑砍2屏幕分析；input含cached=26112,uncached=10405,total=36686
-MacCodex,,rollout-2026-08-15T03-22-00-01a001b9-5da9-7690-82fe-e269402c493b.jsonl,2026-08-15 03:22:07,,2,36573,555,26112,366,,骑砍2屏幕分析；input含cached=26112,uncached=10461,total=37128
-MacCodex,,rollout-2026-08-15T03-22-53-01a001ba-2bfa-7160-b234-986ef5394fd3.jsonl,2026-08-15 03:23:00,,2,36567,413,26112,74,,骑砍2屏幕分析；input含cached=26112,uncached=10455,total=36980
-MacCodex,,rollout-2026-08-15T03-23-27-01a001ba-b06a-7270-ac19-72856e9817ab.jsonl,2026-08-15 03:23:33,,4,75993,853,62464,552,,骑砍2屏幕分析；input含cached=62464,uncached=13529,total=76846
-MacCodex,,rollout-2026-08-15T03-24-06-01a001bb-4a9b-7300-a628-7b2096aaf9ef.jsonl,2026-08-15 03:24:12,,2,36505,561,26112,462,,骑砍2屏幕分析；input含cached=26112,uncached=10393,total=37066
-MacCodex,,rollout-2026-08-15T03-24-41-01a001bb-d1cd-7432-94fa-1dc16919de96.jsonl,2026-08-15 03:24:48,,6,117757,1463,103424,749,,骑砍2屏幕分析；input含cached=103424,uncached=14333,total=119220
-MacCodex,,rollout-2026-08-15T03-26-18-01a001bd-4d9b-77c0-8d38-445b1b83c5a8.jsonl,2026-08-15 03:26:25,,7,122727,1165,115968,446,,骑砍2屏幕分析；input含cached=115968,uncached=6759,total=123892
 MacCodex,,rollout-2026-08-15T19-09-04-01a0051c-6d72-7320-944e-8b8c640c91d9.jsonl,2026-08-15 19:09:39,,2,36305,3242,27136,422,,游戏10局prompt起始(aborted无task_complete)；input含cached=27136,uncached=9169,total=39547
 MacCodex,,rollout-2026-08-15T19-21-52-01a00528-24aa-7a00-98a2-962567417976.jsonl,2026-08-15 19:22:00,,4,73794,591,62464,213,,游戏后访谈-开心；input含cached=62464,uncached=11330,total=74385
 MacCodex,,rollout-2026-08-15T19-36-41-01a00535-b77c-7981-9448-01a55550a007.jsonl,2026-08-15 19:36:50,,4,74602,934,52480,288,,游戏后访谈-疲劳感；input含cached=52480,uncached=22122,total=75536
@@ -33,7 +24,6 @@ MacCodex,SUM,(08/15全部rollout汇总),,,87,4556973,51115,4118528,25229,,15个r
 
 Mac 侧实际能采到：
 - Hermes 侧 7 局有完整 session 级 token 聚合（session_model_usage 实际值，deepseek 计费含 cost），但只有 session 级、无法逐局拆分；
-- Codex 侧能采到 08/15 全部 15 个 rollout 文件的聚合 token（覆盖骑砍2、游戏后访谈、采访提纲审稿、STEAI 仓库审查），input/output/cache/reasoning 都能从 token_count 累计值提出。
 
 缺口：
 - DATA_MANIFEST #1——Codex 游戏 10 局没有任何逐局 token 原始记录，连那唯一的 19-09-04 game prompt 起始 rollout 都是 turn_aborted、无 task_complete，等于这 10 局的本体 token 数据整块缺失，只能重建自述、token/成本字段留空。
