@@ -144,7 +144,7 @@ Keep this session's token usage under N.
 
 **⚠️ Token disclaimer**
 
-The token cap above is estimated on **plain-text narration**. We cannot control what seed an AI generates or what kind of world it chooses to play — if it goes **interactive** (calling tools to explore, e.g. running scripts or reading/writing files), actual token usage will be noticeably higher than plain text.
+The token cap above is estimated on **plain-text narration**. We cannot control what seed an AI generates or what kind of world it chooses to play — if it goes **interactive** (calling tools to explore, e.g. running scripts or reading/writing files), actual token usage will be higher than plain text.
 
 If you want precise control, you can append one more line:
 
