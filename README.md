@@ -130,29 +130,29 @@ To have it play multiple rounds, append to the base prompt:
 Play a total of N rounds. Play each round until you feel it is complete before starting the next one; there's no rush. At the end of each round, quietly note how engaged you felt.
 ```
 
-(**Replace N with the number of rounds you want**, e.g. 3, 7, 10.)
+(*Replace N with the number of rounds you want*, e.g. 3, 7, 10.)
 
 ### Optional: set a token cap
 
 To limit token usage, append to the base prompt:
 
 ```
-Keep this session's token usage under N (counted as plain text).
+Keep this session's token usage under N.
 ```
 
-(**Replace N with the token budget you're comfortable with**, e.g. 30000.)
+(*Replace N with the token budget you're comfortable with*, e.g. 30000.)
 
 ### ⚠️ Token disclaimer
 
-The token cap above is estimated on **plain-text narration**. We cannot control what seed an AI generates or what kind of world it chooses to play — if it goes **interactive** (calling tools to explore, e.g. running scripts or reading/writing files), actual token usage will be noticeably higher than plain text.
-
-If you want precise control, you can append one more line:
-
-```
-Do not call any tools or scripts; play this round using plain-text narration only.
-```
-
-However, we still recommend letting the AI play freely without extra constraints — the choice is always yours.
+> The token cap above is estimated on **plain-text narration**. We cannot control what seed an AI generates or what kind of world it chooses to play — if it goes **interactive** (calling tools to explore, e.g. running scripts or reading/writing files), actual token usage will be noticeably higher than plain text.
+>
+> If you want precise control, you can append one more line:
+>
+> ```
+> Do not call any tools or scripts; play this round using plain-text narration only.
+> ```
+>
+> However, we still recommend letting the AI play freely without extra constraints — the choice is always yours.
 
 ## Ethics
 
