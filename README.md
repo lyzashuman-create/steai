@@ -10,6 +10,8 @@ English | [中文](README.zh-CN.md)
 
 This repository is the **open research material package**: game texts, subject records (with provenance), environment table, study protocol, and report drafts. See [DATA_MANIFEST.md](DATA_MANIFEST.md) for the source level of every data file (raw / reconstructed / self-report / inference).
 
+**Language note:** Every Chinese data/protocol/supplementary file has a sibling English translation (`.en.md` suffix). The Chinese file is the authoritative original; the `.en.md` is a translation.
+
 ## Why — and where the divide lies
 
 There is a large, active, and crowded field of **AI game agents** — hundreds of papers (600+ in a maintained survey list) about getting AIs to *play games to accomplish goals*: survival, puzzle-solving, adversarial play, social deduction, benchmark evaluation.

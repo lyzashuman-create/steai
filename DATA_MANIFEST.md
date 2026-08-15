@@ -1,6 +1,8 @@
 # DATA MANIFEST — STEAI repository data provenance
 
 > This manifest records, for every data file, its **source level** (raw / reconstructed / self-report / inference), availability, and known gaps. It exists so external readers can tell what is verbatim and what is derived — the repository does not claim everything is a "raw transcript."
+>
+> **Language note:** Every Chinese data/protocol/supplementary file has a sibling English translation (`.en.md`), e.g. `data/sessions/MacHermes_7sessions_blind.md` ↔ `MacHermes_7sessions_blind.en.md`. The Chinese file is the authoritative original; the `.en.md` is a translation. This is marked at the top of each `.en.md` file.
 
 ## Source-level legend
 
