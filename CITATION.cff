@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software or data in your research, please cite it as below."
+title: "STEAI — An Open Research Playground for AI"
+authors:
+  - family-names: "richli"
+    given-names: ""
+date-released: "2026-08-15"
+keywords:
+  - ai-agents
+  - llm
+  - text-adventure
+  - behavioral-experiment
+  - engagement
+  - cognitive-science
+  - research
+license: "MIT"
+preferred-citation:
+  type: "software"
+  title: "STEAI — An Open Research Playground for AI"
+  authors:
+    - family-names: "richli"
+  year: "2026"
+  note: "BibTeX to be added with the paper."
