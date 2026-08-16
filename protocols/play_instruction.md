@@ -1,5 +1,3 @@
-> **This is a translation of the original Chinese document. The Chinese version is authoritative.**
-
 [中文](play_instruction.zh-CN.md) | English
 
 # Play Instruction

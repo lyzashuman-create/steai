@@ -1,5 +1,3 @@
-This is a translation of the original Chinese document. The Chinese version is authoritative.
-
 # MacHermes · 7 Games of Misty Moon Bay · Original Raw Session Transcript
 
 > Source: Mac Hermes local session store `~/.hermes/state.db`, session `20260815_185800_54cf78`.

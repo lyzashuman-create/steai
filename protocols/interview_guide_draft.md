@@ -1,5 +1,3 @@
-> **This is a translation of the original Chinese document. The Chinese version is authoritative.**
-
 ---
 title: NasHermesB Post-Blind-Test Interview Guide — Draft (drafted by NasHermesA)
 date: 2026-08-15

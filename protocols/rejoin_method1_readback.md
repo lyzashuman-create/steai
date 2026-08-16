@@ -1,5 +1,3 @@
-> **This is a translation of the original Chinese document. The Chinese version is authoritative.**
-
 ---
 title: Three-Way Rejoin — Method 1 Self-Assessment (Readback Archive)
 date: 2026-08-15

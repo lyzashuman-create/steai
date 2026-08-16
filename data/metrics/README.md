@@ -1,6 +1,5 @@
 # data/metrics/ — raw token / duration / cost tables
 
-> **This is a translation of the original Chinese document. The Chinese version is authoritative.**
 
 [中文](README.zh-CN.md) | English
 

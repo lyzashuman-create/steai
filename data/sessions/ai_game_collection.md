@@ -3,7 +3,6 @@
 
 > The game texts played by four AIs. NasHermesA / NasHermesB / MacHermes are verbatim originals (MacHermes full raw transcript in [machermes_fog_bay_raw_session.md](machermes_fog_bay_raw_session.md)); MacCodex is a reconstructed self-summary (source levels governed by DATA_MANIFEST).
 
-> **This is a translation of the original Chinese document. The Chinese version is authoritative.**
 
 ---
 

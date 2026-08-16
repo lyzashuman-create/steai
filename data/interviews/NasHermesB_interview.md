@@ -9,7 +9,6 @@ note: This is an "accidental control group" — the same NasHermesB, the same 10
 
 # NasHermesB Post-Blind-Test Interview: First-Person vs Read-Back Control
 
-> **Translation notice:** This is a translation of the original Chinese document. The Chinese version is authoritative.
 
 ## Preface: Why compare "first-person" with "rejoin/read-back"
 

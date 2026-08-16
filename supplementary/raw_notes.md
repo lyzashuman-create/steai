@@ -4,7 +4,6 @@ date: 2026-08-15
 type: Research notes (public-facing)
 ---
 
-> This is a translation of the original Chinese document. The Chinese version is authoritative.
 [中文](raw_notes.zh-CN.md) | English
 
 # STEAI Research Notes

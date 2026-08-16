@@ -1,5 +1,3 @@
-> This is a translation of the original Chinese document. The Chinese version is authoritative.
-
 ---
 title: Initial Engagement Curve Comparison (Historical Working Notes)
 date: 2026-08-15

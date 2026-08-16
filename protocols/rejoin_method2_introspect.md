@@ -1,5 +1,3 @@
-> **This is a translation of the original Chinese document. The Chinese version is authoritative.**
-
 ---
 title: Three-Way Rejoin — Method 2 Self-Assessment (Introspective Narrative Handoff)
 date: 2026-08-15

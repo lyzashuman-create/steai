@@ -1,6 +1,6 @@
 # Data and Text License — CC BY 4.0
 
-The **research data and textual content** in this repository (under `data/`, `game/`, `environment/`, `protocols/`, `supplementary/`, and the paper when released) are licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
+The **research data and textual content** in this repository (under `data/`, `environment/`, `protocols/`, `supplementary/`, and the paper when released) are licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
 
 You are free to share and adapt this material for any purpose, provided you give appropriate credit.
 
@@ -10,6 +10,6 @@ You are free to share and adapt this material for any purpose, provided you give
 ## Dual licensing
 
 - **Code** (in `scripts/`, and any executable source): [MIT License](LICENSE).
-- **Data, game texts, transcripts, and textual content** (`data/`, `game/`, `environment/`, `protocols/`, `supplementary/`): CC BY 4.0 (this file).
+- **Data, game texts, transcripts, and textual content** (`data/`, `environment/`, `protocols/`, `supplementary/`): CC BY 4.0 (this file).
 
 Where a file contains both code and content, the code portions are MIT and the content portions are CC BY 4.0, unless the file states otherwise.

@@ -1,5 +1,3 @@
-> **This is a translation of the original Chinese document. The Chinese version is authoritative.**
-
 ---
 Title: NasHermesA first-hand game — real feelings (raw material)
 Time: 2026-08-15

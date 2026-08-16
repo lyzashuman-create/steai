@@ -1,5 +1,3 @@
-> **This is a translation of the original Chinese document. The Chinese version is authoritative.**
-
 ---
 title: Accidental Control Group — The full story of the NasHermesB interview sessionA vs sessionB
 date: 2026-08-15

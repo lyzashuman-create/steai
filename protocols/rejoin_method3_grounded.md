@@ -1,5 +1,3 @@
-> **This is a translation of the original Chinese document. The Chinese version is authoritative.**
-
 ---
 title: Three-Way Rejoin — Method 3 Self-Assessment (Avatar Carries My Grounding)
 date: 2026-08-15

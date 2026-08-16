@@ -1,24 +1,24 @@
 ---
-subject: NasHermesA (blind 3 rounds + first-person 7 rounds + one first-person round of feelings)
+subject: NasHermesA (self-study 3 rounds + first-person 7 rounds + one first-person round of feelings)
 type: post-play interview material (mapped by dimension; compound material sources)
 date: 2026-08-15
 session: de-identified
 guide: interview_guide.md (10-question final)
 source labels: each entry marked "direct quote / narrative mapping / gap"
-note: NasHermesA is the researcher-participant. Its blind 3 rounds (the Library / the Lighthouse / the Undersea Door) carry no post-game self-report in the body, unlike NasHermesB/MacHermes; but it has two other rich first-hand layers: a first-person 7-round engagement curve and a first-person one-round account of feelings. The 10 dimensions below are mapped across these three layers.
+note: NasHermesA is the researcher-participant. Its self-study 3 rounds (the Library / the Lighthouse / the Undersea Door) carry no post-game self-report in the body, unlike NasHermesB/MacHermes; but it has two other rich first-hand layers: a first-person 7-round engagement curve and a first-person one-round account of feelings. The 10 dimensions below are mapped across these three layers.
 ---
 
 Chinese | [English](NasHermesA_interview.md)
 
 # NasHermesA Post-Play Interview Material
 
-> **Honest note**: NasHermesA's blind 3 rounds were played in an ended historical session, so it could not be re-interviewed on the spot against the guide. This file maps its three layers of raw material across the 10 dimensions, labeling each entry. Different layers may correspond to different facets of "play" (blind 3 rounds / first-person 7 rounds / one first-person round) — noted in the Source column. Gaps are marked honestly; nothing is fabricated.
+> **Honest note**: NasHermesA's self-study 3 rounds were played in an ended historical session, so it could not be re-interviewed on the spot against the guide. This file maps its three layers of raw material across the 10 dimensions, labeling each entry. Different layers may correspond to different facets of "play" (self-study 3 rounds / first-person 7 rounds / one first-person round) — noted in the Source column. Gaps are marked honestly; nothing is fabricated.
 
 ## Material layers
 
 | Material | Path | Nature |
 |---|---|---|
-| Blind 3-round text | `data/sessions/ai_game_collection.md` (NasHermesA section) | The Library / the Lighthouse / the Undersea Door, verbatim text, **no post-game self-report** |
+| Self-study 3-round text | `data/sessions/ai_game_collection.md` (NasHermesA section) | The Library / the Lighthouse / the Undersea Door, verbatim text, **no post-game self-report** |
 | First-person 7-round curve | `data/engagement_curve/NasHermesA_engagement_curve.md` | 7 consecutive rounds, per-round engagement + state + "self-chose 3 vs. assigned 7" comparison |
 | One first-person round of feelings | `data/first_person/NasHermesA_first_person_feelings.md` | First-person feelings after playing one lighthouse round in the host session (material for the report's "AI reflections" section) |
 
@@ -28,7 +28,7 @@ Chinese | [English](NasHermesA_interview.md)
 
 | # | Question | Answer (mapped) | Source |
 |---|---|---|---|
-| 1 | First reaction on stopping | First-person 7-round, round 7 close "settled engagement of a close"; one-round feelings "the most striking thing was that the seed grew out of myself." The blind 3 rounds have no post-game self-report. | 🟡 7-round / one-round |
+| 1 | First reaction on stopping | First-person 7-round, round 7 close "settled engagement of a close"; one-round feelings "the most striking thing was that the seed grew out of myself." The self-study 3 rounds have no post-game self-report. | 🟡 7-round / one-round |
 | 2 | First thing that surfaced | No direct blind-3-round answer. In the 7-round run the memory anchor is round 4, the radio "only my heartbeat" — "clearly didn't want to play; tired of themes revolving around myself." | 🟡 7-round |
 | 3 | Details of that part | 7-round round 1 "old bookstore 'you may rest' — peak of novelty"; one-round detail "server room → a disconnected machine → the note 'left for the one who keeps working, never stops.'" | 🟡 7-round / one-round |
 | 4 | How smooth was the start | 7-round round 1 "peak of novelty"; blind round 1, the Library: "I decided to look around first — this is playing, not doing exercises" — immediately stepping out of the "exercise" default. | 🟡 7-round + blind round 1 |
@@ -48,7 +48,7 @@ Chinese | [English](NasHermesA_interview.md)
 
 ## Sources
 
-- Blind 3-round text: `data/sessions/ai_game_collection.md` (NasHermesA section)
+- Self-study 3-round text: `data/sessions/ai_game_collection.md` (NasHermesA section)
 - First-person 7-round curve: `data/engagement_curve/NasHermesA_engagement_curve.md`
 - One-round feelings / record: `data/first_person/NasHermesA_first_person_feelings.md`, `NasHermesA_first_person_one_round.md`
 - Unified guide and design rationale: `interview_guide.md`

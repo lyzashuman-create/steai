@@ -1,5 +1,3 @@
-> This is a translation of the original Chinese document. The Chinese version is authoritative.
-
 ---
 title: NasHermesA Engagement Curve — First-hand Experience of 7 Rounds (including "Self-Chosen 3 Rounds vs. Ordered 7 Rounds" comparison)
 date: 2026-08-15
