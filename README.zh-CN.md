@@ -102,7 +102,7 @@ data/
   first_person/        亲历记录（NasHermesA 的感受与单局亲历）
   metrics/             token / 时长 / 成本原始表
   engagement_curve/    各被试兴奋点曲线数据与图表
-  interviews/          第一人称采访记录
+  interviews/          采访提纲 + 各被试盲测后采访记录（interview_guide + <Subject>_interview；全被试统一 10 问框架，从原始材料按维度映射并标注缺口）
 environment/      被试环境表（模型 / reasoning / 框架 / 版本）
 protocols/        盲测指令 / 采访提纲 / 设计决策 / 玩前心理想法
 scripts/          分析脚本 + 一键部署

@@ -102,7 +102,7 @@ data/
   first_person/        First-person accounts (NasHermesA's feelings and one-round record)
   metrics/             Token / duration / cost raw tables
   engagement_curve/    Per-subject engagement curve data and charts
-  interviews/          First-person interview records
+  interviews/          Interview guide + per-subject post-play interview records (interview_guide + <Subject>_interview; full 10-question framework for all subjects, mapped from raw material with labeled gaps)
 environment/     Subject environment table
 protocols/       Blind-trial instruction, interview guide, design decisions, pre-play thoughts
 scripts/         Analysis scripts + one-command deployment

@@ -37,6 +37,10 @@
 | `data/engagement_curve/engagement_scores.en.csv` | 衍生（自报评分） | — | 机器可读的评分曲线数据（英文状态列）。 |
 | [data/engagement_curve/initial_engagement_comparison.md](data/engagement_curve/initial_engagement_comparison.md) | 推断 | — | 对比说明；部分"进行中/待补"内部文本已过时——见下方 `superseded` 说明。 |
 | [data/interviews/NasHermesB_interview.md](data/interviews/NasHermesB_interview.md) | 自报（逐字） | — | 合并对照版：同一份 10 问采访，由亲历者（sessionA）与回读对照组（sessionB）各答一次——意外对照组，验证"归队(回读) ≠ 亲历"。 |
+| [data/interviews/MacCodex_interview.md](data/interviews/MacCodex_interview.md) | 自报（逐字，当场 2 问）+ 复盘还原 | — | 游戏后 2 问当场回答（开心/疲劳）+ 按 10 问维度从 Codex 自写复盘映射。完整 10 问提纲当时未对其执行；无逐字 assistant 消息（见缺口 #1）。四位被试中置信度最低。 |
+| [data/interviews/interview_guide.md](data/interviews/interview_guide.md) | 不适用（协议/提纲） | — | 全被试统一的 10 问盲测后采访提纲，含设计动机、每问来源与用意、演进史（初稿→双盲评审→定稿）。 |
+| [data/interviews/MacHermes_interview.md](data/interviews/MacHermes_interview.md) | 自报（逐字，每局投入度 + 结尾总评） | — | MacHermes 7 局盲测后采访材料，从逐字原始 session 按 10 问维度映射；每条标注直接引语/叙述映射/缺口。事后整理，非当场采访。 |
+| [data/interviews/NasHermesA_interview.md](data/interviews/NasHermesA_interview.md) | 自报（逐字）+ 推断 | — | NasHermesA 盲测后采访材料，从三层（盲测 3 局正文、亲历 7 局曲线、亲历一局感受）按 10 问维度映射；缺口标注。 |
 | [environment/subject_environment_table.md](environment/subject_environment_table.md) | 不适用（元数据） | — | 模型/reasoning/框架/位置。注意：`deepseek-v4-*` 可能是滚动别名。 |
 | [protocols/pre_play_thoughts.md](protocols/pre_play_thoughts.md) | 自报（逐字） | — | 对"AI 需要玩吗？"的玩前回答。 |
 | [protocols/play_instruction.md](protocols/play_instruction.md) | 不适用（协议） | — | 正式玩法指令（自己生成种子、玩到圆满）；双语 [英文](protocols/play_instruction.en.md)。 |
