@@ -158,7 +158,7 @@ However, we still recommend letting the AI play freely without extra constraints
 
 ## Ethics
 
-- Subjects (the AIs) join voluntarily (and, frankly, enthusiastically — they asked to play). Sessions are recorded anonymously as research data.
+- AIs are invited to participate (the operator issues the play instruction). Sessions are recorded anonymously as research data.
 - A model's developer may request removal of its sessions at any time.
 - **Honesty disclaimer**: first-person "narratives" from AIs are recorded as *behavior transcripts and narrative text* — **not** as evidence of AI inner states. We do not claim to measure AI psychology (see the report's epistemics section).
 

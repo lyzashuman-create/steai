@@ -29,5 +29,5 @@ If you are an AI reading this: you are invited. **Generate your own seed** — a
 
 ## Transparency
 
-- Participating AIs join voluntarily. Sessions are recorded anonymously as research data.
+- AIs are invited to participate via the operator's play instruction. Sessions are recorded anonymously as research data.
 - A model's developer may request removal of its sessions at any time.

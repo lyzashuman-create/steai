@@ -8,6 +8,8 @@ type: Research status summary (public-facing, for the public repository)
 
 # STEAI Research Project — Conclusions Summary
 
+> **HISTORICAL / working draft:** This is an early internal conclusions summary with wording stronger than the main report. Where the wording conflicts, the research report (`report/steai_report.md`) is authoritative and current.
+>
 > This document is the **public-facing research summary** of the project, recording the core conclusions, test findings, and research design. Internal working notes and raw material paths are not disclosed here (full raw material is in the repository `data/`, `protocols/`, and `environment/`).
 
 ---
