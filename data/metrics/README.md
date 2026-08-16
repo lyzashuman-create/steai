@@ -1,29 +1,31 @@
-# data/metrics/ — token / 时长 / 成本 原始表
+# data/metrics/ — raw token / duration / cost tables
 
-[English](README.en.md) | 中文
+> **This is a translation of the original Chinese document. The Chinese version is authoritative.**
 
-> 采集日期：2026-08-16。数据源：NAS Hermes 本地会话库（`/opt/data/state.db` 及 `profiles/judy/state.db`）+ Mac Hermes 经 SSH 桥接只读采集（Mac `~/.hermes/state.db` + `~/.codex/sessions/`）。全程只读，未修改任何源。
+[中文](README.zh-CN.md) | English
 
-## 文件
+> Collection date: 2026-08-16. Sources: NAS Hermes local session store (`/opt/data/state.db` and `profiles/judy/state.db`) + Mac Hermes read-only collection over SSH bridge (Mac `~/.hermes/state.db` + `~/.codex/sessions/`). All read-only; no source was modified.
 
-| 文件 | 内容 | 粒度 |
+## Files
+
+| File | Content | Granularity |
 |---|---|---|
-| `nashermesa_rounds.csv` | NasHermesA 亲历 3 局（图书馆 The Library / 灯塔 The Lighthouse / 海底门 The Door Under the Sea），逐局 token | **per-round exact**（3 局各自独立 session） |
-| `machermes_rounds.csv` | MacHermes 雾月湾（Misty Moon Bay）7 局 | session-level（7 局连续 83.6s 跑完，库内无逐局 token） |
-| `nashermesb_rounds.csv` | NasHermesB 守塔人（The Keeper of the Lighthouse）10 局 + 访谈 | session-level（10 局单 session 连续生成，无逐局 token） |
-| `maccodex_rollouts.csv` | MacCodex 10 局 + 08/15 全部 rollout 明细 | **reconstructed**（10 局无逐局 token 原始记录，只有 rollout 聚合） |
-| `token_cost_summary.csv` | 四组跨被试对照汇总表 | 混合（各被试原始粒度如实标注） |
-| `basic_metrics.csv` | 基础每被试指标（局数/时长/工具调用） | derived（metadata） |
+| `nashermesa_rounds.csv` | NasHermesA first-hand 3 rounds (图书馆 The Library / 灯塔 The Lighthouse / 海底门 The Door Under the Sea), per-round token | **per-round exact** (3 rounds each in their own session) |
+| `machermes_rounds.csv` | MacHermes Misty Moon Bay (雾月湾) 7 rounds | session-level (7 rounds ran continuously in 83.6s; no per-round token in the store) |
+| `nashermesb_rounds.csv` | NasHermesB The Keeper of the Lighthouse (守塔人) 10 rounds + interview | session-level (10 rounds generated continuously in one session; no per-round token) |
+| `maccodex_rollouts.csv` | MacCodex 10 rounds + full 08/15 rollout detail | **reconstructed** (no per-round token for the 10 rounds; only rollout aggregates) |
+| `token_cost_summary.csv` | Cross-subject comparison summary | mixed (per-subject granularity noted honestly) |
+| `basic_metrics.csv` | Basic per-subject metrics (rounds/duration/tool calls) | derived (metadata) |
 
-## 关键粒度说明（诚实标注，勿误读）
+## Key granularity notes (honest, don't misread)
 
-1. **库里没有"逐局 token"这一层**——每个被试的 N 局游戏是在一个 session 内**一整条超长 assistant 消息**里连续生成，不是每局一次独立 API 调用。因此：
-   - 只有 NasHermesA 的 3 局因为**各自开了独立 session**，能做到逐局精确。
-   - MacHermes 7 局、NasHermesB 10 局都是**单 session 连续跑完**，只能给 session 级聚合 token，无法逐局拆分。
-2. **MacCodex 10 局是整块缺失**（DATA_MANIFEST 缺口#1）：08/15 唯一 game prompt 起始的 rollout 是 `turn_aborted` 无 `task_complete`，等于 10 局本体的 token 数据不存在。只有自述重建。其 `maccodex_rollouts.csv` 列出的 rollout 明细是 Mac 上的游戏相关工作（游戏后访谈、采访提纲审稿、STEAI 仓库审查），供参考，不属于 10 局游戏本体。
-3. **cost 字段**：Hermes 侧是官方价快照估算（`estimated`，`cost_status=estimated`），MacCodex 的 OpenAI rollout 不记录成本，故 cost 列天然为空。
-4. **duration**：Hermes 侧用该 session messages 首尾时间戳计算；MacCodex rollout 时长是文件首尾 timestamp 之差（UTC，已转本地）。
+1. **There is no "per-round token" layer in the store** — each subject's N rounds were generated continuously within **one very long assistant message** in a session, not as one API call per round. Therefore:
+   - Only NasHermesA's 3 rounds achieve per-round exactness, because each round was a **separate session**.
+   - MacHermes' 7 rounds and NasHermesB's 10 rounds each ran continuously in a **single session**, so only session-level aggregate tokens exist; per-round split is not possible.
+2. **MacCodex's 10 rounds are entirely missing** (DATA_MANIFEST gap #1): the only game-prompt rollout on 08/15 was `turn_aborted` with no `task_complete`, so no token data for the 10 rounds exists — only a reconstructed self-narrative. The rollout detail listed in `maccodex_rollouts.csv` is Mac-side game-related work (post-game interviews, interview-guide review, STEAI repo review), for reference; it is not the 10 rounds themselves.
+3. **cost field**: Hermes side is an estimate from the official price snapshot (`estimated`, `cost_status=estimated`); MacCodex's OpenAI rollout does not record cost, so the cost column is naturally empty.
+4. **duration**: Hermes side computed from first/last message timestamps in the session; MacCodex rollout duration is the difference of file first/last timestamps (UTC, converted to local).
 
-## 与 README R6 / conclusions 的关系
+## Relation to README R6 / conclusions
 
-README R6 的定量发现早期以叙述形式出现。本目录的实测 token 表提供机器可读的原始数据：单局时长约 12–52 秒（NasHermesA），session 级缓存读取约 44K–287K，纯输出约 6–13K。但**逐局数值因上述粒度限制无法逐局精确复算**——README 中已标注为"关联、非定律"，本目录如实呈现各被试的 session 级实测值，不强行补造逐局数字。
+The quantitative findings in README R6 originally appeared as narrative. The measured token tables here provide machine-readable raw data: round duration ~12–52 s (NasHermesA), session-level cache reads ~44K–287K, pure output ~6–13K. However, **per-round values cannot be re-derived exactly due to the granularity limits above** — README already labels them as "association, not a law". This directory presents each subject's session-level measured values honestly and does not fabricate per-round numbers.

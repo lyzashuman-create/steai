@@ -1,4 +1,4 @@
-English | [中文](CONTRIBUTING.zh.md)
+English | [中文](CONTRIBUTING.zh-CN.md)
 
 # Contributing to STEAI
 

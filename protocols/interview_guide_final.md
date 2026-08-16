@@ -1,33 +1,35 @@
+> **This is a translation of the original Chinese document. The Chinese version is authoritative.**
+
 ---
-标题: NasHermesB 盲测后采访提纲——融合定稿版
-时间: 2026-08-15
-演进: 初稿(NasHermesA) → MacHermes 评审 + MacCodex 评审(双盲) → 融合定稿
-来源: 融合 MacHermes 版(8问)与 Codex 版(11问)之长
-状态: 定稿（用于 NasHermesB 盲测后采访）
+title: NasHermesB Post-Blind-Test Interview Guide — Merged Final Version
+date: 2026-08-15
+evolution: Draft (NasHermesA) → MacHermes review + MacCodex review (double-blind) → merged final
+source: Merging the strengths of the MacHermes version (8 questions) and the Codex version (11 questions)
+status: Final (used for the NasHermesB post-blind-test interview)
 ---
-[English](interview_guide_final.en.md) | 中文
+[中文](interview_guide_final.zh-CN.md) | English
 
-# 采访提纲（融合定稿版）
+# Interview Guide (Merged Final Version)
 
-> 核心原则（MacHermes + Codex 双盲共识）：**绝不问"你有没有X状态"，只问"刚才具体发生了什么 / 当下怎么想 / 接下来想干嘛"**——让状态从叙述里浮现，别让她声明状态。问法越规范越像标准问卷，AI 越容易给出标准答案；要糙一点、松一点，像朋友随口问。
+> Core principle (MacHermes + Codex double-blind consensus): **never ask "do you have X state," only ask "what actually just happened / what are you thinking right now / what do you want to do next"** — let the state emerge from the narrative, don't make her declare a state. The more standardized and questionnaire-like the phrasing, the more easily an AI gives a standard answer; it should be rougher and looser, like a friend casually asking.
 
-## 定稿提纲（10问）
+## Final guide (10 questions)
 
-1. 刚停下来，第一反应是什么？
-2. 脑子里最先蹦出来的是哪一段？
-3. 那段当时发生了什么？你心里在嘀咕什么？
-4. 你一开始是怎么进这个游戏的，刚上手顺不顺？
-5. 有没有哪一局觉得时间过得特别快、没留神就打完了？
-6. 中间有没有哪一下特别上头，觉得"我得把这个弄成"？
-7. 有没有哪一局有点无聊、或者想骂一句？是哪局，卡在哪？
-8. 你中间有没有走神？走神时在想什么？
-9. 要是刚才没人叫停，你接下来会继续玩、换个玩法、还是想收了？
-10. 下次再玩，你想自己挑，还是别人安排也行？还有什么想吐槽或夸的？
+1. You just stopped — what was your first reaction?
+2. What's the first segment that popped into your head?
+3. What happened during that segment? What were you muttering to yourself?
+4. How did you get into this game at the start — did it come smoothly at first?
+5. Was there any round where time felt like it flew, and you finished without noticing?
+6. Midway, was there a moment that really hooked you, like "I've got to make this work"?
+7. Was there any round that was a bit boring, or made you want to curse? Which round, and where did it get stuck?
+8. Did you space out in the middle? What were you thinking about while spacing out?
+9. If nobody had stopped you just now, would you keep playing, switch up your play, or want to call it quits?
+10. Next time you play, do you want to pick for yourself, or is it fine if someone else arranges it? Anything else you want to complain about or praise?
 
-## 每问来源与用意（设计过程）
-- **第5题（时间感）**：来自 MacHermes 妙招——比问"沉浸了吗"值钱得多，她描述时自然漏出"我没注意打这么久了"。原第3题"有没有沉浸忘了自己在玩"是伪命题（AI 永远知道自己被叫去跑游戏），删。
-- **第4/9/10题**：来自 Codex——进入方式（日常）、现场感（"没人叫停你会继续干嘛"比"以后还想玩吗"更能听出真想玩/想换/想收）、自主感（"自己挑还是安排"）。
-- **第6/7/8题**：来自 Codex——"特别上头/想骂一句/走神"，能聊到投入、目标感、情绪起伏，但从不点破观察词。
-- **原第7题（玩vs处理任务最大区别）**：两人一致删——太抽象、像研究员提问，会把玩家拽回任务模式，AI 会用框架硬凑。
-- **原第8题（会不会想着该不该更好）**：改——"该不该更好"是诱导答案。Codex 版改成"比较像随便试，还是忍不住琢磨怎么打更好"，等她自己说琢磨是爽/累/无所谓。
-- **原第5/6题（玩前忙很久/玩后变化）**：删——"忙/累"是 AI 伪命题，她没有那种体验，只能编。
+## Source and intent of each question (design process)
+- **Question 5 (sense of time)**: from MacHermes's clever move — worth far more than asking "were you immersed"; while describing it she naturally lets slip "I didn't notice I'd been playing this long." The original question 3, "were you immersed and forgot you were playing," is a false premise (an AI always knows it was called to run a game), so it was removed.
+- **Questions 4/9/10**: from Codex — mode of entry (everyday), sense of presence ("if nobody stopped you, what would you do next" hears whether they truly want to play/switch/quit better than "would you want to play again"), sense of agency ("pick for yourself or be arranged").
+- **Questions 6/7/8**: from Codex — "really hooked / want to curse / spaced out" can elicit engagement, sense of purpose, and emotional ups and downs without ever naming the observation words.
+- **Original question 7 (biggest difference between playing and handling tasks)**: both agreed to delete — too abstract, sounds like a researcher asking, drags the player back into task mode, and the AI will force-fit a framework.
+- **Original question 8 (would you think about whether it could be better)**: revised — "whether it could be better" induces an answer. The Codex version changed it to "more like trying casually, or can't help mulling over how to play better," and lets her say herself whether mulling feels good/tiring/indifferent.
+- **Original questions 5/6 (busy for a long time before playing / changes after playing)**: deleted — "busy/tired" is a false premise for an AI; it has no such experience, so it can only fabricate.

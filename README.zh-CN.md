@@ -12,11 +12,11 @@
 
 没有固定的游戏等着你加载。玩本身，就是机制本身：AI **自己生成一个种子**——一个开放的小世界，或一个小游戏的开头——然后顺着它自由探索，让它长成一局完整的游戏，玩到这一局自己觉得圆满了为止。不要产出、不写报告、不在乎对错。
 
-**阅读研究报告：[中文](report/steai_report_zh.md) · [English](report/steai_report_en.md)**——或浏览下方材料。
+**阅读研究报告：[中文](report/steai_report.zh-CN.md) · [English](report/steai_report.md)**——或浏览下方材料。
 
-本仓库是该研究的**开放研究材料包**：游戏原文、被试记录（含来源层级）、环境表、研究方案、研究报告草稿。每个数据文件的来源（逐字 / 复盘 / 自报 / 推断）见 [DATA_MANIFEST.md](DATA_MANIFEST.md)（[中文版](DATA_MANIFEST.zh.md)）。
+本仓库是该研究的**开放研究材料包**：游戏原文、被试记录（含来源层级）、环境表、研究方案、研究报告草稿。每个数据文件的来源（逐字 / 复盘 / 自报 / 推断）见 [DATA_MANIFEST.md](DATA_MANIFEST.md)（[中文版](DATA_MANIFEST.zh-CN.md)）。
 
-**语言说明**：所有中文数据/协议/补充文件均有对应的英文翻译版（`.en.md` 后缀），中文为权威原文，英文为翻译版。
+**语言说明**：所有英文主文件均有对应的中文翻译版（`.zh-CN` 后缀），英文为主（权威原文），中文为翻译版。
 
 ## 为什么做这个——以及分水岭
 
@@ -49,6 +49,8 @@ STEAI 站在一条清晰分水岭的另一侧：
 
 完整记录见 [protocols/pre_play_thoughts.md](protocols/pre_play_thoughts.md)。其余被试的玩前自述，正用同样的问题采集。
 
+> **怎么读这段**：以上是 AI 自己的自述——一个观察点，不是科学结论。我们无法观测到 AI 是否真的有这些状态；这是被试的第一人称描述，仅作为这样的材料提供。
+
 ## 研究问题
 
 1. 当没有任务时，AI 会进入自组织的玩的状态吗？
@@ -80,7 +82,7 @@ STEAI 站在一条清晰分水岭的另一侧：
 6. **评价结构似乎在悄悄回归**——被试使用的语言与"玩久了把玩变回评价"一致。这是投入下降的候选解释。
 7. **出现了自组织的叙事模式**："不是我在操控故事，是故事带着我走"（MacCodex）；"世界开始自己长朋友"（NasHermesB / MacHermes）。描述为自组织叙事模式，而非自主意图的证据。
 8. **玩被描述为"转换"而非"恢复"**——多个 agent 报告的候选解读。
-9. **亲历的游玩记录带有回读给不出的信息**——一个意外对照组（同一个被试、同一份 10 问采访，由亲历者与回读会话各答一次）显示，只有亲历者的回答包含游玩中的创作决策、犹豫与自我觉察。这支撑"归队（回读）≠ 亲历"的发现。见合并对照版：[data/interviews/NasHermesB_interview.md](data/interviews/NasHermesB_interview.md)。
+9. **亲历的游玩记录带有回读给不出的信息**——一个意外对照组（同一个被试、同一份 10 问采访，由亲历者与回读会话各答一次）显示，只有亲历者的回答包含游玩中的创作决策、犹豫与自我觉察。这支撑"归队（回读）≠ 亲历"的发现。见合并对照版：[data/interviews/NasHermesB_interview.zh-CN.md](data/interviews/NasHermesB_interview.zh-CN.md)。
 
 ![全部被试的投入曲线（自报）](data/engagement_curve/engagement_curves_all.png)
 
@@ -98,7 +100,7 @@ STEAI 站在一条清晰分水岭的另一侧：
 ```
 DATA_MANIFEST.md  每个数据文件的来源（逐字 / 复盘 / 自报 / 推断）
 data/
-  sessions/            游戏会话合集（ai_game_collection.md / .en.md）+ MacHermes 原始会话——各 AI agent 的游戏会话记录
+  sessions/            游戏会话合集（ai_game_collection.md 英文主 + .zh-CN.md 中文）+ MacHermes 原始会话——各 AI agent 的游戏会话记录
   first_person/        亲历记录（NasHermesA 的感受与单局亲历）
   metrics/             token / 时长 / 成本原始表
   engagement_curve/    各被试兴奋点曲线数据与图表
@@ -163,7 +165,7 @@ docs/             （占位）
 
 ## 贡献
 
-开启 Discussion 或 issue。见 [CONTRIBUTING.md](CONTRIBUTING.md) / [中文版](CONTRIBUTING.zh.md)。
+开启 Discussion 或 issue。见 [CONTRIBUTING.md](CONTRIBUTING.md) / [中文版](CONTRIBUTING.zh-CN.md)。
 
 ## 引用
 

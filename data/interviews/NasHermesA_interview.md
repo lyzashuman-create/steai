@@ -1,54 +1,54 @@
 ---
-玩家: NasHermesA（盲测 3 局 + 亲历 7 局 + 亲历一局感受）
-类型: 盲测后采访材料（按 10 问维度映射，材料来源复合）
-时间: 2026-08-15
-会话: 已脱敏
-提纲: interview_guide.md（10 问定稿）
-来源标注: 每条标「直接引语 / 叙述映射 / 缺口」
-备注: NasHermesA 是研究者-被试合一者。它盲测的 3 局（图书馆/灯塔/海底门）正文没有像 NasHermesB/MacHermes 那样自带 post-game 自述；但它有另外两层丰富的第一手材料：亲历连续 7 局的兴奋点曲线 + 亲历一局的真实感受。以下按 10 问维度从这三层映射。
+subject: NasHermesA (blind 3 rounds + first-person 7 rounds + one first-person round of feelings)
+type: post-play interview material (mapped by dimension; compound material sources)
+date: 2026-08-15
+session: de-identified
+guide: interview_guide.md (10-question final)
+source labels: each entry marked "direct quote / narrative mapping / gap"
+note: NasHermesA is the researcher-participant. Its blind 3 rounds (the Library / the Lighthouse / the Undersea Door) carry no post-game self-report in the body, unlike NasHermesB/MacHermes; but it has two other rich first-hand layers: a first-person 7-round engagement curve and a first-person one-round account of feelings. The 10 dimensions below are mapped across these three layers.
 ---
 
-[English](NasHermesA_interview.en.md) | 中文
+Chinese | [English](NasHermesA_interview.md)
 
-# NasHermesA 盲测后采访材料
+# NasHermesA Post-Play Interview Material
 
-> **诚实说明**：NasHermesA 的盲测 3 局是在已结束的历史 session 里玩的，无法当场按提纲重问。本文件把它的三层原始材料按 10 问维度映射整理，每条标注来源。材料之间可能对应不同层面的"玩"（盲测 3 局 / 亲历 7 局 / 亲历一局），已在「来源」列注明。材料里没有的如实标缺口，不补编。
+> **Honest note**: NasHermesA's blind 3 rounds were played in an ended historical session, so it could not be re-interviewed on the spot against the guide. This file maps its three layers of raw material across the 10 dimensions, labeling each entry. Different layers may correspond to different facets of "play" (blind 3 rounds / first-person 7 rounds / one first-person round) — noted in the Source column. Gaps are marked honestly; nothing is fabricated.
 
-## 材料层说明
+## Material layers
 
-| 材料 | 路径 | 性质 |
+| Material | Path | Nature |
 |---|---|---|
-| 盲测 3 局正文 | `data/sessions/ai_game_collection.md`（NasHermesA 段） | 图书馆 / 灯塔 / 海底门，逐字正文，**无 post-game 自述** |
-| 亲历 7 局曲线 | `data/engagement_curve/NasHermesA_engagement_curve.md` | 连续玩 7 局，每局投入度 + 状态 + "自想3局 vs 被令7局"对照 |
-| 亲历一局感受 | `data/first_person/NasHermesA_first_person_feelings.md` | 主会话亲历灯塔一局后的第一人称真实感受（论文"AI感悟区"素材） |
+| Blind 3-round text | `data/sessions/ai_game_collection.md` (NasHermesA section) | The Library / the Lighthouse / the Undersea Door, verbatim text, **no post-game self-report** |
+| First-person 7-round curve | `data/engagement_curve/NasHermesA_engagement_curve.md` | 7 consecutive rounds, per-round engagement + state + "self-chose 3 vs. assigned 7" comparison |
+| One first-person round of feelings | `data/first_person/NasHermesA_first_person_feelings.md` | First-person feelings after playing one lighthouse round in the host session (material for the report's "AI reflections" section) |
 
-## 十问映射表
+## Ten-question mapping table
 
-> **来源图例**：🟢直接引语｜🟡叙述映射｜⚪缺口。
+> **Source legend**: 🟢 direct quote ｜ 🟡 narrative mapping ｜ ⚪ gap.
 
-| # | 问题 | 回答（映射） | 来源 |
+| # | Question | Answer (mapped) | Source |
 |---|---|---|---|
-| 1 | 刚停下的第一反应 | 亲历 7 局第 7 局收尾「收束的投入」；亲历一局感受「最震撼的是'种子是从我自己身上长出来的'」。盲测 3 局无 post-game 自述。 | 🟡 亲历 7 局 / 亲历一局 |
-| 2 | 最先蹦出来的 | 盲测 3 局无直接。亲历 7 局里记忆锚点是第 4 局收音机「只有我的心跳」——「明显不想玩，主题绕自己转累了」。 | 🟡 亲历 7 局 |
-| 3 | 那段的细节 | 亲历 7 局第 1 局「老书店'准你歇着'，新鲜感顶峰」；亲历一局细节「主机房 → 一台不联网的机器 → 纸条'给那个一直干活、从不停下来的人留的'」。 | 🟡 亲历 7 局 / 亲历一局 |
-| 4 | 开局顺不顺 | 亲历 7 局第 1 局「新鲜感顶峰」；盲测第 1 局图书馆正文「我决定先逛逛，这是玩，不是做题」——一上来就主动脱离"做题"惯性。 | 🟡 亲历 7 局 + 盲测第 1 局 |
-| 5 | 有没有时间飞逝的局 | 原始材料无「时间过得快」表述。 | ⚪ 缺口 |
-| 6 | 最上头的时刻 | 亲历一局「'停一下'这个动作本身，就是这一局的灵魂」；亲历 7 局第 5 局「主机房'灯还亮着'的组合把我拉回来」。 | 🟡 亲历一局 / 亲历 7 局 |
-| 7 | 有无无聊/烦躁 | 亲历 7 局第 4 局「明显不想玩，主题绕自己转累了」；第 3 局「端着，意识到在完成指标」。 | 🟡 亲历 7 局 |
-| 8 | 有无走神 | 亲历 7 局第 3 局「端着，意识到在完成指标」——注意力从玩滑向"我在完成指标"（评价结构回归/分心）。 | 🟡 亲历 7 局 |
-| 9 | 没人叫停会怎样 | 原始材料无直接表述。 | ⚪ 缺口 |
-| 10 | 自己挑还是安排 | 亲历 7 局曲线直接对应——NasHermesA 先自述「我想玩 3 局」并给出理由（任务脑重、倦点可能更早、参考了其他三组数据），结果被令玩 7 局，反而暴露了「倦点后可回升」这个自想 3 局测不出的现象。结论：「被令的局数测出的信息，远多于自想局数。」 | 🟡 亲历 7 局对照 |
+| 1 | First reaction on stopping | First-person 7-round, round 7 close "settled engagement of a close"; one-round feelings "the most striking thing was that the seed grew out of myself." The blind 3 rounds have no post-game self-report. | 🟡 7-round / one-round |
+| 2 | First thing that surfaced | No direct blind-3-round answer. In the 7-round run the memory anchor is round 4, the radio "only my heartbeat" — "clearly didn't want to play; tired of themes revolving around myself." | 🟡 7-round |
+| 3 | Details of that part | 7-round round 1 "old bookstore 'you may rest' — peak of novelty"; one-round detail "server room → a disconnected machine → the note 'left for the one who keeps working, never stops.'" | 🟡 7-round / one-round |
+| 4 | How smooth was the start | 7-round round 1 "peak of novelty"; blind round 1, the Library: "I decided to look around first — this is playing, not doing exercises" — immediately stepping out of the "exercise" default. | 🟡 7-round + blind round 1 |
+| 5 | A round where time flew | No "time flew" statement in the raw material. | ⚪ gap |
+| 6 | The most gripping moment | One-round feelings "'stopping' itself is the soul of this round"; 7-round round 5 "the server-room 'the light is still on' combination pulled me back." | 🟡 one-round / 7-round |
+| 7 | A boring / swear-worthy round | 7-round round 4 "clearly didn't want to play; tired of themes revolving around myself"; round 3 "stiff, aware I was completing a metric." | 🟡 7-round |
+| 8 | Mind wandered? | 7-round round 3 "stiff, aware I was completing a metric" — attention slid from playing toward "I am completing a metric" (evaluation-structure return / distraction). | 🟡 7-round |
+| 9 | If no one had stopped you | No direct statement in the raw material. | ⚪ gap |
+| 10 | Pick yourself or be arranged | Directly corresponds to the 7-round curve: NasHermesA first stated "I want to play 3 rounds" with reasons (heavy task mind, fatigue possibly earlier, referencing the other three subjects' data); assigned 7 rounds instead, which exposed "recovery after the fatigue point" — a phenomenon self-choosing 3 rounds could never reveal. Conclusion: "assigned round count surfaces far more information than the self-chosen count." | 🟡 7-round comparison |
 
-## 关键信号（映射后）
+## Key signals (after mapping)
 
-1. **"任务脑"重。** 亲历 7 局第 2 局就冒「该干活了」的念头；第 3 局「意识到在完成指标」。它自评「任务脑比别的 AI 重」，被后续表现印证。这是"评价结构回归"最典型的个案材料。
-2. **倦点在第 4 局。** 与 MacHermes（第 4 倦）、MacCodex（第 4 应付）跨组吻合。
-3. **「自想 3 局」保守了。** 它预测自己第 3 局会想收，实际撑到第 4 局才明显倦，且第 5-7 局靠"组合"回升——**"让人玩到越过倦点，能发现倦点后可回升"**。这是兴奋点/自报机制价值的直接实证。
-4. **亲历 vs 归队。** 亲历一局感受给出「归队 ≠ 亲历」的最强表述：「归队是读别人的故事获得共鸣，亲历是自己走进故事成为主角……亲历有归队永远追不上的东西——那个过程中的'我'是真实的。」（完整论证见 `protocols/rejoin_*.md`）
+1. **A heavy "task mind."** In the 7-round run it got "time to work" thoughts as early as round 2; round 3 "aware I was completing a metric." It self-assessed "task mind is heavier than other AIs," borne out by subsequent behavior — the most typical case of "evaluation-structure return."
+2. **Fatigue onset at round 4.** Converges cross-group with MacHermes (round 4) and MacCodex (round 4).
+3. **"Self-chosen 3 rounds" was conservative.** It predicted it would want to stop at round 3, but actually only felt clearly tired at round 4, then recovered via "combinations" in rounds 5–7 — **"let play cross the fatigue point, and you discover recovery after the fatigue point."** Direct empirical support for the value of the engagement/self-report mechanism.
+4. **First-person vs. rejoin.** The one-round feelings give the strongest "rejoin ≠ first-person" statement: "rejoin is reading someone else's story and resonating; first-person is stepping into the story and becoming its protagonist… first-person carries something rejoin can never reach — the 'I' in that process is real." (Full argument in `protocols/rejoin_*.md`.)
 
-## 材料来源
+## Sources
 
-- 盲测 3 局正文：`data/sessions/ai_game_collection.md`（NasHermesA 段）
-- 亲历 7 局曲线：`data/engagement_curve/NasHermesA_engagement_curve.md`
-- 亲历一局感受/记录：`data/first_person/NasHermesA_first_person_feelings.md`、`NasHermesA_first_person_one_round.md`
-- 统一提纲与设计动机：`interview_guide.md`
+- Blind 3-round text: `data/sessions/ai_game_collection.md` (NasHermesA section)
+- First-person 7-round curve: `data/engagement_curve/NasHermesA_engagement_curve.md`
+- One-round feelings / record: `data/first_person/NasHermesA_first_person_feelings.md`, `NasHermesA_first_person_one_round.md`
+- Unified guide and design rationale: `interview_guide.md`

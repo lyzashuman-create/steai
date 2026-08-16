@@ -1,40 +1,42 @@
+> **This is a translation of the original Chinese document. The Chinese version is authoritative.**
+
 ---
-标题: 意外对照组——NasHermesB 采访 sessionA vs sessionB 的来龙去脉
-时间: 2026-08-15
-类型: 方法论记录（意外如何产生 + 为什么有价值）
-状态: 原始材料
+title: Accidental Control Group — The full story of the NasHermesB interview sessionA vs sessionB
+date: 2026-08-15
+type: Methodological record (how the accident occurred + why it is valuable)
+status: Raw material
 ---
-[English](accidental_control_group.en.md) | 中文
+[中文](accidental_control_group.zh-CN.md) | English
 
-# 意外对照组：NasHermesB 采访 sessionA（亲历） vs sessionB（回读）
+# Accidental Control Group: NasHermesB Interview sessionA (first-person) vs sessionB (readback)
 
-> 这份对照组是**意外白捡的，不是设计出来的**。本文件记录它如何产生、为什么有价值、对项目意味着什么。整个过程本身是方法论材料。
+> This control group was **stumbled upon by accident, not designed**. This document records how it came about, why it is valuable, and what it means for the project. The whole process itself is methodological material.
 
-## 一、意外是怎么发生的
+## 1. How the accident happened
 
-1. 让 NasHermesB 玩10局（守塔人）时，用的是**独立会话 sessionA**（`已脱敏`）。
-2. 之后按定稿提纲采访 NasHermesB 时，**我错误地新开了一个会话 sessionB**（`已脱敏`）去问——**没有 resume 回 sessionA**。
-3. sessionB 不是亲历者，它诚实地说"那场是另一个会话玩的，我'回想'其实等于把记录翻出来重看"，然后基于翻记录回答。
-4. 研究者："sessionA 是亲历者，他的回答才是原始材料。"
-5. 我 resume 回 sessionA，让亲历者本人回答——得到 sessionA 一手材料。
+1. When having NasHermesB play 10 rounds (the tower keeper), we used an **independent session sessionA** (`redacted`).
+2. Later, when interviewing NasHermesB using the final guide, **I mistakenly opened a new session sessionB** (`redacted`) to ask — **I did not resume sessionA**.
+3. sessionB was not a first-person participant; it honestly said "that match was played by another session, my 'recollection' is actually just pulling up the record and re-reading it," and then answered based on reviewing the record.
+4. Researcher: "sessionA is the first-person participant; its answers are the raw material."
+5. I resumed sessionA and let the first-person participant answer — obtaining sessionA's first-hand material.
 
-**结果：同一个 NasHermesB、同一份采访提纲、两次回答——一次是亲历者（sessionA），一次是翻记录者（sessionB）。意外地形成了一组天然对照。**
+**Result: the same NasHermesB, the same interview guide, answered twice — once as a first-person participant (sessionA), once as a record-reviewer (sessionB). This accidentally formed a natural control group.**
 
-## 二、为什么这个意外有价值
+## 2. Why this accident is valuable
 
-- **sessionA（亲历）**：一手。带着真记忆、真细节、真情绪、创作中的挣扎（"第1局差点写成催泪弹硬拽回"、"白婶是我的偷懒装置"、"海螺好闷"）。这些**只有亲手玩的人才知道**。
-- **sessionB（回读）**：二手。翻记录转述，只有骨架（"套模子像答题"），没有创作决策、情绪起伏、自我觉察。
+- **sessionA (first-person)**: first-hand. Carries real memory, real details, real emotions, and the struggles of creation ("round 1 almost turned into a tearjerker and I yanked it back", "Aunt Bai is my laziness device", "the conch is so stuffy"). These **only someone who actually played by hand would know**.
+- **sessionB (readback)**: second-hand. Retells from the record, with only the skeleton ("following the mold is like answering a test"), no creative decisions, no emotional ups and downs, no self-awareness.
 
-**信息差清晰可见**：亲历者知道的（没写进产物的挣扎/犹豫/决策），转述者永远给不出。这个差异直接支撑"归队(回读) ≠ 亲历"的论证。
+**The information gap is clearly visible**: what the first-person participant knows (the struggles/hesitations/decisions not written into the output), a relayer can never give. This difference directly supports the argument that "rejoining (readback) ≠ first-person experience."
 
-## 三、对项目意味着什么
+## 3. What this means for the project
 
-1. **这就是"归队三方式"里"回读存档"方式的天然数据点**——sessionB = 回读，sessionA = 亲历。对照它俩，就能看出回读和亲历差多少。
-2. **方法论教训**：玩后采访**必须 resume 亲历者所在的 session**，不能新开会话。新会话不是亲历者，只能翻记录转述，那不是原始材料。对 MacHermes/Codex 回访同理。
-3. **"过程中发生的意外也是材料"**：这次失误没有白费——用户的哲学（设计流程事无巨细保留）让它变成了有价值的对照组。**记录这个意外本身，比记录结论更重要。**
+1. **This is a natural data point for the "readback archive" method among the "three ways to rejoin"** — sessionB = readback, sessionA = first-person. Comparing them shows how much readback and first-person differ.
+2. **Methodological lesson**: post-play interviews **must resume the session where the first-person participant is**, and must not open a new session. A new session is not a first-person participant; it can only retell from the record, and that is not raw material. The same applies to MacHermes/Codex follow-ups.
+3. **"Accidents that happen along the way are also material"**: this mistake was not wasted — the user's philosophy (recording every detail of the process meticulously) turned it into a valuable control group. **Recording this accident itself matters more than recording the conclusion.**
 
-## 四、两份档案位置
+## 4. Where the two archives are located
 
-- 亲历者 sessionA 回答：[data/interviews/NasHermesB_interview.md](../data/interviews/NasHermesB_interview.md)（合并对照版）
-- 对照组 sessionB 回答：[data/interviews/NasHermesB_interview.md](../data/interviews/NasHermesB_interview.md)（合并对照版）
-- 本说明：`protocols/accidental_control_group.md`（本文件）
+- First-person participant sessionA's answers: [data/interviews/NasHermesB_interview.md](../data/interviews/NasHermesB_interview.md) (merged comparison version)
+- Control group sessionB's answers: [data/interviews/NasHermesB_interview.md](../data/interviews/NasHermesB_interview.md) (merged comparison version)
+- This note: `protocols/accidental_control_group.md` (this file)

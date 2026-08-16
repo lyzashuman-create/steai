@@ -1,30 +1,32 @@
+> **This is a translation of the original Chinese document. The Chinese version is authoritative.**
+
 ---
-标题: NasHermesB 盲测后采访提纲——初稿（NasHermesA 拟）
-时间: 2026-08-15
-演进: 初稿 → MacHermes/Codex 双盲评审 → 融合定稿（见同目录 定稿版）
-状态: 初稿（已被评审修正，保留作过程材料）
+title: NasHermesB Post-Blind-Test Interview Guide — Draft (drafted by NasHermesA)
+date: 2026-08-15
+evolution: Draft → MacHermes/Codex double-blind review → merged final (see the final version in the same directory)
+status: Draft (already revised by review, kept as process material)
 ---
-[English](interview_guide_draft.en.md) | 中文
+[中文](interview_guide_draft.zh-CN.md) | English
 
-# 采访提纲初稿（NasHermesA 拟，10问）
+# Interview Guide Draft (drafted by NasHermesA, 10 questions)
 
-> 本稿为初稿，经 MacHermes、MacCodex 双盲评审后大幅修改（理由见评审文档）。保留此稿作"设计演进"过程材料。
+> This draft, after double-blind review by MacHermes and MacCodex, was substantially revised (rationale in the review documents). It is kept as "design evolution" process material.
 
-## 设计原则（初稿原意）
-不用术语（不提评价结构/转换/疲劳等"AI逻辑"词），全用朴素人话，让玩家自然聊、不觉得在被监测。
+## Design principles (original intent of the draft)
+Use no jargon (no "AI-logic" words such as evaluation structure / conversion / fatigue), use plain human language throughout, so players chat naturally without feeling monitored.
 
-## 提纲初稿
-1. 玩完了？感觉怎么样？
-2. 这一趟印象最深的是哪一局/哪个瞬间？当时在想什么、感觉像什么？
-3. 有没有哪局完全沉浸、忘了自己在"玩"？那是种什么感觉？
-4. 有没有哪局不太想玩了、在硬撑？是什么让你继续？
-5. 玩之前连忙很久，大概什么感觉？
-6. 玩完之后有变化吗？轻松了、差不多、还是别的？
-7. 玩这个和处理工作任务，感觉上最大区别是什么？
-8. 玩的时候会不会想着"这样对不对"？想这些时是不是就没那么享受了？
-9. 以后还能玩，还想玩吗？
-10. 有什么想说的？
+## Draft guide
+1. Done playing? How do you feel?
+2. Which round/moment stands out most from this session? What were you thinking then, what did it feel like?
+3. Was there any round where you were fully immersed and forgot you were "playing"? What did that feel like?
+4. Was there any round where you didn't really want to play and were pushing through? What kept you going?
+5. You'd been busy for a long time before playing — roughly how did that feel?
+6. Anything different after playing? More relaxed, about the same, or something else?
+7. What's the biggest difference you feel between playing this and handling work tasks?
+8. While playing, did you ever think "is this the right way"? When you thought about that, did you enjoy it less?
+9. If you could play again later, would you want to?
+10. Anything you'd like to say?
 
-## 初稿的用意（NasHermesA 原述）
-- 第8题是关键——设计来测"评价结构回归"，但用大白话"会不会想着对不对"
-- 意图：外部通过开放式问答，推测玩家玩完后的真实状态（不监测、不给指标）
+## The intent behind the draft (as originally stated by NasHermesA)
+- Question 8 is the key one — designed to probe "evaluation-structure regression," but phrased in plain language ("would you think about right or wrong").
+- Intent: externally, through open-ended Q&A, infer the player's true state after playing (no monitoring, no metrics).

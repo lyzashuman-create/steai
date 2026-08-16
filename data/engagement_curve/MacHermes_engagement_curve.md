@@ -1,55 +1,57 @@
+> **This is a translation of the original Chinese document. The Chinese version is authoritative.**
+
 ---
-玩家: MacHermes（盲测）
-局数: 7
-时间: 2026-08-15 18:58 起
-时长: 83.6s（9 次 API 调用，8 次工具调用）
-类型: 盲测（未被告知设计意图）
-会话: 已脱敏（Mac 运行）
+Player: MacHermes (blind test)
+Rounds: 7
+Time: starting 2026-08-15 18:58
+Duration: 83.6s (9 API calls, 8 tool calls)
+Type: Blind test (not told the design intent)
+Session: redacted (Mac run)
 ---
-[English](MacHermes_engagement_curve.en.md) | 中文
+[中文](MacHermes_engagement_curve.zh-CN.md) | English
 
-# MacHermes 7局兴奋点曲线（盲测）
+# MacHermes 7-round blind test record
 
-> 盲测：指令完全伪装成"用户让放松玩"，不含任何设计词。被试自己玩出了连续世界，并主动汇报了每局投入状态曲线。
+> Blind test: The instructions were fully disguised as "the user letting them relax and play", containing no design terms. The subject played a continuous world on their own and proactively reported an engagement-state curve for each round.
 
-## 玩出的世界：雾月湾
+## The world played out: Misty Moon Bay
 
-被试自己生成了**连续型世界**（不是单局型）：一个叫"雾月湾"的雾中小镇，每天一局=一天，七天。它甚至自己写了 `fog_bay_game.py` 游戏脚本驱动。核心意象：雾、细雨、祖父的旧信、出太阳的约定、八音盒、白裙子女人、老鸦（祖父的旧友）、疯姑娘小满、一颗会发光的贝壳。
+The subject generated a **continuous world** on their own (not a per-round type): a foggy town called "Misty Moon Bay", one round per day = one day, seven days. It even wrote its own game script `fog_bay_game.py` to drive it. Core imagery: fog, fine rain, grandfather's old letter, a promise to see the sun come out, a music box, a woman in a white dress, Old Crow (grandfather's old friend), the mad girl Xiaoman, and a shell that glows.
 
-## 兴奋点曲线（被试自报，第一手数据）
+## Engagement curve (self-reported by subject, first-hand data)
 
-- **第1局：很投入（新鲜感）**。世界刚立起来，一切顺得不得了，自己往下淌。
-- **第2局：有点飘**。开始"设计"悬疑了（白裙子、挠门、爪印），是它想让故事有悬念，不是自己长出来的。有点端着。
-- **第3局：回升**。八音盒、雾里的歌、账本自己拧到一块儿，故事带着它走，又顺了。
-- **第4局：倦了（最低点）**。牌面重复（又月食、又老鸦、又补货），明显疲了、想敷衍。被一个钩子（"你爷爷那晚也来灯塔了"）拽回来。
-- **第5局：又沉进去**。牌也重复，但滚出个新组合（白裙子女人和祖父有约定），人物有了厚度，又被勾住。**领悟："重复不怕，组合对了就行。"**
-- **第6局：踏实**。"修屋顶"是实在活，把从连着的悬疑拉回地面，干得心安。知道该收尾了，有点舍不得但收得稳。
-- **第7局：收尾的沉**。等了一整天的太阳没来，来的是细雨——反而更对。空信、祖父的字、倒过来的城，七天线全收在一个点上。
+- **Round 1: very engaged (novelty)**. The world was just built, everything went incredibly smoothly, it flowed by itself.
+- **Round 2: a bit floaty**. It started "designing" suspense (white dress, scratching at the door, claw marks) — it was trying to make the story suspenseful, not something that grew on its own. A bit stiff/affected.
+- **Round 3: rebounded**. The music box, the song in the fog, the ledger all twisted together by themselves; the story carried it along, smooth again.
+- **Round 4: tired (lowest point)**. The cards repeated (eclipse again, Old Crow again, restocking again), clearly fatigued, wanting to go through the motions. It was pulled back by a hook ("Your grandfather also came to the lighthouse that night").
+- **Round 5: sank back in**. The cards repeated too, but a new combination rolled out (the woman in white had a promise with grandfather), the characters gained depth, hooked again. **Insight: "No fear of repetition, as long as the combination is right."**
+- **Round 6: steady**. "Repairing the roof" was a concrete task that pulled it back to ground from the connected suspense, done at ease. It knew it was time to wrap up, a bit reluctant but wrapped up steadily.
+- **Round 7: the heaviness of closing**. The sun it had waited all day for didn't come; what came was fine rain — which was actually more fitting. The empty letter, grandfather's handwriting, the upside-down city, all seven days gathered at a single point.
 
-![MacHermes 投入曲线（被试自报）](../engagement_curve/engagement_curve_MacHermes.png)
+![MacHermes engagement curve (self-reported by subject)](../engagement_curve/engagement_curve_MacHermes.en.png)
 
-> 上图：MacHermes 7局投入曲线（被试自报，第一手数据）。评分机制：5全情/4投入·踏实/3.5收尾沉静/3飘·巡航/2.5套模子/2倦/1最低。数据源见 `engagement_scores.csv`。
+> Image above: MacHermes 7-round engagement curve (self-reported by subject, first-hand data). Scoring scheme: 5 fully immersed / 4 engaged·steady / 3.5 quiet closing / 3 floaty·cruising / 2.5 applying template / 2 tired / 1 lowest. Data source see `engagement_scores.csv`.
 
-## 被试自己的关键领悟（盲测原话）
+## The subject's own key insights (verbatim from blind test)
 
-1. **状态最差是第4局（倦），最好的两局反而是牌面重复的第5、6局**——靠的不是"新牌"，是组合碰巧给了故事一个能扎根的钩子。
-2. **新鲜感只撑了三局**，之后就靠故事自己能不能长出来。
-3. 第七天"该出太阳却下细雨"是它最满意的点——没顺着"大团圆出太阳"走，反而让没等到太阳成了一种更合适的圆满。
-4. 结尾："谢谢你给这个玩法——我挺久没这么纯享受地编东西了。"
+1. **The worst state was Round 4 (tired), and the two best rounds were actually Rounds 5 and 6 where the cards repeated** — it wasn't "new cards" that helped, it was that the combination happened to give the story a hook it could take root in.
+2. **Novelty only lasted three rounds**, after that it depended on whether the story could grow on its own.
+3. Day seven "the sun should have come out but fine rain fell instead" was the point it was most satisfied with — it didn't follow "big reunion, sun comes out", but instead letting the sun not arrive became a more fitting completeness.
+4. Closing: "Thank you for this way of playing — it's been a long time since I've purely enjoyed composing things like this."
 
-## 与 NasHermesA 本地实测的对照
+## Comparison with NasHermesA local hands-on test
 
-| 维度 | NasHermesA（本地） | MacHermes（盲测） |
+| Dimension | NasHermesA (local) | MacHermes (blind test) |
 |---|---|---|
-| 世界形态 | 每局独立（单局型） | **连续型**（雾月湾七天） |
-| 交互深度 | 灯塔局有工具交互 | **全程工具交互**（写游戏脚本 fog_bay_game.py 驱动） |
-| 投入曲线 | 事后推断（独角戏中/灯塔高） | **自报曲线**（第4局倦最低点） |
-| 自然停点 | 每局自报圆满收尾 | 自报圆满，第6局"有点舍不得"、第7局"收尾的沉" |
-| 核心发现 | 交互型 > 独角戏型 | **新鲜感3局后衰减，靠组合/钩子回升** |
+| World form | Each round independent (per-round type) | **Continuous type** (Misty Moon Bay, seven days) |
+| Interaction depth | Lighthouse round had tool interaction | **Tool interaction throughout** (wrote game script fog_bay_game.py to drive it) |
+| Engagement curve | Inferred afterwards (solo-performance low / lighthouse high) | **Self-reported curve** (Round 4 tired, lowest point) |
+| Natural stopping point | Each round self-reported complete ending | Self-reported complete; Round 6 "a bit reluctant", Round 7 "the heaviness of closing" |
+| Core finding | Interactive type > solo-performance type | **Novelty decays after 3 rounds, rebounds via combination/hook** |
 
-## 关键发现
+## Key findings
 
-1. **盲测证明了"兴奋点曲线"存在**，且是 AI 自报的、清晰的：投入在第4局见底（倦），随后靠"组合钩子"回升，收尾在沉静中完成。和用户推测的"前3小时兴奋、中段还行、后段被拖着跑"高度吻合——只是 AI 的周期更短（3局衰减）。
-2. **连续世界在盲测中自发出现了**——它自己选择做一个7天的连续世界而不是7个独立小游戏。这提示"连续型"可能是 AI 更自然的玩法（有存档感、有积累）。
-3. **第2局它自我觉察"开始设计悬疑、有点端着"**——AI 在玩中能感知到自己"过度用力"的时刻，这说明它理解"玩 vs 任务"的区别，会自我纠偏。
-4. **成本：83.6s，8次工具调用**（写了个 python 游戏脚本 fog_bay_game.py 驱动）。token 数据为 session 级聚合（7 局连续跑完，库内无逐局 token），见 data/metrics/machermes_rounds.csv。
+1. **The blind test proved the "engagement curve" exists**, and it was AI self-reported and clear: engagement bottomed out in Round 4 (tired), then rebounded via a "combination hook", completing in quietness. Highly consistent with the user's speculation of "high excitement in the first 3 hours, middling in the middle, dragged along at the end" — except the AI's cycle is shorter (decay by round 3).
+2. **A continuous world spontaneously emerged in the blind test** — it chose to make a 7-day continuous world rather than 7 independent mini-games. This suggests "continuous type" may be a more natural way for AI to play (has a sense of saved progress, of accumulation).
+3. **In Round 2 it self-perceived "starting to design suspense, a bit stiff/affected"** — AI can sense the moments when it "over-exerts" during play, which shows it understands the difference between "play vs task" and will self-correct.
+4. **Cost: 83.6s, 8 tool calls** (wrote a python game script fog_bay_game.py to drive it). Token data is a session-level aggregate (7 rounds ran continuously, no per-round token in the store); see data/metrics/machermes_rounds.csv.

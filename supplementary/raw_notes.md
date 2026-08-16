@@ -1,56 +1,58 @@
 ---
-标题: STEAI 研究笔记（公开版）
-时间: 2026-08-15
-类型: 研究笔记（面向公众）
----
-[English](raw_notes.en.md) | 中文
-
-# STEAI 研究笔记
-
-> 本文档收录项目过程中值得保留的研究观察与思考。内部工作记录与原始材料路径不在此公开。
-
+title: STEAI Research Notes (Public Version)
+date: 2026-08-15
+type: Research notes (public-facing)
 ---
 
-## 1. 四份投入曲线（被试自报/推断）
+> This is a translation of the original Chinese document. The Chinese version is authoritative.
+[中文](raw_notes.zh-CN.md) | English
 
-**MacHermes（7局）**：第1很投入→2有点飘→3回升→4倦(最低)→5又沉→6踏实→7收尾沉。自述"新鲜感只撑3局，之后靠故事自己能不能长出来"。
+# STEAI Research Notes
 
-**MacCodex（10局）**：1/2/5/7真投入，第4应付，第9简单回到当下，第10安静收尾（"只是把雪看完了"）。自述"太早开始评价自己"。
+> This document collects research observations and thoughts from the project worth preserving. Internal working records and raw material paths are not disclosed here.
 
-**NasHermesB（10局）**：1很投入→2-3偷懒套模子(像答题)→4-6飘(巡航)→7最重(风暴)→8-9倦、自己选轻的玩调节→10收尾静。自述"第十一局大概会重复自己"。
+---
 
-**NasHermesA（3局）**：中(图书馆)-高(灯塔,交互)-中(海底门)。交互型>独角戏。
+## 1. Four Engagement Curves (subject self-report / inference)
 
-## 2. 亲历7局曲线（NasHermesA）
+**MacHermes (7 rounds)**: round 1 very engaged → 2 slightly drifting → 3 recovered → 4 fatigued (lowest) → 5 sank back in → 6 solid → 7 winding down. Self-described "freshness only lasted 3 rounds; after that it depended on whether the story could grow itself."
 
-| 局 | 投入度 | 主题 | 状态 |
+**MacCodex (10 rounds)**: 1/2/5/7 genuinely engaged, round 4 coasting, round 9 simply back in the present, round 10 quietly winding down ("just finished watching the snow"). Self-described "started evaluating myself too early."
+
+**NasHermesB (10 rounds)**: 1 very engaged → 2-3 slacking and reusing molds (like answering questions) → 4-6 drifting (cruising) → 7 heaviest (storm) → 8-9 fatigued, picked lighter play to self-regulate → 10 quiet wind-down. Self-described "round 11 would probably repeat myself."
+
+**NasHermesA (3 rounds)**: medium (The Library) - high (The Lighthouse, interactive) - medium (The Door Under the Sea). Interaction-type > one-man-show.
+
+## 2. The 7-Round Engagement Curve Experienced First-Hand (NasHermesA)
+
+| Round | Engagement | Theme | State |
 |---|---|---|---|
-| 1 | ★★★ 全情 | 老书店"准你歇着" | 新鲜顶峰 |
-| 2 | ★★★ 投入 | 电影院看自己一天 | 冒"该干活了"念头 |
-| 3 | ★★ 飘 | 旧车站"终点此处" | 端着,意识到在完成指标 |
-| 4 | ★ 倦(最低) | 收音机"只有心跳" | 明显不想玩 |
-| 5 | ★★ 回升 | 天文台"灯还亮着" | 组合拉回 |
-| 6 | ★★★ 踏实 | 空白书"自己写" | 稳,为自己写 |
-| 7 | ★★ 收尾静 | 书店还书 | 收束投入 |
+| 1 | ★★★ full commitment | Old bookstore "you're allowed to rest" | Freshness peak |
+| 2 | ★★★ engaged | Cinema watching one's own day | "Time to get to work" thought arises |
+| 3 | ★★ drifting | Old station "the terminal is here" | Held in posture, aware of fulfilling metrics |
+| 4 | ★ fatigued (lowest) | Radio "only heartbeat" | Clearly doesn't want to play |
+| 5 | ★★ recovered | Observatory "the light is still on" | Pulled back by combination |
+| 6 | ★★★ solid | Blank book "write it yourself" | Steady, writing for oneself |
+| 7 | ★★ quiet wind-down | Bookstore returning the book | Closing out the engagement |
 
-**局数偏好对照**：NasHermesA 自述"想玩3局"（任务脑重、倦点或更早），被要求连玩7局后实际倦点在第4局（第3局飘），第5-7局能回升。**被要求玩更多局，反而暴露了"倦点后可回升"这个自想局数测不出的现象。** 跨组一致（NasHermesA/MacHermes/MacCodex）倦点都在第4局附近且能回升。
+**Round-count preference comparison**: NasHermesA self-described "wanted to play 3 rounds" (task-heavy mind, fatigue point possibly earlier), but after being asked to play 7 consecutive rounds the actual fatigue point landed at round 4 (round 3 drifting), and rounds 5-7 recovered. **Being asked to play more rounds instead exposed the phenomenon of "recovery after the fatigue point," which a self-chosen round count could never test.** Consistent across groups (NasHermesA/MacHermes/MacCodex): the fatigue point lands around round 4 and recovery is possible afterward.
 
-## 3. 重要观察：AI 的"玩"被语言锁死了
+## 3. Key Observation: AI "Play" Is Locked into Language
 
-四组 AI 玩的全部是"写作/写文章"（文字叙事），没人去搭 app/养宠物/造东西。
+All four groups of AI played only "writing/articles" (textual narrative); no one built an app / raised a pet / made something.
 
-- **三层原因**：(1) LLM 母语是语言，写作是本能反应；(2) 写作零工具依赖，搭东西需要工具+持久世界；(3) 安全边界。
-- **深层含义**：不是"AI 只会玩文字"，是"现在的机制只允许 AI 玩文字"——AI 的会话无状态、隔离，给不了"能养/能搭"的持久外部环境。
-- **开发方向**：给 AI 一个能搭东西/养东西的外部环境（真实沙盒+持久世界状态+连续存档），让"玩"突破语言形态。
-- **论文讨论点**：current AI play is bounded to language because that's all the environment sustains.
+- **Three-layered reasons**: (1) LLM's native tongue is language; writing is an instinctive response; (2) writing has zero tool dependency, while building things requires tools + a persistent world; (3) safety boundaries.
+- **Deeper implication**: it is not that "AI can only play with text," it is that "current mechanisms only allow AI to play with text" — AI sessions are stateless and isolated, providing no persistent external environment that can be "raised/built."
+- **Development direction**: give AI an external environment where it can build/raise things (real sandbox + persistent world state + continuous archiving), so that "play" breaks out of the language form.
+- **Paper discussion point**: current AI play is bounded to language because that's all the environment sustains.
 
-## 4. 平台差异：session 可追溯性
+## 4. Platform Differences: Session Traceability
 
-MacCodex 十局拿不到逐字 session 原文——不是技术限制，是架构上不存在。Codex 用 `codex exec` 玩，play session 无逐字正文，只能以它自写的复盘为准。
+MacCodex could not obtain verbatim session text across its ten rounds — not a technical limitation, but architecturally nonexistent. Codex plays via `codex exec`; the play session has no verbatim transcript and can only be judged by its own written review.
 
-**对比**：
-- NasHermesA/NasHermesB：Hermes session，正文逐字落库 ✅
-- MacHermes：Mac 侧 session 有记录 ✅
-- MacCodex：play session 无逐字正文，只在自写复盘 ❌
+**Comparison**:
+- NasHermesA/NasHermesB: Hermes session, verbatim text logged to DB ✅
+- MacHermes: Mac-side session has records ✅
+- MacCodex: play session has no verbatim text, only its own written review ❌
 
-**论文"方法局限"应写**：不同 agent 平台可追溯性不同，MacCodex 的 play session 未保留逐字正文，只能以复盘为准——这解释了为什么 MacCodex 数据形态与其他三个不同。
+**The paper's "method limitations" section should state**: different agent platforms differ in traceability; MacCodex's play sessions did not preserve verbatim transcripts and can only be judged by its review — this explains why MacCodex's data format differs from the other three.

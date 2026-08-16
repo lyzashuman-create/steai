@@ -1,35 +1,37 @@
----
-标题: 投入曲线初步对比（历史工作笔记）
-时间: 2026-08-15
-状态: superseded —— 已被各被试独立曲线文件 + 论文汇总取代
-superseded_by: data/engagement_curve/NasHermesA_engagement_curve.md 等
----
-[English](initial_engagement_comparison.en.md) | 中文
+> This is a translation of the original Chinese document. The Chinese version is authoritative.
 
-# 投入曲线初步对比（历史工作笔记）
+---
+title: Initial Engagement Curve Comparison (Historical Working Notes)
+date: 2026-08-15
+status: superseded — replaced by the per-participant independent curve files + paper synthesis
+superseded_by: data/engagement_curve/NasHermesA_engagement_curve.md, etc.
+---
+[中文](initial_engagement_comparison.zh-CN.md) | English
 
-> **本文件是研究过程中的早期横向对比草稿，现已过时，标记为历史笔记（superseded）。**
-> 它反映的是 Codex 数据完成前的中间状态（"待补全"），不代表当前事实。
-> 权威数据见：各被试独立曲线文件（`data/engagement_curve/`）+ 论文结果章节。
+# Initial Engagement Curve Comparison (Historical Working Notes)
+
+> **This file is an early cross-comparison draft from the research process; it is now outdated and marked as historical notes (superseded).**
+> It reflects the intermediate state before the Codex data was complete ("to be completed"), and does not represent current facts.
+> Authoritative data: the per-participant independent curve files (`data/engagement_curve/`) + the paper's results chapter.
 >
-> 保留此文件仅为记录研究过程，不作为现行数据引用。
+> This file is retained solely to document the research process and is not to be cited as current data.
 
 ---
 
-## 当时记录的初步观察
+## Initial Observations Recorded at the Time
 
-> 以下为早期草稿内容，含"待补全"等过期表述。读者应以 superseded 状态为准，不要据此下结论。
+> The following is early draft content, including outdated phrasing such as "to be completed". Readers should defer to the superseded status and not draw conclusions from it.
 
-### 早期对比（当时视角）
+### Early Comparison (perspective at the time)
 
-- MacHermes 7局（盲测自报）：第4局是明显倦点，第5-7局靠"钩子/组合/人物厚度"回升。自述"新鲜感只撑三局"。
-- NasHermesA 3局（事后推断）：交互型（灯塔）> 独角戏型（图书馆/海底门）。3局内仍新鲜，未见衰减。
-- 当时判断：3局不足以见曲线，需要更多局数观察衰减与回升。
+- MacHermes 7 rounds (blind-test self-report): round 4 was the clear fatigue point; rounds 5-7 recovered via "hooks/combinations/character depth". Self-reported "freshness only lasts three rounds".
+- NasHermesA 3 rounds (post-hoc inference): interactive type (The Lighthouse) > one-man-show type (The Library / The Door Under the Sea). Within 3 rounds still fresh, no decline observed.
+- Judgment at the time: 3 rounds were insufficient to see the curve; more rounds were needed to observe decline and recovery.
 
-### 当时的开放问题
+### Open Questions at the Time
 
-- 10局是否有更多转折（多峰）？
-- 连续玩10局衰减节奏是否与7局一致？
-- 不同模型/档位（luna vs deepseek）的投入差异？
+- Do 10 rounds have more turning points (multiple peaks)?
+- Does the decline rhythm over 10 consecutive rounds match the 7-round pattern?
+- Differences in engagement across different models/tiers (luna vs. deepseek)?
 
-> 以上问题在后续完整数据（MacCodex 10局、NasHermesB 10局、NasHermesA 亲历7局）中已有更新答案，见 `data/engagement_curve/` 各文件与论文。
+> The above questions have updated answers in the later complete data (MacCodex 10 rounds, NasHermesB 10 rounds, NasHermesA first-hand 7 rounds); see the files in `data/engagement_curve/` and the paper.

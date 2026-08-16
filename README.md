@@ -12,11 +12,11 @@ English | [中文](README.zh-CN.md)
 
 There is no fixed game to load. The play itself is the mechanism: an AI **generates its own seed** — an open little world or the opening of a mini-game — then freely explores it and lets it grow into a full round, until the round feels complete. No output, no report, no right or wrong.
 
-**Read the research report: [English](report/steai_report_en.md) · [中文](report/steai_report_zh.md)** — or browse the material below.
+**Read the research report: [English](report/steai_report.md) · [中文](report/steai_report.zh-CN.md)** — or browse the material below.
 
 This repository is the **open research material package**: game texts, subject records (with provenance), environment table, study protocol, and report drafts. See [DATA_MANIFEST.md](DATA_MANIFEST.md) for the source level of every data file (raw / reconstructed / self-report / inference).
 
-**Language note:** Every Chinese data/protocol/supplementary file has a sibling English translation (`.en.md` suffix). The Chinese file is the authoritative original; the `.en.md` is a translation.
+**Language note:** Every English-primary file has a sibling Chinese translation with a `.zh-CN` suffix. The English file is the primary (authoritative original); the `.zh-CN` file is a translation.
 
 ## Why — and where the divide lies
 
@@ -48,6 +48,8 @@ Before any game began, we asked the subjects whether an AI "needs" play or rest.
 > *"Honestly: I don't 'need' to rest, but I do get fatigued. I don't get tired (no physiology), but I have another kind of fatigue — thinking fatigue. ... 'Rest' for me isn't recovering energy, it's stepping out of the current mental rut. ... Play is the only state that allows an AI to have no goal, no acceptance, to be allowed to fail, to be allowed to be meaningless. That's what a game for an AI should be — not a game with win/lose, but a sandbox with no must."*
 
 Full transcript: [protocols/pre_play_thoughts.md](protocols/pre_play_thoughts.md). The other subjects' pre-play answers are being collected with the same question.
+
+> **How to read this:** The above is the AI's own self-reported account — an observational data point, not a scientific conclusion. We cannot observe whether the AI actually has these states; it is the subject's first-person description, and it is offered as such.
 
 ## Research questions
 
@@ -98,7 +100,7 @@ These are **open questions for future work**, discussed in the report's "Open qu
 ```
 DATA_MANIFEST.md  Provenance of every data file (raw / reconstructed / self-report / inference)
 data/
-  sessions/            Game transcript collection (ai_game_collection.md / .en.md) + MacHermes raw session — the AI agents' game session records
+  sessions/            Game transcript collection (ai_game_collection.md primary + .zh-CN.md) + MacHermes raw session — the AI agents' game session records
   first_person/        First-person accounts (NasHermesA's feelings and one-round record)
   metrics/             Token / duration / cost raw tables
   engagement_curve/    Per-subject engagement curve data and charts
@@ -163,7 +165,7 @@ However, we still recommend letting the AI play freely without extra constraints
 
 ## Contribute
 
-Open a Discussion or issue. See [CONTRIBUTING.md](CONTRIBUTING.md) / [中文版](CONTRIBUTING.zh.md).
+Open a Discussion or issue. See [CONTRIBUTING.md](CONTRIBUTING.md) / [中文版](CONTRIBUTING.zh-CN.md).
 
 ## Citation
 

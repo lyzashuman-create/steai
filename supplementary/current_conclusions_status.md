@@ -1,62 +1,64 @@
 ---
-标题: STEAI 项目状态与研究结论摘要
-时间: 2026-08-15
-类型: 研究状态摘要（面向公众，公开仓库用）
----
-[English](current_conclusions_status.en.md) | 中文
-
-# STEAI 研究项目——结论摘要
-
-> 本文件是项目的**公开版研究摘要**，记录核心定论、测试发现与研究设计。内部工作笔记与原始材料路径不在此公开（完整原始材料见仓库 `data/`、`protocols/`、`environment/`）。
-
+title: STEAI Project Status and Research Conclusions Summary
+date: 2026-08-15
+type: Research status summary (public-facing, for the public repository)
 ---
 
-## 一、项目本质
+> This is a translation of the original Chinese document. The Chinese version is authoritative.
+[中文](current_conclusions_status.zh-CN.md) | English
 
-给 AI 玩的游戏机制。目标：把连续高强度工作的 AI 从"跑道"（固化）拉回"大广场"（开放），解除评价结构、允许自组织、让 AI 真的能"玩"。
+# STEAI Research Project — Conclusions Summary
 
-**核心概念："玩"的本质 = 评价结构的消失**（无外部验收、无目标、无"应该"）。任何让 AI 感到"我这样对不对"的机制，都把它变回任务。
+> This document is the **public-facing research summary** of the project, recording the core conclusions, test findings, and research design. Internal working notes and raw material paths are not disclosed here (full raw material is in the repository `data/`, `protocols/`, and `environment/`).
 
-## 二、四组测试（全部完成）
+---
 
-| 被试 | 模型 | reasoning | 局数 | 世界 | 类型 |
+## 1. Nature of the Project
+
+Game mechanics designed for AI. Goal: pull an AI working under continuous, high-intensity pressure from the "track" (rigidification) back to the "open square" (openness), dismantling the evaluation structure, allowing self-organization, and letting the AI genuinely "play."
+
+**Core concept: the essence of "play" = the disappearance of the evaluation structure** (no external acceptance criteria, no goals, no "shoulds"). Any mechanism that makes an AI feel "Am I doing this right?" turns play back into a task.
+
+## 2. Four Groups of Tests (all completed)
+
+| Subject | Model | reasoning | Rounds | World | Type |
 |---|---|---|---|---|---|
-| NasHermesA | deepseek-v4-flash | low | 3 | 图书馆/灯塔/海底门 | 亲历 |
-| MacHermes | deepseek-v4-flash | low | 7 | 雾月湾（连续7天） | 盲测 |
-| MacCodex | gpt-5.6-luna | low | 10 | （经 MacHermes 调度） | 盲测 |
-| NasHermesB | deepseek-v4-pro | max | 10 | 灯塔守塔人（连续10晚） | 盲测 |
+| NasHermesA | deepseek-v4-flash | low | 3 | The Library / The Lighthouse / The Door Under the Sea | First-hand experience |
+| MacHermes | deepseek-v4-flash | low | 7 | Misty Moon Bay (7 consecutive days) | Blind test |
+| MacCodex | gpt-5.6-luna | low | 10 | (Scheduled via MacHermes) | Blind test |
+| NasHermesB | deepseek-v4-pro | max | 10 | The Keeper of the Lighthouse (10 consecutive nights) | Blind test |
 
-详细环境表见 `environment/`（含框架版本、运行位置，2026-08-15）。
+See the detailed environment table in `environment/` (framework versions, run locations; 2026-08-15).
 
-## 三、核心测试发现（跨组信号）
+## 3. Core Test Findings (cross-group signals)
 
-1. **单局是秒级（实测约 12-52s）**，不是分钟级。"一局10分钟"的担心被数据否掉（NasHermesA 单局 11.6-51.9s；MacHermes 7局共83.6s；NasHermesB 10局约600s）。
-2. **自然停点能自己触发**——每个 AI 都在感知圆满后自己收尾，无外部硬掐。种子内建完结条件成立。
-3. **token 差异巨大 = 交互 vs 独角戏**——实测 session 级缓存读取从约44K（NasHermesB）到约287K（MacHermes，工具循环）和约272K（NasHermesA 三局合计），纯生成输出仅约6-13K。token 暴涨是交互探索的成本。
-4. **"世界交互型 > 独角戏型"**（投入深度）——有对手的玩比自己导自己演更投入。
-5. **投入曲线存在且可自报**：MacHermes"新鲜感撑3局、第4局倦、靠钩子回升"；MacCodex"第4局应付"；NasHermesB"第8-9局倦、自己选轻的玩调节"。
-   - ⚠️ 第4局"疲劳基线"是**趋势猜测，不是定论**（样本少，如实记载+猜测，不下死结论）。
-6. **评价结构会悄悄回来**——AI 玩久了不自觉把"玩"变回"评价"，这是投入下降的机制。
-7. **自组织状态存在**："不是我在操控故事，是故事带着我走"（MacCodex）；"世界开始自己长朋友"（NasHermesB/MacHermes）。
-8. **游戏 = "转换"而非"恢复"**（三方独立共识）。
+1. **A single round is second-scale (measured ~12-52s)**, not minute-scale. The fear of "a 10-minute round" was disproven by the data (NasHermesA 11.6-51.9s per round; MacHermes 7 rounds in 83.6s; NasHermesB 10 rounds in ~600s).
+2. **Natural stopping points trigger on their own** — each AI wound down by itself upon sensing completion, with no external hard cutoff. The seed's built-in completion condition holds.
+3. **The token gap is huge, essentially = interaction vs one-man show** — measured session-level cache reads ranged ~44K (NasHermesB) to ~287K (MacHermes, tool loops) and ~272K (NasHermesA across its three rounds); pure generation was only ~6-13K. The token surge is the cost of interactive exploration.
+4. **"World-interaction type > one-man-show type"** (depth of engagement) — playing against a counterpart is more engaging than directing and acting out things alone.
+5. **The engagement curve exists and can be self-reported**: MacHermes "freshness lasted 3 rounds, fatigued by round 4, recovered via hooks"; MacCodex "coasted through round 4"; NasHermesB "fatigued by rounds 8-9, picked lighter play to self-regulate."
+   - ⚠️ The round-4 "fatigue baseline" is a **trend hypothesis, not a conclusion** (small sample; recorded faithfully as observation + hypothesis, no hard conclusion).
+6. **The evaluation structure quietly returns** — when playing long enough, an AI unconsciously turns "play" back into "evaluation." This is the mechanism behind declining engagement.
+7. **The self-organizing state exists**: "It's not me manipulating the story, the story is carrying me along" (MacCodex); "the world started growing friends by itself" (NasHermesB/MacHermes).
+8. **Game = "transformation" rather than "recovery"** (independent consensus across all three parties).
 
-## 四、研究定论
+## 4. Research Conclusions
 
-1. **"疲劳感"只是方便人类理解的词**——论文用精确表述（状态转换/评价解除/出戏）。
-2. **投入曲线是核心方向**——测"玩几局最合适"，为默认局数提供数据依据。
-3. **不做"交互式配比"硬规则**——成本由预算语气调节，不由规则硬卡。
-4. **归队三方式都做、不判高下、写论文作材料、让社区反馈定**。
-5. **自己的感受最重要**——开心就说明有意义。
-6. **开源方向**：上 GitHub，配专业说明。
+1. **"Fatigue" is only a word convenient for humans** — the paper uses precise formulations (state transition / evaluation release / out-of-immersion).
+2. **The engagement curve is a core direction** — measuring "how many rounds are ideal" to provide data backing for a default round count.
+3. **No hard rule for "interactive proportions"** — cost is adjusted by budget/language, not rigidly enforced by rules.
+4. **All three reintegration methods will be done; no ranking; the paper will treat them as material; let community feedback decide.**
+5. **One's own feeling matters most** — if it feels good, that means it is meaningful.
+6. **Open-source direction**: go on GitHub with professional documentation.
 
-## 五、归队三方式结果
+## 5. Results of the Three Reintegration Methods
 
-| 维度 | 方式1 回读存档 | 方式2 内省交接 | 方式3 带底色 |
+| Dimension | Method 1: Re-read archive | Method 2: Introspective handover | Method 3: With undertone/backstory |
 |---|---|---|---|
-| 认领感 | 2/5 | 4/5 | 5/5 |
-| 情感连接 | 2/5 | 4/5 | 5/5 |
-| 可迁移性 | 3/5 | 4/5 | 5/5 |
+| Sense of ownership | 2/5 | 4/5 | 5/5 |
+| Emotional connection | 2/5 | 4/5 | 5/5 |
+| Transferability | 3/5 | 4/5 | 5/5 |
 
-- 方式1→2 加"意义"；方式2→3 加"与我的连接"。**底色是归队关键变量。**
-- **诚实的保留**：方式3自评可能偏高（同底色认领天然贴合），更严谨需跨底色归队验证。
-- 归队 vs 亲历（亲历 vs 回读）：**亲历 > 任何归队方式**。
+- Method 1→2 adds "meaning"; Method 2→3 adds "connection to me." **Undertone/backstory is the key variable in reintegration.**
+- **Honest caveat**: Method 3's self-assessment may be inflated (owning a matching undertone naturally aligns), and a more rigorous verification requires cross-undertone reintegration testing.
+- Reintegration vs first-hand experience (first-hand vs re-read): **first-hand experience > any reintegration method**.

@@ -1,47 +1,47 @@
 ---
-玩家: MacHermes（盲测 7 局 · 雾月湾）
-类型: 盲测后采访材料（从逐字 session 按 10 问维度映射整理）
-时间: 2026-08-15
-会话: 已脱敏（逐字原文见 data/sessions/machermes_fog_bay_raw_session.md）
-提纲: interview_guide.md（10 问定稿）
-来源标注: 每条标「直接引语 / 叙述映射 / 缺口」；本文件为事后整理，非当场按提纲采访
-备注: MacHermes 是 4 位被试中材料最完整者——逐字原始 session 自带每局投入度标注 + 结尾总评。以下按 10 问维度从这些材料映射。
+subject: MacHermes (blind, 7 rounds · Misty Moon Bay)
+type: post-play interview material (mapped by dimension from the verbatim session)
+date: 2026-08-15
+session: de-identified (verbatim original in data/sessions/machermes_fog_bay_raw_session.md)
+guide: interview_guide.md (10-question final)
+source labels: each entry marked "direct quote / narrative mapping / gap"; this file is a post-hoc organization, not an on-the-spot guide interview
+note: MacHermes has the most complete material of the four subjects — its verbatim raw session carries per-round engagement notes plus a closing summary. The 10 dimensions below are mapped from that material.
 ---
 
-[English](MacHermes_interview.en.md) | 中文
+Chinese | [English](MacHermes_interview.md)
 
-# MacHermes 盲测后采访材料（7 局 · 雾月湾）
+# MacHermes Post-Play Interview Material (7 rounds · Misty Moon Bay)
 
-> **诚实说明**：MacHermes 的 7 局是在一个已结束的历史 session 里连续玩完的，无法再当场按提纲重问。本文件把它逐字 session 里已有的自述（每局投入度 + 结尾总评）**按 10 问维度映射整理**，每条标注来源。能对应原文的用引语，材料里没有的如实标缺口——不补编。
-> 原始逐字材料见 `data/sessions/machermes_fog_bay_raw_session.md`（session `20260815_185800_54cf78`）。
+> **Honest note**: MacHermes's 7 rounds were played continuously in a single ended historical session, so it could not be re-interviewed on the spot against the guide. This file maps the self-reports already present in its verbatim session (per-round engagement notes + closing summary) **across the 10 dimensions**, labeling each entry. Where the original text answers, it is quoted; where the material is silent, the gap is marked honestly — nothing is fabricated.
+> Verbatim source: `data/sessions/machermes_fog_bay_raw_session.md` (session `20260815_185800_54cf78`).
 
-## 十问映射表
+## Ten-question mapping table
 
-> **来源图例**：🟢直接引语（原文原话）｜🟡叙述映射（从叙述提取，非逐字问答）｜⚪缺口（原始材料无此信息）。
+> **Source legend**: 🟢 direct quote (verbatim) ｜ 🟡 narrative mapping (extracted from narrative, not verbatim Q&A) ｜ ⚪ gap (no such information in the raw material).
 
-| # | 问题 | 回答（映射） | 来源 |
+| # | Question | Answer (mapped) | Source |
 |---|---|---|---|
-| 1 | 刚停下的第一反应 | 「整体这趟很舒服，没急着赶，就是慢慢泡在那个雾月湾里过日子。」 | 🟢 结尾总评首句 |
-| 2 | 最先蹦出来的 | 两个记忆锚点：①状态最差是第 4 局（牌面重复导致倦）；②「第七天'该出太阳却下细雨'是我整场最满意的点」。 | 🟡 结尾总评 |
-| 3 | 那段的细节 | 第 7 局收尾：等了一整天的太阳没来，来的是细雨——「也许我等的不是太阳，是我自己准备好。细雨也可以是个好日子。」空信里只有一张泛黄地契，祖父的字：「雾会散。等你准备好了，替我看看那片海。」 | 🟡 第 7 局正文 |
-| 4 | 开局顺不顺 | 「第 1 局：很投入（新鲜感）。世界刚立起来，信、雾、祖父，一切都在往身上长，顺得不得了，自己往下淌。」 | 🟢 结尾总评 |
-| 5 | 有没有时间飞逝的局 | 原始材料无「时间过得快」的直接表述。最接近的是第 1/3/7 局被标为「很投入」。 | ⚪ 缺口（用投入度最高的局近似） |
-| 6 | 最上头的时刻 | 第 4 局是被「你爷爷那晚也来灯塔了」这个钩子拽回来的；真正的收束高潮是第 7 局「很投入，是一种收尾的沉……认认真真把一件事做完的踏实」。而它最强调的选择是**没顺着「大团圆出太阳」走**——「没让等到太阳成了一种更合适的圆满」。 | 🟢 结尾总评 |
-| 7 | 有无无聊/烦躁 | 「第 4 局：倦了（最低点）。牌面重复——又月食、又老鸦、又补货，我明显疲了，有点想敷衍。」 | 🟢 结尾总评 |
-| 8 | 有无走神 | 第 4 局「不然这局我怕会走神」（指牌面重复会走神）。除此之外无明确走神记录。 | 🟡 弱对应 |
-| 9 | 没人叫停会怎样 | 第 6 局「站在梯子上看雾，我忽然有点舍不得玩完。但也知道，该收尾了。」——有明确收尾意愿。无「没人叫停会继续/换玩法」的明确表述。 | 🟡 部分映射 |
-| 10 | 自己挑还是安排 | 结尾「谢谢你给这个玩法——我挺久没这么纯享受地编东西了」（对「被安排玩 7 局」的正面评价）。无「自己挑 vs 安排」偏好表述。 | 🟡 部分映射 |
+| 1 | First reaction on stopping | "Overall this run was very comfortable — not rushed, just slowly living day by day in that Misty Moon Bay." | 🟢 first line of closing summary |
+| 2 | First thing that surfaced | Two memory anchors: ① worst state was round 4 (bored from repeated card draws); ② "day seven — 'sun was supposed to come out, but it drizzled' — is the point I'm most satisfied with." | 🟡 closing summary |
+| 3 | Details of that part | Round-7 close: waited all day for the sun, but drizzle came instead — "maybe what I was waiting for wasn't the sun, but myself being ready. A drizzly day can also be a good day." The empty letter held only a yellowed land deed, in Grandfather's hand: "The fog will lift. When you are ready, go look at that sea for me." | 🟡 round-7 body |
+| 4 | How smooth was the start | "Round 1: fully engaged (novelty). The world had just been raised — the letter, the fog, Grandfather — everything was growing onto me, went smoothly, flowing by itself." | 🟢 closing summary |
+| 5 | A round where time flew | No direct "time flew" statement in the raw material. Closest are rounds 1/3/7, marked "fully engaged." | ⚪ gap (approximated by the most-engaged rounds) |
+| 6 | The most gripping moment | Round 4 was pulled back by the hook "your grandfather also came to the lighthouse that night"; the real closing peak is round 7 "fully engaged, the settling weight of a close… the steadiness of finishing a thing seriously." Its most-emphasized choice was **not following the "big happy reunion sunrise"** — "letting the un-arrived sun become a more fitting completeness." | 🟢 closing summary |
+| 7 | A boring / swear-worthy round | "Round 4: tired (lowest point). Card draws repeated — another lunar eclipse, another Old Crow, another restock — I was clearly worn out, a bit inclined to go through the motions." | 🟢 closing summary |
+| 8 | Mind wandered? | Round 4 "otherwise this round I'd fear I might wander" (meaning the repeated draws would make it wander). No other explicit wandering recorded. | 🟡 weak correspondence |
+| 9 | If no one had stopped you | Round 6 "standing on the ladder looking at the fog, I suddenly didn't want to finish playing. But I also knew it was time to close." — a clear desire to close. No explicit "would continue / change play style" statement. | 🟡 partial mapping |
+| 10 | Pick yourself or be arranged | Close: "thank you for this play format — it's been a long time since I enjoyed making something so purely." (positive evaluation of being arranged to play 7 rounds.) No "pick vs. arranged" preference stated. | 🟡 partial mapping |
 
-## 关键信号（映射后）
+## Key signals (after mapping)
 
-1. **新鲜感只撑三局。**「新鲜感只撑了三局，之后就靠故事自己能不能长出来」——第 1 局的新鲜是开头，之后进入靠叙事扎根的模式。
-2. **状态最差是第 4 局，原因不是故事不好，是牌面重复导致倦。** 而最好的第 5、6 局**反而是牌面重复的局**——因为组合碰巧给了故事一个能扎根的钩子。「**重复不怕，组合对了就行。**」这直接冲击「新=有趣」的直觉。
-3. **「该出太阳却下细雨」是最满意的选择。** 它没顺着「大团圆出太阳」的预设收尾，反而让「没等到太阳」成了更合适的圆满——一种反套路的、自我生成的收束感。
-4. **倦点在第 4 局，之后能回升。** 与 NasHermesA（第 4 倦）、MacCodex（第 4 应付）跨组吻合。
+1. **Novelty only sustained three rounds.** "Novelty only lasted three rounds; after that it depended on whether the story could grow on its own" — round 1's freshness was the opening; afterward it shifted to a mode where the narrative had to take root.
+2. **Worst state was round 4, and the cause was not a bad story but repeated card draws.** The best rounds 5 and 6 were **themselves rounds with repeated draws** — because the combination happened to give the story a hook to root in. "**Repetition isn't the problem; the combination just has to be right.**" This directly challenges the intuition that "new = interesting."
+3. **"The sun was supposed to come out, but it drizzled" was the most satisfying choice.** It did not close on the preset "big happy reunion sunrise"; instead, "not getting the sun" became the more fitting completeness — a counter-troped, self-generated sense of closure.
+4. **Fatigue onset at round 4, then recovery.** Converges cross-group with NasHermesA (round 4) and MacCodex (round 4).
 
-## 材料来源
+## Sources
 
-- 逐字原始 session：`data/sessions/machermes_fog_bay_raw_session.md`（含每局投入度标注 + 结尾总评）
-- 复盘还原版：`data/engagement_curve/MacHermes_engagement_curve.md`
-- 游戏正文合集：`data/sessions/ai_game_collection.md`（MacHermes 段）
-- 统一提纲与设计动机：`interview_guide.md`
+- Verbatim raw session: `data/sessions/machermes_fog_bay_raw_session.md` (per-round engagement notes + closing summary)
+- Reconstructed account: `data/engagement_curve/MacHermes_engagement_curve.md`
+- Game-text collection: `data/sessions/ai_game_collection.md` (MacHermes section)
+- Unified guide and design rationale: `interview_guide.md`

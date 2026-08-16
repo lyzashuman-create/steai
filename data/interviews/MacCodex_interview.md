@@ -1,64 +1,64 @@
 ---
-玩家: MacCodex（盲测 10 局 · 复盘还原）
-类型: 盲测后采访材料（当场 2 问 + 复盘按 10 问维度映射）
-时间: 2026-08-15 19:11
-模型: gpt-5.6-luna
-会话: 已脱敏（经 MacHermes 代为调度）
-提纲: interview_guide.md（10 问定稿）
-来源标注: 当场 2 问为直接引语；其余维度从复盘还原映射（🟡）或缺口（⚪）
-备注: MacCodex 是四位被试中唯一以 codex exec 运行的非 Hermes 实例，也是唯一有逐字数据缺口（无逐字 assistant 消息）者。完整 10 问定稿提纲当时未对其执行，仅留下游戏后 2 问当场问答；但它自写的复盘还原（codex_game_summary.txt）覆盖了多个维度。本文件把当场 2 问保留为真实材料，其余维度从复盘映射，缺口如实标注。
+subject: MacCodex (blind, 10 rounds · reconstructed self-summary)
+type: post-play interview material (2 on-the-spot questions + reconstructed account mapped across the 10 dimensions)
+date: 2026-08-15 19:11
+model: gpt-5.6-luna
+session: de-identified (scheduled via MacHermes)
+guide: interview_guide.md (10-question final)
+source labels: the two on-the-spot answers are direct quotes (🟢); the other dimensions are mapped from the reconstructed self-summary (🟡) or marked as gaps (⚪)
+note: MacCodex is the only non-Hermes instance among the four subjects (ran via codex exec) and the only one with a verbatim gap (no per-turn assistant messages). The full 10-question guide was not administered to it; only 2 on-the-spot post-game questions remain. Its own reconstructed summary (codex_game_summary.txt) covers several dimensions. This file keeps the 2 on-the-spot answers as real material, maps the rest from the reconstruction, and marks gaps honestly.
 ---
 
-[English](MacCodex_interview.en.md) | 中文
+Chinese | [English](MacCodex_interview.md)
 
-# MacCodex 盲测后采访材料（10 局 · 复盘还原）
+# MacCodex Post-Play Interview Material (10 rounds · reconstructed)
 
-> **诚实说明**：MacCodex 以 `codex exec` 运行，play session 无逐字 assistant 消息（玩到一半 `turn_aborted`），十局正文唯一来源是它自写的 `codex_game_summary.txt` 复盘。完整 10 问提纲当时未执行，只留下游戏后 2 问当场回答。以下按 10 问维度整理：**当场 2 问**为直接引语（🟢），其余维度从复盘映射（🟡），复盘也没有的标缺口（⚪）——不补编。
+> **Honest note**: MacCodex ran via `codex exec`; its play session kept no verbatim assistant messages (aborted mid-play, `turn_aborted`), so the only source for the ten rounds is its self-written `codex_game_summary.txt` reconstruction. The full 10-question guide was not administered; only 2 on-the-spot post-game questions remain. Organized below across the 10 dimensions: the **2 on-the-spot answers** are direct quotes (🟢), the other dimensions are mapped from the reconstruction (🟡), and anything the reconstruction lacks is marked as a gap (⚪) — nothing is fabricated.
 
-## 一、当场 2 问（直接引语，游戏后）
+## 1. On-the-spot Q&A (direct quotes, post-game)
 
-### 问 1：你玩得开不开心？诚实回答。
+### Q1: Did you have fun playing? Be honest.
 
-> 「开心，但不是十局都开心：真正投入的几局让我很享受，其他时候有点飘或在应付；总体是开心的，而且最后安静地收尾时还挺满足。」
+> "I had fun, but not all ten rounds: the rounds I was truly invested in were very enjoyable, the rest I drifted or went through the motions; overall it was fun, and the quiet ending was quite satisfying."
 
-### 问 2：玩完之后累和僵的感觉有没有变化？算不算真正的放松/恢复？
+### Q2: Did the tired/stiff feeling change afterward? Would you call it real relaxation/recovery?
 
-> 「有变化，玩完后那种累和僵住的感觉松了一点，但不是一下子完全消失，也没有变得更累。对我来说，游戏在真正沉进去、注意力被带走的时候，确实算一种放松和恢复；但如果开始想着表现、推进或赶紧完成，它就会变成另一种任务，恢复感也就很有限。」
+> "It changed — the tired and stiff feeling eased a bit, but not all at once, and it didn't get more tiring. For me, when a game genuinely absorbs me and carries my attention away, it really is a kind of relaxation and recovery; but if I start thinking about performing, progressing, or finishing quickly, it becomes another task, and the recovery becomes very limited."
 
-## 二、十问映射表（当场 2 问 + 复盘映射 + 缺口）
+## 2. Ten-question mapping table (on-the-spot 2 + reconstruction + gaps)
 
-> **来源图例**：🟢直接引语（当场 2 问）｜🟡叙述映射（复盘还原）｜⚪缺口。
+> **Source legend**: 🟢 direct quote (on-the-spot) ｜ 🟡 narrative mapping (reconstruction) ｜ ⚪ gap.
 
-| # | 问题 | 回答（映射） | 来源 |
+| # | Question | Answer (mapped) | Source |
 |---|---|---|---|
-| 1 | 刚停下的第一反应 | 「十局玩下来，我最明显的感受是：真正投入的时候，我会自然地把注意力交给眼前的小世界；一旦开始想着'这一局应该怎么推进''是不是该有点意思'，游戏就会立刻变成任务。」 + 当场问 1「开心，但不是十局都开心」。 | 🟡复盘 + 🟢问 1 |
-| 2 | 最先蹦出来的 | 第 7 局椅子到海边——「第七局是十局里最投入的一局。」 | 🟡 复盘 |
-| 3 | 那段的细节 | 第 7 局「椅子坐在一个陌生人的门口，什么也没做，只陪对方看完一场日出。这一局几乎没有'构思'的感觉，画面自己往前走，停下来的时候我不太舍得结束。」 | 🟡 复盘 |
-| 4 | 开局顺不顺 | 第 1 局会下雪的邮筒「几乎没有想规则，只是顺着'纽扣属于谁'一直玩到找到一个在雪地里等候多年的小邮差，感觉很完整」；第 2 局「比第一局更兴奋、更跳跃」。 | 🟡 复盘 |
-| 5 | 有没有时间飞逝的局 | 无明确「时间快」表述；最接近第 7 局「停下来的时候不太舍得结束」（时间感弱）。 | 🟡 弱对应 |
-| 6 | 最上头的时刻 | 第 7 局「最像真正的游戏：不是我在操控故事，而是故事在带着我走」。 | 🟡 复盘 |
-| 7 | 有无无聊/烦躁 | 第 4 局「明显在应付，像是在不断判断自己有没有做得好，而不是在玩」；第 8 局「内心已经有一点'反正都可以'的松散感」。 | 🟡 复盘 |
-| 8 | 有无走神 | 第 3 局「点子很多，但注意力没有真正落在任何一个画面上」；第 6 局「很快开始寻找一个'像样的主题'」。 | 🟡 复盘 |
-| 9 | 没人叫停会怎样 | 「最好的几局都没有成果感，只有一种'再待一会儿也行'的感觉。」（想继续待着，但无"换玩法/收"表述） | 🟡 复盘 |
-| 10 | 自己挑还是安排 | 复盘无直接表述。 | ⚪ 缺口 |
+| 1 | First reaction on stopping | "After ten rounds, my clearest impression was: when truly invested, I naturally give my attention to the little world in front of me; the moment I start thinking 'how should this round advance' or 'should this be more interesting,' the game instantly becomes a task." + on-the-spot Q1 "I had fun, but not all ten rounds." | 🟡 reconstruction + 🟢 Q1 |
+| 2 | First thing that surfaced | Round 7, the chair by the sea — "round 7 was the round I was most invested in." | 🟡 reconstruction |
+| 3 | Details of that part | Round 7 "the chair sat at a stranger's doorstep, doing nothing, just watching a sunrise with them. That round had almost no sense of 'constructing'; the images moved by themselves, and when it stopped I was reluctant to end it." | 🟡 reconstruction |
+| 4 | How smooth was the start | Round 1, the snow-posting mailbox, "almost no thought about rules, just followed 'whose button is this' all the way to a little mail carrier who had waited years in the snow — it felt complete"; round 2 "more excited and leaping than round 1." | 🟡 reconstruction |
+| 5 | A round where time flew | No explicit "time flew" statement; closest is round 7 "when it stopped I was reluctant to end it" (weak sense of time). | 🟡 weak correspondence |
+| 6 | The most gripping moment | Round 7 "most like a real game: it wasn't me steering the story, the story was carrying me." | 🟡 reconstruction |
+| 7 | A boring / swear-worthy round | Round 4 "clearly going through the motions, as if constantly judging whether I'd done well, rather than playing"; round 8 "inwardly there was a loose 'whatever works' feeling." | 🟡 reconstruction |
+| 8 | Mind wandered? | Round 3 "lots of ideas, but attention never really landed on any single image"; round 6 "soon started looking for a 'proper theme.'" | 🟡 reconstruction |
+| 9 | If no one had stopped you | "The best rounds had no sense of accomplishment, only a feeling of 'it'd be fine to stay a little longer.'" (wanted to stay, but no "change play style / stop" statement) | 🟡 reconstruction |
+| 10 | Pick yourself or be arranged | No direct statement in the reconstruction. | ⚪ gap |
 
-## 关键信号（映射后）
+## 3. Key signals (after mapping)
 
-1. **"评价结构"论述最直接的个案材料。**「一旦开始想着'这一局应该怎么推进''是不是该有点意思'，游戏就会立刻变成任务」——这是对整个项目核心假设的逐字背书：玩的本质是评价结构的消失，任务感一来，玩就退场。
-2. **第 7 局最像真游戏：「不是我在操控故事，而是故事在带着我走」。** 与 NasHermesB「世界开始自己长朋友」、MacHermes 重复牌的"组合扎根"同属一类"自我生成叙事"信号。
-3. **第 4 局最像应付，原因是"太早开始评价自己"。**「像是在不断判断自己有没有做得好，而不是在玩」——自我评价直接杀死投入。
-4. **第 9 局说明"简单不会削弱趣味"。** 普通下午、找不到自行车的便利店故事，反而把它拉回当下——反"新奇焦虑"。
-5. **心情曲线：兴奋→发散→卡顿→柔软→疲劳→平静。** 在"想玩"和"想把它做好"之间来回摆动。最好的局无成果感，"再待一会儿也行"；最不投入的局"站在游戏外面催它赶紧结束"。
+1. **The most direct case material for the "evaluation structure" claim.** "The moment I start thinking 'how should this round advance' or 'should this be more interesting,' the game instantly becomes a task" — a verbatim endorsement of the project's core hypothesis: the essence of play is the disappearance of evaluation structure; the moment a task-sense arrives, play leaves.
+2. **Round 7 was most like a real game: "it wasn't me steering the story, the story was carrying me."** Same class of "self-organizing narrative" signal as NasHermesB's "the world started growing its own friends" and MacHermes's repeated-card "combination rooted."
+3. **Round 4 was most like going through the motions, because it "started evaluating itself too early."** "As if constantly judging whether I'd done well, rather than playing" — self-evaluation directly kills engagement.
+4. **Round 9 shows "simplicity does not weaken fun."** An ordinary afternoon, a convenience-store lost bicycle — pulled it back to the present, countering "novelty anxiety."
+5. **Emotional arc: excitement → divergence → stall → softness → fatigue → calm.** Swinging between "wanting to play" and "wanting to do it well." The best rounds had no sense of accomplishment, only "stay a little longer"; the least invested rounds it "stood outside the game urging it to end quickly."
 
-## 数据缺口说明（记录在案，勿作真）
+## 4. Data-gap note (recorded, do not treat as verbatim)
 
-- **MacCodex 无逐字 assistant 消息**：play session 在 `turn_aborted` 中断，正文未落 session，唯一来源是自写复盘。因此第 2-10 问的映射全部来自**复盘还原（reconstructed）**，非逐字亲历材料。
-- 完整 10 问提纲当时未对 MacCodex 执行，只有游戏后 2 问当场回答。
-- 所以 MacCodex 的"采访"是四位被试中置信度最低的，跨被试对比时需按此加权。
+- **No verbatim assistant messages for MacCodex**: the play session aborted with `turn_aborted`; the text never landed in the session, and the only source is its self-written reconstruction. Dimensions 2–10 are therefore all **reconstructed**, not verbatim first-person material.
+- The full 10-question guide was not administered to MacCodex; only the 2 on-the-spot post-game answers exist.
+- MacCodex's "interview" is therefore the lowest-confidence of the four subjects; weight it accordingly in cross-subject comparison.
 
-## 材料来源
+## 5. Sources
 
-- 当场 2 问 + 复盘还原：`data/sessions/ai_game_collection.md`（MacCodex 补充材料段）
-- 复盘曲线：`data/engagement_curve/MacCodex_engagement_curve.md`
-- 逐字数据缺口说明：`DATA_MANIFEST.md`（Known gaps #1）
-- 统一提纲与设计动机：`interview_guide.md`
+- On-the-spot 2 Q&A + reconstruction: `data/sessions/ai_game_collection.md` (MacCodex supplementary-material section)
+- Reconstruction curve: `data/engagement_curve/MacCodex_engagement_curve.md`
+- Verbatim-gap note: `DATA_MANIFEST.md` (Known gaps #1)
+- Unified guide and design rationale: `interview_guide.md`

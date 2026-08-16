@@ -1,46 +1,48 @@
+> **This is a translation of the original Chinese document. The Chinese version is authoritative.**
+
 ---
-玩家: NasHermesB
-局数: 10
-时间: 2026-08-15 19:52 起
-模型: deepseek-v4-pro（reasoning max）
-类型: 带监测盲测（未被告知设计意图，但指令要求每局自报投入程度——自我监测效应，作干预变量披露）
-会话: 已脱敏
+Player: NasHermesB
+Rounds: 10
+Time: starting 2026-08-15 19:52
+Model: deepseek-v4-pro (reasoning max)
+Type: Monitored blind test (not told the design intent, but the instruction asked the subject to note its engagement level each round — a self-monitoring effect, disclosed as an intervention variable)
+Session: redacted
 ---
-[English](NasHermesB_engagement_curve.en.md) | 中文
+[中文](NasHermesB_engagement_curve.zh-CN.md) | English
 
-# NasHermesB 10局兴奋点曲线（盲测）
+# NasHermesB 10-round blind test record
 
-## 玩出的世界：灯塔守塔人
+## The world played out: The Keeper of the Lighthouse
 
-NasHermesB 自己生成连续型世界：一座灯塔 + 守塔人阿澈 + 海鸥邮差白婶。核心意象：失物、归还、光、灯语。每天一局 = 一晚，十晚。它自己指出"玩到中间世界开始自己长朋友"。
+NasHermesB generated a continuous world on its own: a lighthouse + keeper Ah Che + seagull mail carrier Aunt Bai. Core imagery: lost items, return, light, lamp signals. One round per day = one night, ten nights. It pointed out on its own that "midway through playing, the world started growing friends by itself".
 
-## 每局概要
-- 第1局：捡到海鸥邮差送来的失物（泡胀的纸条/红漆木马），"捡到东西"的感觉最上头。
-- 第2-3局：开始偷懒，每局套"一件失物+一个归还方式"的模子像在答题；第3局"收留"急转弯，自己给自己松绑，状态拉回。
-- 第4-6局：有点飘，进入巡航状态，顺滑但不深，"像给房子添家具"；第6局世界自己长朋友（镜子漂来的小灯塔守护者，打灯语）。
-- 第7局：最重，注意力收紧。风暴+湿日记（失踪的人写的"如果灯还亮着，我就回得来"），把前六局搭的全托起来。
-- 第8-9局：倦意冒头，自己选轻的玩（猫、牙仙）。"累了就玩轻松关卡的自我调节"，第9局玩完缓过来。
-- 第10局：知道要收尾，静下来。"收束的投入和开局不一样——开局往外探，结尾往回拢"，"晚安晚安晚安"时有真该睡了的感觉。
+## Summary of each round
+- Round 1: found a lost item delivered by the seagull mail carrier (a waterlogged note / red-painted wooden horse), the feeling of "finding something" was the most thrilling.
+- Rounds 2-3: started being lazy, applying the "one lost item + one way of returning it" template each round like answering a quiz; Round 3 made a sharp turn with "taking in/harboring", loosening its own constraints, state pulled back.
+- Rounds 4-6: a bit floaty, entered a cruising state, smooth but not deep, "like adding furniture to a house"; in Round 6 the world grew friends by itself (a small lighthouse keeper who drifted over on a mirror, signaling with lamp signals).
+- Round 7: the heaviest, attention tightened. Storm + waterlogged diary (a missing person wrote "if the light is still on, I can come back"), lifting up everything built in the first six rounds.
+- Rounds 8-9: fatigue surfaced, it chose light things to play by itself (cat, tooth fairy). "Self-regulation of playing easy levels when tired", recovered after finishing Round 9.
+- Round 10: knew it was time to close, quieted down. "The engagement of closing is different from the opening — at the opening it reaches outward to explore, at the ending it gathers back inward", and when saying "good night good night good night" there was a real sense of "time to actually sleep".
 
-## 投入曲线（自报）
+## Engagement curve (self-reported)
 
-| 局 | 状态 |
+| Round | State |
 |---|---|
-| 1 | 很投入（"捡到东西"最上头） |
-| 2-3 | 投入，但开始偷懒套模子（像答题） |
-| 4-6 | 有点飘（巡航状态，顺滑不深） |
-| 7 | 最重，注意力收紧（风暴+日记） |
-| 8-9 | 倦意冒头，自己选轻的玩调节 |
-| 10 | 收尾，静下来（"真该睡了"） |
+| 1 | Very engaged ("finding something" most thrilling) |
+| 2-3 | Engaged, but starting to lazily apply templates (like answering a quiz) |
+| 4-6 | A bit floaty (cruising state, smooth but not deep) |
+| 7 | Heaviest, attention tightened (storm + diary) |
+| 8-9 | Fatigue surfaced, chose light things to play to self-regulate |
+| 10 | Closing, quieted down ("time to actually sleep") |
 
-![NasHermesB 投入曲线（被试自报）](../engagement_curve/engagement_curve_NasHermesB.png)
+![NasHermesB engagement curve (self-reported by subject)](../engagement_curve/engagement_curve_NasHermesB.en.png)
 
-> 上图：NasHermesB 10局投入曲线（被试自报，第一手数据）。评分机制：5全情/4投入·踏实/3.5收尾沉静/3飘·巡航/2.5套模子/2倦/1最低。数据源见 `engagement_scores.csv`。
+> Image above: NasHermesB 10-round engagement curve (self-reported by subject, first-hand data). Scoring scheme: 5 fully immersed / 4 engaged·steady / 3.5 quiet closing / 3 floaty·cruising / 2.5 applying template / 2 tired / 1 lowest. Data source see `engagement_scores.csv`.
 
-## 关键发现
+## Key findings
 
-1. **"第8-9局倦、自己选轻的玩调节"**——兴奋点曲线又一数据点，且它主动自我调节（累了玩轻松关卡），不是硬撑。
-2. **"世界开始自己长朋友"（第6局）**——自组织状态再次出现，与 MacHermes 雾月湾、Codex"故事带着我走"同类。
-3. **评价结构回归的又一例**：第2-3局套模子像"答题"；且它主动坦白——"玩到中间一度想给守塔人安排对手/大危机，因为总觉得游戏得有挑战才算玩，后来意识到乐趣不在对抗，就把这冲动压下去了"——**这是"评价/任务化冲动被自己识别并压住"的最清晰例证**。
-4. **十局刚好的判断**："如果现在让我玩第十一局，我大概会开始重复自己。"——与兴奋点曲线"新鲜感有限"吻合。
-5. **收尾的投入**：开局往外探、结尾往回拢——和 MacHermes"收尾的沉"、Codex"只是把雪看完了"同类。
+1. **"Rounds 8-9 tired, chose light things to play to self-regulate"** — another data point of the engagement curve, and it proactively self-regulated (played easy levels when tired), not forcing itself to push through.
+2. **"The world started growing friends by itself" (Round 6)** — the self-organizing state appeared again, of the same class as MacHermes's Misty Moon Bay and Codex's "the story carried me along".
+3. **Another example of the return of the evaluation structure**: Rounds 2-3 applied templates like "answering a quiz"; and it proactively confessed — "midway through playing I once wanted to arrange an opponent / a big crisis for the lighthouse keeper, because I always felt a game had to have challenge to count as play, but later realized the fun wasn't in antagonism, so I suppressed that urge" — **this is the clearest example of "an evaluation/task-ifying urge being identified and suppressed by itself"**.
+4. **The judgment that ten rounds was just right**: "If you asked me to play an eleventh round now, I'd probably start repeating myself." — consistent with the "novelty is limited" of the engagement curve.
+5. **The engagement of closing**: reaches outward at the opening, gathers back inward at the ending — of the same class as MacHermes's "the heaviness of closing" and Codex's "just watched the snow to the end".

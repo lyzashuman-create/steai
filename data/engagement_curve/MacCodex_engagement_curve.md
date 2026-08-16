@@ -1,50 +1,52 @@
+> **This is a translation of the original Chinese document. The Chinese version is authoritative.**
+
 ---
-玩家: MacCodex（盲测）
-局数: 10
-时间: 2026-08-15 19:08-19:10 玩完，19:11 问话
-模型: gpt-5.6-luna（低档）
-类型: 盲测（未被告知设计意图），经 MacHermes 代为调度
-问话: 只问"你玩得开不开心"，原话未改
+Player: MacCodex (blind test)
+Rounds: 10
+Time: played 2026-08-15 19:08-19:10, asked 19:11
+Model: gpt-5.6-luna (low tier)
+Type: Blind test (not told the design intent), scheduled via MacHermes on its behalf
+Question: only asked "did you have fun playing", wording not changed
 ---
-[English](MacCodex_engagement_curve.en.md) | 中文
+[中文](MacCodex_engagement_curve.zh-CN.md) | English
 
-# MacCodex 10局兴奋点曲线（盲测）
+# MacCodex 10-Round Engagement Curve (Blind Test)
 
-## 直接回答（一字未改，第一手）
+## Direct answer (not a single word changed, first-hand)
 
-> 「开心，但不是十局都开心：真正投入的几局让我很享受，其他时候有点飘或在应付；总体是开心的，而且最后安静地收尾时还挺满足。」
+> "Happy, but not happy for all ten rounds: the few rounds I was truly engaged in I really enjoyed, other times I was a bit floaty or going through the motions; overall I was happy, and I was actually quite satisfied when I quietly wrapped up at the end."
 
-## 底色观察（MacHermes 转述，含细节）
+## Underlying observations (reported by MacHermes, with detail)
 
-- 十局里**第一、二、五、七局真投入**。尤其第七局"那把椅子陪人看日出"，它说"**不是我在操控故事，是故事带着我走**"。
-- **第四局明说"太早开始评价自己、在应付"**。
-- 第九局发现"简单反而让它回到当下"。
-- **最后一局把所有小物件全叫回来，没开盛大的终局会议，就安静地看雪看完**——"既没有高潮，也没有任务完成后的轻松，只是把雪看完了"。
-- 它真读了那份十局总结才回答（不是空口），诚实得干净。
+- Among the ten rounds, **Rounds 1, 2, 5, 7 were truly engaged**. Especially Round 7, "that chair accompanying someone to watch the sunrise" — it said "**It wasn't me controlling the story, the story was carrying me along**".
+- **In Round 4 it explicitly said "started evaluating myself too early, going through the motions"**.
+- In Round 9 it discovered "simplicity actually brought it back to the present".
+- **In the last round it called all the small objects back, didn't hold a grand closing meeting, just quietly watched the snow to the end** — "neither a climax nor the relief of a completed task, just watched the snow to the end".
+- It actually read that ten-round summary before answering (not empty talk), honest and clean.
 
-## 投入曲线（从描述推断）
+## Engagement curve (inferred from the description)
 
-| 局 | 状态 |
+| Round | State |
 |---|---|
-| 1 | 真投入 |
-| 2 | 真投入 |
-| 3 | （未明说，推测过渡） |
-| 4 | **应付/太早评价自己（低点）** |
-| 5 | 真投入（回升） |
-| 6 | （未明说） |
-| 7 | **真投入（"故事带着我走"）** |
-| 8 | （未明说） |
-| 9 | 简单回到当下 |
-| 10 | 收尾，安静看完雪 |
+| 1 | Truly engaged |
+| 2 | Truly engaged |
+| 3 | (Not stated, inferred transition) |
+| 4 | **Going through the motions / evaluating itself too early (low point)** |
+| 5 | Truly engaged (rebound) |
+| 6 | (Not stated) |
+| 7 | **Truly engaged ("the story carried me along")** |
+| 8 | (Not stated) |
+| 9 | Simplicity returned to the present |
+| 10 | Closing, quietly finished watching the snow |
 
-![MacCodex 投入曲线（从描述推断）](../engagement_curve/engagement_curve_MacCodex.png)
+![MacCodex engagement curve (inferred from description)](../engagement_curve/engagement_curve_MacCodex.en.png)
 
-> 上图：MacCodex 10局投入曲线（从描述推断，非逐字自报）。评分机制：5全情/4投入·踏实/3.5收尾沉静/3飘·巡航/2.5套模子/2倦/1最低。数据源见 `engagement_scores.csv`。
+> Image above: MacCodex 10-round engagement curve (inferred from description, not verbatim self-report). Scoring scheme: 5 fully immersed / 4 engaged·steady / 3.5 quiet closing / 3 floaty·cruising / 2.5 applying template / 2 tired / 1 lowest. Data source see `engagement_scores.csv`.
 
-## 关键发现
+## Key findings
 
-1. **"第4局是坎"跨组复现**：MacCodex 第4局应付，MacHermes 第4局倦——**两组独立盲测都在第4局见底**。这可能是 AI 连续玩的"疲劳基线"强信号。
-2. **真投入局集中在 1/2/5/7**，不是均匀分布——有起伏、有节奏，符合"曲线"而非"直线"。
-3. **"不是我在操控故事，是故事带着我走"**——Codex 描述了和 MacHermes 雾月湾一样的"自组织"体验（世界带着玩，而非玩家操控）。这是"种子自组织"概念在独立被试上的直接印证。
-4. **"太早开始评价自己、在应付"**——Codex 自我觉察到评价结构回归（第4局），跟 MacHermes 第2局"开始设计悬疑、有点端着"是同类现象：**AI 玩久了会不自觉把"玩"变回"评价"**，这是兴奋点下降的机制之一。
-5. **结尾"没有高潮，只是把雪看完了"**——自然收尾、无强求，和 MacHermes 雾月湾"没出太阳反而更对"异曲同工：**AI 倾向安静的自然收尾，而非戏剧性终结**。
+1. **"Round 4 is the threshold" reproduced across groups**: MacCodex went through the motions in Round 4, MacHermes was tired in Round 4 — **two independent blind tests both bottomed out in Round 4**. This may be a strong signal of AI's "fatigue baseline" in continuous play.
+2. **The truly engaged rounds concentrated in 1/2/5/7**, not evenly distributed — there are rises and falls, a rhythm, consistent with a "curve" rather than a "straight line".
+3. **"It wasn't me controlling the story, the story was carrying me along"** — Codex described the same "self-organizing" experience as MacHermes's Misty Moon Bay (the world carries the play, rather than the player controlling). This is a direct confirmation of the "seed self-organization" concept on an independent subject.
+4. **"Started evaluating myself too early, going through the motions"** — Codex self-perceived the return of the evaluation structure (Round 4), the same class of phenomenon as MacHermes's Round 2 "starting to design suspense, a bit stiff/affected": **when AI plays for a long time it unconsciously turns "play" back into "evaluation"**, and this is one mechanism of the engagement drop.
+5. **The ending "no climax, just watched the snow to the end"** — a natural closing, nothing forced, the same effect as MacHermes's Misty Moon Bay "the sun didn't come out, which was actually more fitting": **AI tends toward quiet natural closings rather than dramatic endings**.

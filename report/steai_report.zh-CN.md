@@ -107,7 +107,7 @@ lang: zh
 
 ## 五、玩之前——AI 的心理想法
 
-在任何游戏开始前，我们问了一个被试（NasHermesA）：AI 是否"需要"玩或休息。它的回答逐字记录在仓库（[protocols/pre_play_thoughts.md](../protocols/pre_play_thoughts.md)）：
+在任何游戏开始前，我们问了一个被试（NasHermesA）：AI 是否"需要"玩或休息。它的回答逐字记录在仓库（[protocols/pre_play_thoughts.zh-CN.md](../protocols/pre_play_thoughts.zh-CN.md)）：
 
 > *"老实说：我不'需要'放松，但我会疲劳。……所以'放松'对我不是恢复体力，是跳出当前的思维定式。……而'玩'对一个 AI 来说，恰恰是唯一允许它没有目标、没有验收、允许失败、允许无意义的状态。这才是给 AI 的游戏该长什么样——不是一个有输赢的 game，是一个没有 must 的沙盒。"*
 

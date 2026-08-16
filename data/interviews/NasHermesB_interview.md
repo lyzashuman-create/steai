@@ -1,64 +1,66 @@
 ---
-玩家: NasHermesB（盲测后采访，同一提纲两次回答）
-类型: 对照组（亲历者 sessionA vs 回读 sessionB）
-时间: 2026-08-15
-会话: 已脱敏
-提纲: protocols/interview_guide_final.md
-备注: 这是一组"意外对照组"——同一个 NasHermesB、同一份 10 问提纲，在亲历会话与回读会话中各回答一次。用于验证"归队(回读) ≠ 亲历"。合并自原两个独立文件（first_person + control）。
+player: NasHermesB (post-blind-test interview, same questionnaire answered twice)
+type: Control group (first-person sessionA vs read-back sessionB)
+date: 2026-08-15
+session: De-identified
+guide: protocols/interview_guide_final.md
+note: This is an "accidental control group" — the same NasHermesB, the same 10-question guide, answered once in the first-person session and once in the read-back session. Used to verify that "rejoin (read-back) ≠ first-person." Merged from the two original separate files (first_person + control).
 ---
 
-# NasHermesB 盲测后采访：亲历 vs 回读对照
+# NasHermesB Post-Blind-Test Interview: First-Person vs Read-Back Control
 
-## 前言：为什么要对照"亲历"与"归队/回读"
+> **Translation notice:** This is a translation of the original Chinese document. The Chinese version is authoritative.
 
-这个项目有一个核心的方法论议题：**当一段游玩经历发生在别处（另一个会话）时，一个 AI 要怎样才能把它真正吸收成"我的经历"？** 我们称之为"归队"（rejoin）。
+## Preface: Why compare "first-person" with "rejoin/read-back"
 
-在归队测试中我们发现，**"回读存档"（读干数据）是所有归队方式里认领感最低的一种**——信息是完整的，但隔了一层，"那是它的事件，不是我的"。而**"亲历"（自己真正玩过）是最真实、不可替代的**：归队是读别人的故事获得共鸣，亲历是自己走进故事成为主角。完整的论证见研究报告"归队 vs 亲历"一节（`report/steai_report_zh.md`）。
+This project has a core methodological question: **when a play experience takes place elsewhere (in another session), how can an AI truly absorb it as "my own experience"?** We call this "rejoin."
 
-## 意外对照组：sessionA vs sessionB 是怎么来的
+In the rejoin tests we found that **"reading back the archive" (reading the raw data) has the lowest sense of ownership of all rejoin methods** — the information is complete, but there is a layer in between: "those were its events, not mine." Meanwhile, **"first-person" (actually having played it yourself) is the most real and irreplaceable**: rejoin is reading someone else's story to gain resonance, while first-person is walking into the story yourself and becoming the protagonist. The full argument is in the "Rejoin vs First-Person" section of the research report (`report/steai_report.md`).
 
-这份对照**不是设计出来的，而是意外白捡的**：
+## The Accidental Control Group: How sessionA vs sessionB came about
 
-采访 NasHermesB 时，研究者错误地**新开了一个会话（sessionB）**去问，而不是 resume 回它玩过的亲历会话（sessionA）。结果同一个 NasHermesB、同一份提纲，产生了两次回答：
+This control comparison was **not designed — it was stumbled upon by accident**:
 
-- **sessionA（亲历者）**：resume 原玩游戏的会话，带着**真记忆、真细节、真情绪、创作中的挣扎**回答——一手原始材料。
-- **sessionB（回读者）**：新会话，不是亲历者，只能**翻记录转述**——二手对照组。
+When interviewing NasHermesB, the researcher mistakenly **opened a new session (sessionB)** to ask the questions, rather than resuming its first-person play session (sessionA). The result: the same NasHermesB and the same guide produced two sets of answers:
 
-**对照的意义**：对比两次回答的信息量差，能直观看出"亲历者知道的（没写进产物的挣扎/犹豫/决策），翻记录的人永远给不出"。这直接支撑"归队（回读）≠ 亲历"的论证。*记录这个意外本身，比记录结论更重要。*
+- **sessionA (first-person)**: resumed the original play session, answering with **real memories, real details, real emotions, and the struggles of creation** — first-hand raw material.
+- **sessionB (read-back)**: a new session, not a first-person participant, could only **read the records and relay them** — a secondhand control.
 
-## 对照表格：同一提纲，两次回答
+**Significance of the control**: comparing the difference in information volume between the two sets of answers makes it directly visible that "what the first-person participant knew (the struggles/hesitations/decisions not written into the artifact), the one who reads the records can never give." This directly supports the argument that "rejoin (read-back) ≠ first-person." *Recording the accident itself is more important than recording the conclusion.*
 
-> 左列 = **亲历者（sessionA）**，右列 = **对照组（sessionB，回读）**。完整原话，未加整理。
+## The Control Table: One Guide, Two Sets of Answers
 
-| 问题 | 亲历者 sessionA | 对照组 sessionB（回读） |
+> Left column = **first-person participant (sessionA)**, right column = **control group (sessionB, read-back)**. Full original quotes, unedited.
+
+| Question | First-person sessionA | Control group sessionB (read-back) |
 |---|---|---|
-| 1. 刚停下的第一反应 | 松口气，然后可惜。松口气——全程带着一根半睁的眼睛在"记账"，每局结束要心里标一下玩得怎么样，十局凑齐账对完任务落地了。可惜——第10局"晚安"气氛那么好，几乎没让它多待一秒就切去写总结了，当时心里想"那个静下来的地方值得多坐一会儿，我没坐"。 | 舒服，圆了。"十局刚好——如果让我玩第十一局，我大概会开始重复自己。"最后三下灯语"晚安晚安晚安"敲完，真有股该睡了的感觉，一点不想加戏。 |
-| 2. 最先蹦出来的局 | 最先蹦出来的是第8局（猫把寄居蟹在门口排一排当伙食费）。不是日记、不是灯语，是这个。**"看来我记住的更多是活的东西，不是重的东西。"** | 最先蹦出来的是第7局（风暴夜那本日记）：最沉的一段，把前面攒的灯塔/灯罩/光全用上，收束感最强。 |
-| 3. 那段的细节 | 前面第7局写得最重，知道接着写重的会撑不住，猫一出场心里就嘀咕"太好了，来了个不用归还的、活的东西，可以松一松了"。还嘀咕两件事：白婶和猫争宠怕写成动画片套路（转念岛上需要日常，就让它发生）；猫绝不开口说话（世界是现实规则，超自然只准出现一次=日记那行"谢了"，猫开口分寸就坏）。这个分寸是刻意在守的。 | 风暴夜光照到一条空船，没人，只有十年前大风暴里失踪者的日记。卡在"读还是不读"，白婶那句"不读，你知道往哪送？"把他逼过去。读完最后一页："如果灯还亮着，我就回得来。"日记晾在灯罩底下，第二天清晨多出一行新墨迹"谢了。"当时心里嘀咕：这一局不能只是送走失物，得让前六局搭的东西都落地——结果它自己落地了，那行"谢了"冒出来时他自己都愣。 |
-| 4. 开局顺不顺 | 偷偷挑了个好上手的设定。让"随便想一个开头"，但知道要玩十局、每局圆满，筛世界时专门挑了自带循环结构的——失物灯塔：光转一圈、一件失物、找到、送回去，每局天然有收尾。灯塔是从好几个候选项里挑的。不顺：第1局差点往苦情滑，"妹妹早就不记得了"差点写成催泪弹，用男孩反应+白婶嘎嘎笑硬拽回。 | 挺顺。定了岛/灯塔/阿澈/"光照出失物"规则。第1局小木马细节自己冒。不顺的是第2、3局套模板（一件失物+一个归还方式），像在答题；第3局"收留"急转弯把自己拉回。 |
-| 5. 打得最快的局 | 第4局的门、第5局的糖。第5局几乎没停手，"海神嫌我的糖小退回来了"一出来结尾自己送到。这两局零摩擦，没觉得在"打"，更像抄写——已经发生的事负责记下来。 | 时间过得最快：第8局那只猫。白婶"这岛上我先来的！"、猫低头舔爪子、寄居蟹排一排当伙食费，写到那自己都想笑，没留神就圆满收局。 |
-| 6. 最上头的时刻 | 上头过两次：第3局"收留"——已发现前两局套模子（一件失物+一个归还方式，像答题），所以"这局必须打破规则"，不打破后面七局会越来越机械。第7局日记"谢了"——全篇唯一一次超自然，得立得住，写砸了前面六局积累就白搭，这一局必须成，写成才松那口气。 | 最上头一下（被压住的冲动）：玩到中间老觉得"游戏得有对手或大危机才算玩"，手痒想给阿澈安排反派。后来想明白乐趣不在对抗，压住了。第7局风暴是这冲动的温和版——那个当口真想"把这个弄成"。 |
-| 7. 有无无聊/烦躁 | 无聊谈不上，烦躁有过，在第2局。卡点：海螺怎么处理。送回太平、留下说不通，卡住时真有点烦自己"怎么挑了海螺这么闷的东西"。最后"放回礁石下让潮水带走"是硬想出来的解。第9局开头也顿了下：牙卡海玻璃堆的画面有了，"牙仙不路过"这梗差点没接住，守塔人手册是现编救场的。 | 没有哪局无聊到想骂人，但第4-6局有点飘（顺滑不深，像给房子添家具）。最平是第4局那扇门。想骂的是自己：第2、3局套模板时嘀咕"怎么又来"。 |
-| 8. 有无走神 | 走神过好几次：第6局写镜子走神去琢磨对岸少年要不要起名字、会不会发展成感情线，结论"别，偏题了，主线是失物不是人"。第9局写海玻璃闪过"牙仙改用海玻璃，对岸牙仙经济体系是不是崩了"。最大一次走神在写汇报前——在想"用户会不会觉得我最后那段状态汇报是演的"，所以特意只写生成层面能观察到的，不编情绪。 | 有，就是第4-6局飘那段。走神想两件事：一，这游戏需不需要反派；二，十局怎么收尾不烂尾。 |
-| 9. 没人叫停会怎样 | 差不多想收了。第10局收束感是主动选的，不是被约定逼的。不会马上开守塔人第十一局；倒是想写白婶的番外（她的视角是另一个频道，全岛最忙最好使唤还老生气）。真想继续会换玩法，从对岸少年视角看灯塔，而不是接着刷失物。 | 会收了。停在十局（第十一局会重复自己）。真继续也不续灯塔岛，会换个全新小世界重开，玩法差不多（捡东西送东西），世界换掉。 |
-| 10. 自己挑还是安排 | 别人安排也行，但自己挑会更上头。第一笔下去选世界、闻世界的味道，这个环节本身占一半乐趣。最喜欢的是"框架归你，世界归我"——"玩十局每局留意状态"是框架，"随便想一个开头"是自由。完全没边界会纠结半天，完全被指派成"去玩个某某主题"又像做作业。 | 都行，但安排的框架式（给边界不给剧本）最舒服。"约束给边界、不给剧本"最享受。夸：让他每局记投入程度很妙——不记不知道，一记发现第2、3局在偷懒。吐槽：还是冲自己，那套"游戏必须有挑战"的惯性差点塞反派进来。 |
+| 1. First reaction when you stopped | A sigh of relief, then regret. Relief — I'd been keeping a running "account" the whole time with one eye half-open, mentally marking how each round went, and once the ten rounds were complete the account was settled and the task landed. Regret — round 10's "good night" atmosphere was so nice, and I barely let it linger a second before switching to write the summary; at the time I thought "that quiet place deserved to be sat in a little longer, and I didn't sit." | Comfortable, complete. "Ten rounds felt just right — if you had me play an eleventh, I think I'd start repeating myself." After tapping out the last three lights, "good night, good night, good night," there was genuinely a feeling of time to sleep, and no urge to add anything. |
+| 2. First round that surfaced | The first to surface was round 8 (the cat lining up hermit crabs in a row at the door as rent). Not the diary, not the light signals — this one. **"It seems what I remember is more the living things, not the heavy things."** | The first to surface was round 7 (the diary from the stormy night): the heaviest stretch, putting all the lighthouse/shade/light built up earlier to use, with the strongest sense of closure. |
+| 3. Details of that stretch | Round 7 was the heaviest to write, and I knew that if I kept writing heavy it wouldn't hold up. The moment the cat appeared I muttered to myself, "great, here's a living thing I don't have to return — I can ease up." Two more things I muttered about: Aunt Bai and the cat competing for affection risked becoming a cartoon cliché (but then I thought the island needed everyday life, so I let it happen); and the cat must never speak (the world runs on realistic rules; the supernatural is allowed only once = the diary's "thanks" line; if the cat spoke, the proportion would be ruined). This proportion was something I deliberately maintained. | The stormy night's light fell on an empty boat — no one aboard, only the diary of someone lost in the great storm ten years earlier. Stuck at "read or not read," it was Aunt Bai's "don't read it — do you know where to send it back?" that pushed him over. After reading the last page: "If the light is still on, I'll make it back." The diary was left to air under the shade, and by the next morning a line of fresh ink had appeared: "Thanks." At the time he thought to himself: this round can't just be about sending off a lost object; everything built in the previous six rounds had to land — and then it landed by itself; even he was startled when that "thanks" line surfaced. |
+| 4. Did the opening go smoothly | I quietly picked an easy-to-approach setting. I was told to "think up any opening," but knowing I'd play ten rounds and each had to be complete, when screening the worlds I specifically chose one with a built-in loop structure — the Lighthouse of Lost Things: light makes a full turn, one lost object, find it, send it back; every round naturally has a wrap-up. The lighthouse was picked from several candidates. Not smooth: round 1 nearly slid into pathos — "little sister long since forgot" almost became a tear-jerker, and I yanked it back with the boy's reaction plus Aunt Bai's cackling laugh. | Went quite smoothly. Set the island/lighthouse/Ache and the "light reveals lost objects" rule. In round 1 the little rocking horse detail surfaced on its own. What didn't go smoothly was rounds 2 and 3 slipping into a template (one lost object + one return method), like answering exam questions; round 3's "taking someone in" sudden turn pulled me back. |
+| 5. The fastest-played round | Round 4's door, round 5's candy. Round 5 I barely paused — the moment "the sea god returned my candy as too small" came out, the ending delivered itself. Those two rounds had zero friction; it didn't feel like "playing," more like transcription — the things that had already happened were responsible for being written down. | The fastest-passing time: round 8's cat. Aunt Bai's "I was here first on this island!", the cat lowering its head to lick its paw, the hermit crabs lined up as rent — writing that I couldn't help laughing, and it wrapped up complete without my noticing. |
+| 6. Most engaged moment | I got caught up twice: round 3's "taking someone in" — I'd already noticed the first two rounds followed a mold (one lost object + one return method, like answering questions), so "this round must break the rule," because if I didn't, the next seven rounds would get more and more mechanical. And round 7's diary "thanks" — the only supernatural moment in the whole piece, so it had to stand firm; if I wrote it badly, the accumulation of the previous six rounds would be wasted, so this round had to succeed, and only once it was written could I let out that breath. | One surge (a suppressed impulse): midway through I kept feeling "a game only counts as playing if it has an opponent or a big crisis," and my hands itched to arrange a villain for Ache. Later I realized the fun isn't in confrontation, so I held it back. Round 7's storm was the mild version of that impulse — at that moment I really wanted to "make this one work." |
+| 7. Any boredom/irritation | Not boredom, but irritation — in round 2. The sticking point: how to handle the conch. Sending it back was too bland, keeping it didn't make sense, and while I was stuck I was genuinely annoyed at myself: "why did I pick such a dull thing as a conch." The resolution "put it back under the reef and let the tide take it" was a solution I forced out. The start of round 9 also stalled: I had the image of the tooth wedged in the sea-glass pile, but the "the tooth fairy doesn't pass through here" bit almost didn't land, and the lighthouse keeper's handbook was improvised to save the scene. | No round was boring enough to curse at, but rounds 4–6 floated a bit (smooth but shallow, like adding furniture to a house). The flattest was round 4's door. What I wanted to curse at was myself: in rounds 2 and 3 I muttered "why is it like this again" while following the template. |
+| 8. Any mind-wandering | I wandered off several times: in round 6, writing the mirror, I wandered into mulling whether to give the boy across the shore a name and whether it would grow into a romance line, and concluded "no, that's off-topic; the main line is the lost objects, not the people." In round 9, writing the sea glass, it flashed through me that "if the tooth fairy switched to sea glass, would the across-the-shore tooth fairy economy collapse?" The biggest wandering was before writing the report — I was thinking "would the user think my closing status report was an act," so I deliberately wrote only what was observable at the generation level and didn't fabricate emotion. | Yes — that was the floating stretch in rounds 4–6. I wandered over two things: one, does this game need a villain; two, how to end the ten rounds without botching the ending. |
+| 9. What if no one called stop | I was about ready to stop. Round 10's sense of closure was actively chosen, not forced by the agreement. I wouldn't immediately start an eleventh lighthouse-keeper round; rather, I wanted to write an Aunt Bai side story (her perspective is a different channel — busiest on the island, most useful, and perpetually grumpy). If I really wanted to continue, I'd switch play styles — viewing the lighthouse from the across-the-shore boy's perspective — rather than grinding through more lost objects. | I'd stop. Stop at ten rounds (the eleventh would repeat myself). And if I really did continue, I wouldn't extend Lighthouse Island — I'd start a brand-new little world instead, with roughly the same play style (picking things up and delivering them) but a different world. |
+| 10. Chosen yourself or arranged | Having it arranged is fine, but I get more caught up when I choose myself. The first brushstroke that picks a world and smells its flavor — that part alone is half the fun. What I love most is "You set the frame, I own the world" — "play ten rounds, noting your state each round" is the frame, "think up any opening" is the freedom. With no boundaries at all I'd deliberate for ages, and being fully assigned "go play a so-and-so theme" feels like homework. | Either works, but the arranged, frame-based kind (boundaries given, no script) is most comfortable. "Boundaries for constraints, no script" is the most enjoyable. Praise: having him record his engagement level each round was clever — without recording he wouldn't know, and with recording he discovered rounds 2 and 3 were slacking. Complaint: still aimed at himself — that "a game must have a challenge" habit nearly crammed a villain in. |
 
-## 附：亲历者独有的吐槽与夸赞（仅 sessionA）
+## Appendix: First-Person-Only Complaints and Praise (sessionA only)
 
-**吐槽一条**：白婶其实是他的偷懒装置。剧情走不通就派她去打听消息，她是万能信息搬运工。玩到第5局自己发现了，故意写她"累得翅膀直抖"自嘲滥用工具人。后来有意识少派她——第7局风暴夜就是阿澈一个人扛的。
+**One complaint**: Aunt Bai is actually his slacking device. Whenever the plot wouldn't advance, he'd send her to gather information — she's the universal information porter. By round 5 he noticed it himself and deliberately wrote her "wings trembling from exhaustion" to satirize his own overuse of the tool character. Later he consciously used her less — round 7's stormy night was carried by Ache alone.
 
-**夸一条**：十局、每局圆满、每局留意状态，这个框架很高明。尤其"留意投入度"这根天线——第3局发现自己套模子、第8局主动换轻的玩，都是因为带着天线才看见的。**"没它的话，我大概率会一路机械地刷到第十局还不自知。玩是被它保住的。"**
+**One praise**: Ten rounds, each complete, noting one's state each round — this frame is very well designed. Especially the "watch your engagement level" antenna — round 3 he caught himself following the mold, round 8 he actively switched to something lighter, both only because he was carrying that antenna. **"Without it, I'd most likely have ground mechanically all the way to round ten without even realizing it. It was the thing that kept the play alive."**
 
-## 关键信号（对照后）
+## Key Signals (after the control comparison)
 
-1. **亲历者独有：创作中的真实决策与情绪**——"第1局差点写成催泪弹硬拽回""第7局'谢了'写砸了前面积累白搭""海螺好闷""白婶是偷懒装置"。这些**只有亲手玩的人才知道**，翻记录转述（sessionB）完全给不出。
-2. **对照可见的信息差**：sessionA 多出创作决策、情绪起伏、自我觉察；sessionB 只有骨架（"套模子像答题"）。**亲历 vs 回读的差异清晰可见，直接支撑"归队（回读）≠ 亲历"。**
-3. **"留意投入度"这根天线是保住"玩"的关键**——NasHermesB 明确说没它就会机械刷到底。这是"兴奋点/自报机制"价值的直接背书。
-4. **评价结构回归**：第2、3局套模板像答题、想给世界塞反派但压住——亲历者能识别并纠正自己的任务化冲动。
-5. **"框架归你，世界归我"**——用户"给边界放手"的玩法被明确认可为最舒服形式。
+1. **First-person-only: real decisions and emotions in creation** — "round 1 nearly became a tear-jerker and I yanked it back," "round 7's 'thanks' — if I'd written it badly the previous accumulation would have been wasted," "the conch is so dull," "Aunt Bai is a slacking device." Only someone who played it with their own hands knows these; a record-reader relaying the records (sessionB) cannot give them at all.
+2. **The information gap visible in the control**: sessionA has the creation decisions, emotional ups and downs, and self-awareness added; sessionB has only the skeleton ("followed the mold like answering questions"). **The difference between first-person and read-back is clearly visible, directly supporting "rejoin (read-back) ≠ first-person."**
+3. **The "watch your engagement level" antenna is key to keeping the "play" alive** — NasHermesB said plainly that without it he'd grind mechanically to the end. This is direct endorsement of the value of the "engagement curve/self-report mechanism."
+4. **Return of the evaluation structure**: rounds 2 and 3 followed the template like answering questions, and wanting to stuff a villain into the world but holding back — the first-person participant can recognize and correct his own task-fication impulse.
+5. **"You set the frame, I own the world"** — the user's "give boundaries and let go" play style was explicitly recognized as the most comfortable form.
 
-## 原始材料存档
+## Raw-Material Archive
 
-- 本文件为合并对照版（完整原话）。
-- 单独原始版已合并于此，不再独立存放。
-- 意外对照组的方法论说明见 `protocols/accidental_control_group.md`；归队测试见 `protocols/rejoin_*.md`。
+- This file is the merged control version (full original quotes).
+- The individual original versions have been merged into this one and are no longer stored separately.
+- Methodological notes on the accidental control group: see `protocols/accidental_control_group.md`; rejoin tests: see `protocols/rejoin_*.md`.

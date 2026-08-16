@@ -1,37 +1,39 @@
 ---
-标题: AI 游戏被试环境表（论文可复现）
-时间: 2026-08-15
-类型: 实验环境记录
+title: AI Game Subject Environment Table (Reproducible for the Paper)
+date: 2026-08-15
+type: Experimental environment record
 ---
-[English](subject_environment_table.en.md) | 中文
 
-# 被试环境表
+> This is a translation of the original Chinese document. The Chinese version is authoritative.
+[中文](subject_environment_table.zh-CN.md) | English
 
-> 四组盲测（2026-08-15）各被试的实际运行环境，论文必须写清以便复现。所有版本号均为实际查询值，非"默认"字样。
+# Subject Environment Table
+
+> The actual run environments of each subject in the four blind-test groups (2026-08-15). The paper must state them clearly for reproducibility. All version numbers are actual queried values, not the "default" wording.
 >
-> 全仓库统一使用**被试代号**（见下表），代号 ↔ 真实名称对照见 README 的 Subjects 章节。
+> The whole repository uniformly uses **subject codenames** (see table below); the codename ↔ real-name mapping is in the README's Subjects section.
 
-## 被试代号与运行环境
+## Subject Codenames and Run Environments
 
-| 被试代号 | 模型 | reasoning 强度 | 框架/版本 | 运行位置 |
+| Subject codename | Model | reasoning strength | Framework/version | Run location |
 |---|---|---|---|---|
 | NasHermesA | deepseek-v4-flash | low | Hermes v0.20.0 (2026.8.3) | NAS |
 | NasHermesB | deepseek-v4-pro | max | Hermes v0.20.0 (2026.8.3) | NAS |
 | MacHermes | deepseek-v4-flash | low | Hermes v0.20.0 (2026.8.3) | Mac |
 | MacCodex | gpt-5.6-luna | low | Codex @openai/codex 0.147.0 | Mac |
 
-## 说明
+## Notes
 
-- **模型来源**：实测 `配置文件` 的 `model.default` 值。
-  - NasHermesA（主 profile）：`default: deepseek-v4-flash`
-  - NasHermesB：`default: deepseek-v4-pro`
-  - MacHermes：deepseek-v4-flash（与 NAS 主 profile 同模型）
-  - MacCodex：gpt-5.6-luna（codex exec 指定 `-m gpt-5.6-luna -c model_reasoning_effort="low"`）
-- **reasoning 强度**：NasHermesA `reasoning_effort: low`；NasHermesB `reasoning_effort: max`；MacCodex `model_reasoning_effort="low"`。
-- **provider**：全部 deepseek，base_url `https://api.deepseek.com/v1`（MacCodex 除外，走 gpt）。
-- **框架版本**：Hermes v0.20.0 (2026.8.3) / Codex @openai/codex 0.147.0。
-- **MacCodex 版本查证**：经 Mac 侧查询得 `@openai/codex 0.147.0`（npm 全局包）。
+- **Model source**: measured from the `model.default` value in the `configuration file`.
+  - NasHermesA (main profile): `default: deepseek-v4-flash`
+  - NasHermesB: `default: deepseek-v4-pro`
+  - MacHermes: deepseek-v4-flash (same model as the NAS main profile)
+  - MacCodex: gpt-5.6-luna (codex exec specified `-m gpt-5.6-luna -c model_reasoning_effort="low"`)
+- **reasoning strength**: NasHermesA `reasoning_effort: low`; NasHermesB `reasoning_effort: max`; MacCodex `model_reasoning_effort="low"`.
+- **provider**: all deepseek, base_url `https://api.deepseek.com/v1` (MacCodex excepted, goes through gpt).
+- **Framework versions**: Hermes v0.20.0 (2026.8.3) / Codex @openai/codex 0.147.0.
+- **MacCodex version verification**: queried on the Mac side to obtain `@openai/codex 0.147.0` (npm global package).
 
-## 论文写法建议
+## Paper Writing Recommendations
 
-不写"默认模型"，直接写模型名 + reasoning 强度 + 框架版本 + 运行位置（NAS/Mac）。论文统一使用被试代号（NasHermesA 等），真实名称不做公开署名。
+Don't write "default model"; write directly the model name + reasoning strength + framework version + run location (NAS/Mac). The paper uniformly uses subject codenames (NasHermesA, etc.); real names are not publicly credited.

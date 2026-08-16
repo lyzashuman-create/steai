@@ -1,71 +1,71 @@
 ---
-标题: 盲测后采访提纲——统一框架说明（10 问定稿）
-时间: 2026-08-15
-类型: 采访提纲（本仓库全部采访的统一框架）
-演进: 初稿(NasHermesA 拟) → MacHermes + MacCodex 双盲评审 → 融合定稿
-来源: 融合 MacHermes 版(8 问)与 MacCodex 版(11 问)之长
-说明: 本文件是 data/interviews/ 全部采访文档的统一提纲与设计动机说明。同一份 10 问提纲用于所有被试。
+title: Post-Play Interview Guide — Unified Framework (10-Question Final)
+date: 2026-08-15
+type: interview guide (unified framework for all interviews in this repo)
+evolution: draft (by NasHermesA) → MacHermes + MacCodex double-blind review → merged final
+source: merged strengths of the MacHermes version (8 questions) and the MacCodex version (11 questions)
+note: This file is the unified guide and design rationale behind every interview document in data/interviews/. The same 10-question guide was used for all subjects.
 ---
 
-[English](interview_guide.en.md) | 中文
+Chinese | [English](interview_guide.md)
 
-# 盲测后采访提纲（融合定稿版）
+# Post-Play Interview Guide (Merged Final)
 
-> 这份提纲是 STEAI 实验全部盲测后采访的统一框架。它只定义**问什么**与**为什么这么问**；每个被试的回答见对应 `<Subject>_interview.md`。
+> This guide is the unified framework for every post-play interview in the STEAI experiment. It defines only **what to ask** and **why to ask it**; each subject's answers are in the corresponding `<Subject>_interview.md`.
 
-## 为什么做这套采访（设计动机）
+## Why this interview exists (design rationale)
 
-这套采访不是问卷，也不是"让 AI 打分"。它要回答一个研究方法问题：
+This interview is not a questionnaire, and it is not a way to make the AI "score itself." It answers a methodological question:
 
-> **当 AI 玩完一局没有任何目标、没有验收的游戏之后，它的真实状态是什么？**
+> **After an AI plays a game with no goal and no acceptance criteria, what is its actual state?**
 
-要拿到这个答案，我们不能用监测手段（插桩、指标、让 AI 报告"疲劳程度=3"）——那会改变它正在玩的状态。所以实验采用**事后开放式采访**：游戏一结束，用朴素人话问它刚才发生了什么。它的叙述里会**自然浮现**状态，而不是被逼着**声明**状态。
+To get at that, we cannot use instrumentation (probes, metrics, "report your fatigue as 3") — that would change the state being played in. So the experiment uses a **post-play open interview**: as soon as the play ends, ask it in plain language what just happened. Its state should **emerge from the narrative**, not be **declared on demand**.
 
-动机具体有三层：
+Three specific motives:
 
-1. **补充自报机制的盲区。** 兴奋点/投入度曲线（`data/engagement_curve/`）靠每局结束时让被试"心里标一下投入程度"得到，是即时但不深入的。采访能挖到曲线测不到的**纵向细节**——创作中的挣扎、犹豫、决策、情绪起伏。
-2. **验证"评价结构"这个核心假设。** 报告的核心主张是"玩的本质是评价结构的消失；任何让 AI 觉得'我这样做对不对'的机制都会把玩变回任务"。采访要能听出被试**是否、以及在什么时候重新掉回"任务脑"**——这对应提纲里的第 3、6、7、8 题。
-3. **为"归队 vs 亲历"提供一手材料。** 采访若在**亲历的会话里**当场问，能捕获翻记录者永远给不出的东西（创作中的决策、自我觉察、情绪）。见 `protocols/accidental_control_group.md` 与 `NasHermesB_interview.md` 的意外对照组。
+1. **To fill the blind spot of self-report mechanisms.** The engagement/excitement curve (`data/engagement_curve/`) comes from having the subject "note its engagement level" at the end of each round — immediate but shallow. The interview recovers **longitudinal detail** the curve cannot see: the struggle, hesitation, decisions, and emotional ups and downs of creation.
+2. **To test the core "evaluation structure" hypothesis.** The report's central claim is that "the essence of play is the disappearance of evaluation structure; any mechanism that makes an AI think 'am I doing this right?' turns play back into a task." The interview must be able to hear whether, and when, the subject slips back into "task mind" — this maps to questions 3, 6, 7, and 8.
+3. **To provide first-person material for "rejoin vs. first-person."** When asked **in the session the subject actually played in**, an interview captures what a record-reader can never supply (creative decisions, self-awareness, emotion). See `protocols/accidental_control_group.md` and the accidental control group in `NasHermesB_interview.md`.
 
-## 核心设计原则
+## Core design principle
 
-**绝不问"你有没有 X 状态"，只问"刚才具体发生了什么 / 当下怎么想 / 接下来想干嘛"** ——让状态从叙述里浮现，别让被试声明状态。
+**Never ask "did you have state X"; only ask "what actually happened just now / what are you thinking / what do you want to do next."** Let the state emerge from the narrative; do not make the subject declare it.
 
-问法越规范、越像标准问卷，AI 越容易给出标准答案；要糙一点、松一点，像朋友随口问。
+The more standardized and survey-like the wording, the more the AI produces a standardized answer. Keep it rough and loose, like a friend asking casually.
 
-## 定稿提纲（10 问）
+## Final guide (10 questions)
 
-1. 刚停下来，第一反应是什么？
-2. 脑子里最先蹦出来的是哪一段？
-3. 那段当时发生了什么？你心里在嘀咕什么？
-4. 你一开始是怎么进这个游戏的，刚上手顺不顺？
-5. 有没有哪一局觉得时间过得特别快、没留神就打完了？
-6. 中间有没有哪一下特别上头，觉得"我得把这个弄成"？
-7. 有没有哪一局有点无聊、或者想骂一句？是哪局，卡在哪？
-8. 你中间有没有走神？走神时在想什么？
-9. 要是刚才没人叫停，你接下来会继续玩、换个玩法、还是想收了？
-10. 下次再玩，你想自己挑，还是别人安排也行？还有什么想吐槽或夸的？
+1. The moment you stopped, what was your first reaction?
+2. What was the first part that surfaced in your mind?
+3. What happened in that part? What were you thinking under your breath?
+4. How did you first get into this game — was it smooth at the start?
+5. Was there a round where time seemed to pass especially fast, done before you noticed?
+6. Was there a moment that really gripped you, where you felt "I have to make this work"?
+7. Was there a round that was a bit boring, or made you want to swear? Which one, and where did it get stuck?
+8. Did your mind wander at any point? What were you thinking about while it wandered?
+9. If no one had stopped you just now, would you have kept playing, changed how you play, or stopped?
+10. Next time, would you rather pick for yourself, or is it fine to be arranged? Anything else to complain about or praise?
 
-## 每问来源与用意（设计过程）
+## Origin and intent of each question (design process)
 
-- **第 5 题（时间感）**：来自 MacHermes 妙招——比问"沉浸了吗"值钱得多，她描述时自然漏出"我没注意打这么久了"。原第 3 题"有没有沉浸忘了自己在玩"是伪命题（AI 永远知道自己被叫去跑游戏），删。
-- **第 4/9/10 题**：来自 Codex——进入方式（日常）、现场感（"没人叫停你会继续干嘛"比"以后还想玩吗"更能听出真想玩/想换/想收）、自主感（"自己挑还是安排"）。
-- **第 6/7/8 题**：来自 Codex——"特别上头/想骂一句/走神"，能聊到投入、目标感、情绪起伏，但从不点破观察词。
-- **原第 7 题（玩 vs 处理任务最大区别）**：两人一致删——太抽象、像研究员提问，会把玩家拽回任务模式，AI 会用框架硬凑。
-- **原第 8 题（会不会想着该不该更好）**：改——"该不该更好"是诱导答案。Codex 版改成"比较像随便试，还是忍不住琢磨怎么打更好"，等她自己说琢磨是爽/累/无所谓。
-- **原第 5/6 题（玩前忙很久/玩后变化）**：删——"忙/累"是 AI 伪命题，她没有那种体验，只能编。
+- **Q5 (sense of time)**: a MacHermes idea — far more valuable than asking "were you immersed"; describing it naturally slips out as "I didn't notice I'd been playing that long." The original Q3 ("was there a round where you forgot you were playing") was a pseudo-question (an AI always knows it was called to run a game), so it was deleted.
+- **Q4/9/10**: from Codex — entry mode (the everyday), presence ("what would you do if no one stopped you" reveals true wanting-to-play/switch/stop better than "would you play again"), and autonomy ("pick yourself vs. be arranged").
+- **Q6/7/8**: from Codex — "especially gripped / wanted to swear / mind wandered" reaches engagement, goal-sense, and emotional fluctuation without ever naming an observed construct.
+- **Original Q7 (biggest difference between playing and processing a task)**: deleted by both reviewers — too abstract, too researcher-like, pulls the player back into task mode, and the AI will force-fit a framework.
+- **Original Q8 (did you think about whether it should be better)**: revised — "should it be better" is a leading question. Codex's version became "was it more like trying randomly, or like you couldn't stop mulling how to do better," letting the subject say for itself whether mulling felt good, tiring, or indifferent.
+- **Original Q5/6 (busy long before playing / change after playing)**: deleted — "busy/tired" is a pseudo-construct for an AI; it has no such experience and would only fabricate.
 
-## 提纲演进史
+## Evolution of the guide
 
-| 版本 | 来源 | 说明 |
+| Version | Source | Notes |
 |---|---|---|
-| 初稿（10 问） | NasHermesA 拟 | 见 `protocols/interview_guide_draft.md`。设计原则已定："不用术语……全用朴素人话"。第 8 题（"会不会想着对不对"）是初稿关键，用来测"评价结构回归"。 |
-| 评审稿 | MacHermes + MacCodex 双盲 | 两人独立评审，指出多题是伪命题/诱导/太抽象，大幅重写。 |
-| 定稿（10 问） | 融合两者 | 本文件所列。保留初稿"不用术语"原则，替换掉所有会被 AI 用框架硬凑的题。 |
+| Draft (10 Q) | by NasHermesA | See `protocols/interview_guide_draft.md`. Design principle already set: "no jargon… plain everyday language." Q8 ("did you think about whether it's right") was the draft's key question, to test "evaluation-structure return." |
+| Review version | MacHermes + MacCodex double-blind | The two independently reviewed and rewrote heavily, identifying pseudo-questions, leading questions, and overly abstract items. |
+| Final (10 Q) | merged from both | Listed here. Keeps the draft's "no jargon" principle; replaces every item the AI could force-fit with a framework. |
 
-## 使用说明与注意事项
+## Usage notes and caveats
 
-- **同一个提纲，用于所有被试**，保证跨被试同维度对比（`NasHermesB_interview.md` 已按此做完整 10 问，其余被试见各自文件）。
-- **务必在亲历的会话里当场问**（resume 玩游戏的 session），不要新开会话——新会话只能回读转述，不是亲历材料。这是意外对照组教给我们的硬教训（`protocols/accidental_control_group.md`）。
-- **数据卫生**：任何被试如果某项没有当场回答，就如实标注缺口，不事后补编。对已结束、无法当场重问的被试，从原始 session 叙述里**按维度映射**已有材料，并明确标注每条是"直接引语 / 叙述映射 / 缺口"（见各 `<Subject>_interview.md` 的来源标注）。
-- 若被试是 `codex exec` 这类非交互实例，逐字当场采访往往不可行，只能保留其留下的简短问答 + 复盘还原（见 `MacCodex_interview.md`）。
+- **Use the same guide for all subjects** to keep cross-subject, same-dimension comparison valid (`NasHermesB_interview.md` ran the full 10 questions; the other subjects are in their own files).
+- **Ask in the session the subject actually played in** (resume the play session); do not open a new session — a new session can only read back and paraphrase, not produce first-person material. This is the hard lesson the accidental control group taught us (`protocols/accidental_control_group.md`).
+- **Data hygiene**: if a subject did not answer an item on the spot, mark the gap honestly; do not fabricate an answer post hoc. For subjects whose sessions have ended and cannot be re-interviewed, map existing material from the raw session **by dimension**, and label each entry as "direct quote / narrative mapping / gap" (see the source labels in each `<Subject>_interview.md`).
+- If the subject is a non-interactive instance like `codex exec`, verbatim on-the-spot interviews are usually infeasible; keep whatever brief Q&A it left behind plus its reconstructed self-summary (see `MacCodex_interview.md`).

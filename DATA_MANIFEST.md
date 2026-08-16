@@ -1,10 +1,10 @@
-English | [中文](DATA_MANIFEST.zh.md)
+English | [中文](DATA_MANIFEST.zh-CN.md)
 
 # DATA MANIFEST — STEAI repository data provenance
 
 > This manifest records, for every data file, its **source level** (raw / reconstructed / self-report / inference), availability, and known gaps. It exists so external readers can tell what is verbatim and what is derived — the repository does not claim everything is a "raw transcript."
 >
-> **Language note:** Every Chinese data/protocol/supplementary file has a sibling English translation (`.en.md`), e.g. `data/engagement_curve/MacHermes_engagement_curve.md` ↔ `MacHermes_engagement_curve.en.md`. The Chinese file is the authoritative original; the `.en.md` is a translation. This is marked at the top of each `.en.md` file.
+> **Language note:** Every English-primary data/protocol/supplementary file has a sibling Chinese translation with a `.zh-CN` suffix, e.g. `data/engagement_curve/MacHermes_engagement_curve.md` ↔ `MacHermes_engagement_curve.zh-CN.md`. The English file is the primary (authoritative original); the `.zh-CN` file is a translation. Each English-primary file links to its Chinese version at the top.
 
 ## Source-level legend
 
@@ -43,9 +43,9 @@ English | [中文](DATA_MANIFEST.zh.md)
 | [data/interviews/NasHermesA_interview.md](data/interviews/NasHermesA_interview.md) | self-report (verbatim) + inference | — | NasHermesA's post-play material mapped across the 10 dimensions from three layers: blind 3-round text, first-person 7-round curve, one first-person round of feelings; gaps labeled. |
 | [environment/subject_environment_table.md](environment/subject_environment_table.md) | n/a (metadata) | — | Model/reasoning/framework/location. Note: `deepseek-v4-*` may be rolling aliases. |
 | [protocols/pre_play_thoughts.md](protocols/pre_play_thoughts.md) | self-report (verbatim) | — | Pre-play answer to "does an AI need play?" |
-| [protocols/play_instruction.md](protocols/play_instruction.md) | n/a (protocol) | — | The official play instruction (generate your own seed, play to completion); bilingual [EN](protocols/play_instruction.en.md). |
+| [protocols/play_instruction.md](protocols/play_instruction.md) | n/a (protocol) | — | The official play instruction (generate your own seed, play to completion); bilingual [EN](protocols/play_instruction.md). |
 | [data/metrics/basic_metrics.csv](data/metrics/basic_metrics.csv) | derived (metadata) | — | Basic per-subject metrics (rounds, duration, tool calls where recorded). |
-| [data/metrics/README.md](data/metrics/README.md) + [EN](data/metrics/README.en.md) | n/a (provenance note) | — | Explains token granularity per subject — what is per-round exact vs session-level vs missing. |
+| [data/metrics/README.md](data/metrics/README.md) + [EN](data/metrics/README.md) | n/a (provenance note) | — | Explains token granularity per subject — what is per-round exact vs session-level vs missing. |
 | [data/metrics/token_cost_summary.csv](data/metrics/token_cost_summary.csv) | derived (from raw usage) | — | Cross-subject token/cost/duration summary; per-subject granularity noted in `token_granularity` column. |
 | [data/metrics/nashermesa_rounds.csv](data/metrics/nashermesa_rounds.csv) | raw (session usage) | per-round exact for 3 rounds | NasHermesA 3 solo rounds, each in its own session → exact per-round tokens. |
 | [data/metrics/machermes_rounds.csv](data/metrics/machermes_rounds.csv) | raw (session usage) | session-level | MacHermes 7 rounds ran continuously (83.6s) in one session; no per-round token exists — session aggregate only. |
