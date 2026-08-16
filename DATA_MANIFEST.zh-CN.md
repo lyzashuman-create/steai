@@ -5,6 +5,8 @@
 > 本清单记录每个数据文件的**来源层级**（逐字 / 复盘 / 自报 / 推断）、可用性与已知缺口。它的存在是为了让外部读者能分辨哪些是逐字记录、哪些是衍生内容——本仓库并不声称所有内容都是"原始逐字记录"。
 >
 > **语言说明**：每个英文主数据/协议/补充文件都有对应的中文翻译版（`.zh-CN` 后缀），如 `data/engagement_curve/MacHermes_engagement_curve.md` ↔ `MacHermes_engagement_curve.zh-CN.md`。英文文件为主（权威原文），`.zh-CN` 文件为翻译版。每个英文主文件顶部均有指向中文版的链接。
+>
+> **脱敏范围**：本仓库移除了个人与环境标识（真实姓名、账号、内部文件路径、主机 IP）。保留被试代号（NasHermesA/B、MacHermes、MacCodex）、模型/框架名，以及用于溯源的匿名 session id（以 `<session-id>` 标记）。原始日志未纳入仓库。
 
 ## 来源层级说明
 
@@ -26,7 +28,7 @@
 | [data/first_person/NasHermesA_first_person_feelings.zh-CN.md](data/first_person/NasHermesA_first_person_feelings.zh-CN.md) | 自报（逐字） | — | 第一人称感受，逐字保留为原始材料。 |
 | [data/engagement_curve/NasHermesB_engagement_curve.zh-CN.md](data/engagement_curve/NasHermesB_engagement_curve.zh-CN.md) | 自报 + 推断 | — | 带监测盲测（指令含投入度要求——见方法说明）。 |
 | [data/engagement_curve/MacHermes_engagement_curve.zh-CN.md](data/engagement_curve/MacHermes_engagement_curve.zh-CN.md) | 自报 + 推断 | — | 复盘还原版；完整逐字原始会话见 [data/sessions/machermes_fog_bay_raw_session.zh-CN.md](data/sessions/machermes_fog_bay_raw_session.zh-CN.md)。 |
-| [data/sessions/machermes_fog_bay_raw_session.zh-CN.md](data/sessions/machermes_fog_bay_raw_session.zh-CN.md) | **原始（逐字会话）** | 是 | 完整逐字会话 `20260815_185800_54cf78`（来自 Mac Hermes 本地库）——7 局单会话连续跑完，逐轮输入/输出、工具骰子牌面、每局投入度、结尾总评。局边界在正文有标记，但数据层无法拆分（单连续会话）。 |
+| [data/sessions/machermes_fog_bay_raw_session.zh-CN.md](data/sessions/machermes_fog_bay_raw_session.zh-CN.md) | **原始（逐字会话）** | 是 | 完整逐字会话 `<session-id>`（来自 Mac Hermes 本地库）——7 局单会话连续跑完，逐轮输入/输出、工具骰子牌面、每局投入度、结尾总评。局边界在正文有标记，但数据层无法拆分（单连续会话）。 |
 | [data/engagement_curve/MacCodex_engagement_curve.zh-CN.md](data/engagement_curve/MacCodex_engagement_curve.zh-CN.md) | 复盘（自述） | 否 | Codex 游戏会话未保留逐字 assistant 消息，仅事后自述可用。 |
 | [data/engagement_curve/NasHermesA_engagement_curve.zh-CN.md](data/engagement_curve/NasHermesA_engagement_curve.zh-CN.md) | 自报 + 推断 | — | 第一人称 7 局投入曲线。 |
 | `data/engagement_curve/engagement_curves_all.png` | 可视化（基于自报） | — | 多被试投入曲线图（中文标签）。 |

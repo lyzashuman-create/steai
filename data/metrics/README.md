@@ -3,7 +3,7 @@
 
 [中文](README.zh-CN.md) | English
 
-> Collection date: 2026-08-16. Sources: NAS Hermes local session store (`/opt/data/state.db` and `profiles/judy/state.db`) + Mac Hermes read-only collection over SSH bridge (Mac `~/.hermes/state.db` + `~/.codex/sessions/`). All read-only; no source was modified.
+> Collection date: 2026-08-16. Sources: NAS Hermes local session store + Mac Hermes read-only collection over SSH bridge (Mac local Hermes and Codex session stores). All read-only; no source was modified.
 
 ## Files
 

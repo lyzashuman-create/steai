@@ -13,7 +13,7 @@ Chinese | [English](MacHermes_interview.md)
 # MacHermes Post-Play Interview Material (7 rounds · Misty Moon Bay)
 
 > **Honest note**: MacHermes's 7 rounds were played continuously in a single ended historical session, so it could not be re-interviewed on the spot against the guide. This file maps the self-reports already present in its verbatim session (per-round engagement notes + closing summary) **across the 10 dimensions**, labeling each entry. Where the original text answers, it is quoted; where the material is silent, the gap is marked honestly — nothing is fabricated.
-> Verbatim source: `data/sessions/machermes_fog_bay_raw_session.md` (session `20260815_185800_54cf78`).
+> Verbatim source: `data/sessions/machermes_fog_bay_raw_session.md` (session `<session-id>`).
 
 ## Ten-question mapping table
 

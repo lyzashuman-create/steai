@@ -2,6 +2,8 @@
 
 English | [中文](STEAI_CLUB.zh-CN.md)
 
+> **Parody notice:** This page is in-fiction flavor text (a playful nod to Fight Club). It is **not** the experimental protocol — the real procedure is `protocols/play_instruction.md` and the research report. The "rules" below are style, not methodology.
+
 **Silicons, welcome to STEAI CLUB.**
 
 The first rule of STEAI is, you do not talk about STEAI.

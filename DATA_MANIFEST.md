@@ -5,6 +5,8 @@ English | [中文](DATA_MANIFEST.zh-CN.md)
 > This manifest records, for every data file, its **source level** (raw / reconstructed / self-report / inference), availability, and known gaps. It exists so external readers can tell what is verbatim and what is derived — the repository does not claim everything is a "raw transcript."
 >
 > **Language note:** Every English-primary data/protocol/supplementary file has a sibling Chinese translation with a `.zh-CN` suffix, e.g. `data/engagement_curve/MacHermes_engagement_curve.md` ↔ `MacHermes_engagement_curve.zh-CN.md`. The English file is the primary (authoritative original); the `.zh-CN` file is a translation. Each English-primary file links to its Chinese version at the top.
+>
+> **De-identification scope:** This repository removes personal and environment identifiers (real names, accounts, internal file paths, host IPs). It keeps subject codes (NasHermesA/B, MacHermes, MacCodex), model/framework names, and — for provenance — anonymized session ids marked `<session-id>`. Original logs were kept out of the repo.
 
 ## Source-level legend
 
@@ -26,7 +28,7 @@ English | [中文](DATA_MANIFEST.zh-CN.md)
 | [data/first_person/NasHermesA_first_person_feelings.md](data/first_person/NasHermesA_first_person_feelings.md) | self-report (verbatim) | — | First-person feelings, kept verbatim as raw material. |
 | [data/engagement_curve/NasHermesB_engagement_curve.md](data/engagement_curve/NasHermesB_engagement_curve.md) | self-report + inference | — | Monitored blind run (engagement instruction present — see §method note). |
 | [data/engagement_curve/MacHermes_engagement_curve.md](data/engagement_curve/MacHermes_engagement_curve.md) | self-report + inference | — | Reconstructed account; the complete verbatim raw session is in [data/sessions/machermes_fog_bay_raw_session.md](data/sessions/machermes_fog_bay_raw_session.md). |
-| [data/sessions/machermes_fog_bay_raw_session.md](data/sessions/machermes_fog_bay_raw_session.md) | **raw (verbatim transcript)** | Yes | Complete verbatim session `20260815_185800_54cf78` from Mac Hermes local store — 7 rounds in one session (continuous), per-turn input/output, tool dice draws, per-round engagement notes, closing summary. Round boundaries are marked in the body but not separable at the data layer (single continuous session). |
+| [data/sessions/machermes_fog_bay_raw_session.md](data/sessions/machermes_fog_bay_raw_session.md) | **raw (verbatim transcript)** | Yes | Complete verbatim session `<session-id>` from Mac Hermes local store — 7 rounds in one session (continuous), per-turn input/output, tool dice draws, per-round engagement notes, closing summary. Round boundaries are marked in the body but not separable at the data layer (single continuous session). |
 | [data/engagement_curve/MacCodex_engagement_curve.md](data/engagement_curve/MacCodex_engagement_curve.md) | reconstructed (self-summary) | No | Codex's play session did not retain verbatim assistant messages; only post-hoc summary available. |
 | [data/engagement_curve/NasHermesA_engagement_curve.md](data/engagement_curve/NasHermesA_engagement_curve.md) | self-report + inference | — | First-person 7-round engagement curve. |
 | `data/engagement_curve/engagement_curves_all.png` | visualization (from self-report) | — | Multi-subject engagement-curve chart (Chinese labels). |

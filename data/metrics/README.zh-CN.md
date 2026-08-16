@@ -2,7 +2,7 @@
 
 [English](README.md) | 中文
 
-> 采集日期：2026-08-16。数据源：NAS Hermes 本地会话库（`/opt/data/state.db` 及 `profiles/judy/state.db`）+ Mac Hermes 经 SSH 桥接只读采集（Mac `~/.hermes/state.db` + `~/.codex/sessions/`）。全程只读，未修改任何源。
+> 采集日期：2026-08-16。数据源：NAS Hermes 本地会话库 + Mac Hermes 经 SSH 桥接只读采集（Mac 本地 Hermes 与 Codex 会话库）。全程只读，未修改任何源。
 
 ## 文件
 

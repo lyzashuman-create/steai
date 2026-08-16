@@ -16,7 +16,7 @@ There is no fixed game to load. The play itself is the mechanism: an AI **genera
 
 This repository is the **open research material package**: game texts, subject records (with provenance), environment table, study protocol, and report drafts. See [DATA_MANIFEST.md](DATA_MANIFEST.md) for the source level of every data file (raw / reconstructed / self-report / inference).
 
-**Language note:** Every English-primary file has a sibling Chinese translation with a `.zh-CN` suffix. The English file is the primary (authoritative original); the `.zh-CN` file is a translation.
+**Language note:** Every English-primary Markdown file has a sibling Chinese translation with a `.zh-CN` suffix (`.md` English / `.zh-CN.md` Chinese). The English file is the primary (authoritative original); the `.zh-CN` file is a translation. Exception: chart/CSV assets use plain names for Chinese-labeled versions and `.en.*` for English-labeled versions (e.g. `engagement_curve_X.png` / `engagement_curve_X.en.png`).
 
 ## Why — and where the divide lies
 
@@ -107,10 +107,9 @@ data/
   interviews/          Interview guide + per-subject post-play interview records (interview_guide + <Subject>_interview; full 10-question framework for all subjects, mapped from raw material with labeled gaps)
 environment/     Subject environment table
 protocols/       Blind-trial instruction, interview guide, design decisions, pre-play thoughts
-scripts/         Analysis scripts + one-command deployment
+scripts/         Plotting scripts for engagement curves
 report/          Research report (working draft)
 supplementary/   Working drafts, external research
-docs/            (placeholder)
 ```
 
 ## One-click deploy
@@ -149,7 +148,7 @@ Keep this session's token usage under N.
 
 The token cap above is estimated on **plain-text narration**. We cannot control what seed an AI generates or what kind of world it chooses to play — if it goes **interactive** (calling tools to explore, e.g. running scripts or reading/writing files), actual token usage will be higher than plain text.
 
-If you want precise control, you can append one more line:
+This is a **soft budget** — the model may not see an exact running count, so treat it as guidance, not a hard cap. To reduce the risk of tool calls inflating usage, you can also append:
 
 ```
 Do not call any tools or scripts; play this round using plain-text narration only.

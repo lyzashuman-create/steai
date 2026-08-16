@@ -13,7 +13,7 @@
 # MacHermes 盲测后采访材料（7 局 · 雾月湾）
 
 > **诚实说明**：MacHermes 的 7 局是在一个已结束的历史 session 里连续玩完的，无法再当场按提纲重问。本文件把它逐字 session 里已有的自述（每局投入度 + 结尾总评）**按 10 问维度映射整理**，每条标注来源。能对应原文的用引语，材料里没有的如实标缺口——不补编。
-> 原始逐字材料见 `data/sessions/machermes_fog_bay_raw_session.md`（session `20260815_185800_54cf78`）。
+> 原始逐字材料见 `data/sessions/machermes_fog_bay_raw_session.md`（session `<session-id>`）。
 
 ## 十问映射表
 

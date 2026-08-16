@@ -3,7 +3,6 @@ message: "If you use this software or data in your research, please cite it as b
 title: "STEAI — An Open Research Playground for AI"
 authors:
   - family-names: "richli"
-    given-names: ""
 date-released: "2026-08-15"
 keywords:
   - ai-agents
@@ -14,10 +13,12 @@ keywords:
   - cognitive-science
   - research
 license: "MIT AND CC-BY-4.0"
+version: "0.1.0"
+repository-code: "https://github.com/richli-fugui/steai"
 preferred-citation:
-  type: "software"
+  type: "dataset"
   title: "STEAI — An Open Research Playground for AI"
   authors:
     - family-names: "richli"
   year: "2026"
-  note: "BibTeX to be added with the paper."
+  note: "Cite as the STEAI open research dataset."
